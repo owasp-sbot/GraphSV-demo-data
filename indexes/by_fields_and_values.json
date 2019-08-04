@@ -1,0 +1,136 @@
+{
+  "Employee number": {
+    "10478": [
+      "Person-138"
+    ],
+    "29342": [
+      "Person-139"
+    ],
+    "45686": [
+      "Person-142"
+    ],
+    "29333": [
+      "Person-141"
+    ],
+    "80001": [
+      "Person-140"
+    ],
+    "10232": [
+      "Person-137"
+    ]
+  },
+  "Legal First Name": {
+    "Alan": [
+      "Person-138",
+      "Person-140"
+    ],
+    "Bruno ": [
+      "Person-139"
+    ],
+    "Sophia": [
+      "Person-142"
+    ],
+    "Norman ": [
+      "Person-141"
+    ],
+    "Peter": [
+      "Person-137"
+    ]
+  },
+  "Surname": {
+    "Lee": [
+      "Person-138"
+    ],
+    "Lyon": [
+      "Person-139"
+    ],
+    "Berlin": [
+      "Person-142"
+    ],
+    "Ligos": [
+      "Person-141"
+    ],
+    "Champion": [
+      "Person-140"
+    ],
+    "Smith": [
+      "Person-137"
+    ]
+  },
+  "Entity": {
+    "Digicorp": [
+      "Person-138",
+      "Person-139",
+      "Person-142",
+      "Person-141",
+      "Person-140",
+      "Person-137"
+    ]
+  },
+  "Function": {
+    "Group Leaderhip": [
+      "Person-138"
+    ],
+    "Engineering": [
+      "Person-139",
+      "Person-142",
+      "Person-141",
+      "Person-140",
+      "Person-137"
+    ]
+  },
+  "Office Location": {
+    "New York, 5th Ave": [
+      "Person-138",
+      "Person-137"
+    ],
+    "SFO, 1 Mission": [
+      "Person-139",
+      "Person-141",
+      "Person-140"
+    ],
+    "Houston": [
+      "Person-142"
+    ]
+  },
+  "Email": {
+    "alee@digicorp.com": [
+      "Person-138"
+    ],
+    "bruno.lyon@digicorp.com": [
+      "Person-139"
+    ],
+    "sophia.berlin@digicorp.com": [
+      "Person-142"
+    ],
+    "nligos@digicorp.com": [
+      "Person-141"
+    ],
+    "alan.champion@digicorp.com": [
+      "Person-140"
+    ],
+    "peter.smith@digicorp.com": [
+      "Person-137"
+    ]
+  },
+  "Summary": {
+    "Alan Lee": [
+      "Person-138"
+    ],
+    "Bruno  Lyon": [
+      "Person-139"
+    ],
+    "Sophia Berlin": [
+      "Person-142"
+    ],
+    "Norman  Ligos": [
+      "Person-141"
+    ],
+    "Alan Champion": [
+      "Person-140"
+    ],
+    "Peter Smitha": [
+      "Person-137"
+    ]
+  }
+}

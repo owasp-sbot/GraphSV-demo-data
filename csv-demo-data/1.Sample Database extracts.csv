@@ -1,5 +1,5 @@
 HR Database,,,,,,
-Employee number,Legal First Name,Surname,Entity,Functon,Office Location,Email
+Employee number,Legal First Name,Surname,Entity,Function,Office Location,Email
 10232,Peter,Smith,Digicorp,Engineering,"New York, 5th Ave",peter.smith@digicorp.com
 10478,Alan,Lee,Digicorp,Group Leaderhip,"New York, 5th Ave",alee@digicorp.com
 29342,Bruno ,Lyon,Digicorp,Engineering,"SFO, 1 Mission",bruno.lyon@digicorp.com

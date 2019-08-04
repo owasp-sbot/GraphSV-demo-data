@@ -1,0 +1,264 @@
+{
+  "10478": [
+    [
+      "Person-138",
+      "Employee number"
+    ]
+  ],
+  "Alan": [
+    [
+      "Person-138",
+      "Legal First Name"
+    ],
+    [
+      "Person-140",
+      "Legal First Name"
+    ]
+  ],
+  "Lee": [
+    [
+      "Person-138",
+      "Surname"
+    ]
+  ],
+  "Digicorp": [
+    [
+      "Person-138",
+      "Entity"
+    ],
+    [
+      "Person-139",
+      "Entity"
+    ],
+    [
+      "Person-142",
+      "Entity"
+    ],
+    [
+      "Person-141",
+      "Entity"
+    ],
+    [
+      "Person-140",
+      "Entity"
+    ],
+    [
+      "Person-137",
+      "Entity"
+    ]
+  ],
+  "Group Leaderhip": [
+    [
+      "Person-138",
+      "Function"
+    ]
+  ],
+  "New York, 5th Ave": [
+    [
+      "Person-138",
+      "Office Location"
+    ],
+    [
+      "Person-137",
+      "Office Location"
+    ]
+  ],
+  "alee@digicorp.com": [
+    [
+      "Person-138",
+      "Email"
+    ]
+  ],
+  "Alan Lee": [
+    [
+      "Person-138",
+      "Summary"
+    ]
+  ],
+  "29342": [
+    [
+      "Person-139",
+      "Employee number"
+    ]
+  ],
+  "Bruno ": [
+    [
+      "Person-139",
+      "Legal First Name"
+    ]
+  ],
+  "Lyon": [
+    [
+      "Person-139",
+      "Surname"
+    ]
+  ],
+  "Engineering": [
+    [
+      "Person-139",
+      "Function"
+    ],
+    [
+      "Person-142",
+      "Function"
+    ],
+    [
+      "Person-141",
+      "Function"
+    ],
+    [
+      "Person-140",
+      "Function"
+    ],
+    [
+      "Person-137",
+      "Function"
+    ]
+  ],
+  "SFO, 1 Mission": [
+    [
+      "Person-139",
+      "Office Location"
+    ],
+    [
+      "Person-141",
+      "Office Location"
+    ],
+    [
+      "Person-140",
+      "Office Location"
+    ]
+  ],
+  "bruno.lyon@digicorp.com": [
+    [
+      "Person-139",
+      "Email"
+    ]
+  ],
+  "Bruno  Lyon": [
+    [
+      "Person-139",
+      "Summary"
+    ]
+  ],
+  "45686": [
+    [
+      "Person-142",
+      "Employee number"
+    ]
+  ],
+  "Sophia": [
+    [
+      "Person-142",
+      "Legal First Name"
+    ]
+  ],
+  "Berlin": [
+    [
+      "Person-142",
+      "Surname"
+    ]
+  ],
+  "Houston": [
+    [
+      "Person-142",
+      "Office Location"
+    ]
+  ],
+  "sophia.berlin@digicorp.com": [
+    [
+      "Person-142",
+      "Email"
+    ]
+  ],
+  "Sophia Berlin": [
+    [
+      "Person-142",
+      "Summary"
+    ]
+  ],
+  "29333": [
+    [
+      "Person-141",
+      "Employee number"
+    ]
+  ],
+  "Norman ": [
+    [
+      "Person-141",
+      "Legal First Name"
+    ]
+  ],
+  "Ligos": [
+    [
+      "Person-141",
+      "Surname"
+    ]
+  ],
+  "nligos@digicorp.com": [
+    [
+      "Person-141",
+      "Email"
+    ]
+  ],
+  "Norman  Ligos": [
+    [
+      "Person-141",
+      "Summary"
+    ]
+  ],
+  "80001": [
+    [
+      "Person-140",
+      "Employee number"
+    ]
+  ],
+  "Champion": [
+    [
+      "Person-140",
+      "Surname"
+    ]
+  ],
+  "alan.champion@digicorp.com": [
+    [
+      "Person-140",
+      "Email"
+    ]
+  ],
+  "Alan Champion": [
+    [
+      "Person-140",
+      "Summary"
+    ]
+  ],
+  "10232": [
+    [
+      "Person-137",
+      "Employee number"
+    ]
+  ],
+  "Peter": [
+    [
+      "Person-137",
+      "Legal First Name"
+    ]
+  ],
+  "Smith": [
+    [
+      "Person-137",
+      "Surname"
+    ]
+  ],
+  "peter.smith@digicorp.com": [
+    [
+      "Person-137",
+      "Email"
+    ]
+  ],
+  "Peter Smitha": [
+    [
+      "Person-137",
+      "Summary"
+    ]
+  ]
+}
