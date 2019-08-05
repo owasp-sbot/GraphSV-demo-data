@@ -1,0 +1,102 @@
+[
+  [
+    "Person-1",
+    "has role",
+    "Role-3"
+  ],
+  [
+    "Role-3",
+    "is role of",
+    "Person-1"
+  ],
+  [
+    "Role-3",
+    "reports to",
+    "Role-4"
+  ],
+  [
+    "Role-4",
+    "is manager of",
+    "Role-3"
+  ],
+  [
+    "Person-2",
+    "has role",
+    "Role-4"
+  ],
+  [
+    "Role-4",
+    "is role of",
+    "Person-2"
+  ],
+  [
+    "Person-3",
+    "has role",
+    "Role-5"
+  ],
+  [
+    "Role-5",
+    "is role of",
+    "Person-3"
+  ],
+  [
+    "Role-5",
+    "reports to",
+    "Role-3"
+  ],
+  [
+    "Role-3",
+    "is manager of",
+    "Role-5"
+  ],
+  [
+    "Person-4",
+    "has role",
+    "Role-2"
+  ],
+  [
+    "Role-2",
+    "is role of",
+    "Person-4"
+  ],
+  [
+    "Role-2",
+    "reports to",
+    "Role-5"
+  ],
+  [
+    "Role-5",
+    "is manager of",
+    "Role-2"
+  ],
+  [
+    "Person-6",
+    "has role",
+    "Role-2"
+  ],
+  [
+    "Role-2",
+    "is role of",
+    "Person-6"
+  ],
+  [
+    "Person-5",
+    "has role",
+    "Role-1"
+  ],
+  [
+    "Role-1",
+    "is role of",
+    "Person-5"
+  ],
+  [
+    "Role-1",
+    "reports to",
+    "Role-3"
+  ],
+  [
+    "Role-3",
+    "is manager of",
+    "Role-1"
+  ]
+]

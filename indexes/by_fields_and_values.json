@@ -1,136 +1,185 @@
 {
+  "Summary": {
+    "Platform Specialist": [
+      "Role-1"
+    ],
+    "Lead Engineer": [
+      "Role-5"
+    ],
+    "CEO": [
+      "Role-4"
+    ],
+    "SVP - Special Projects": [
+      "Role-3"
+    ],
+    "Engineer": [
+      "Role-2"
+    ],
+    "test": [
+      "Person-7"
+    ],
+    "Sophia Berlin": [
+      "Person-6"
+    ],
+    "Peter Smith": [
+      "Person-1"
+    ],
+    "user 24": [
+      "Person-12"
+    ],
+    "Bruno Lyon": [
+      "Person-3"
+    ],
+    "user 364": [
+      "Person-11"
+    ],
+    "admin 1": [
+      "Person-10"
+    ],
+    "Alan Lee": [
+      "Person-2"
+    ],
+    "admin main": [
+      "Person-9"
+    ],
+    "Norman Ligos": [
+      "Person-5"
+    ],
+    "Alan Champion": [
+      "Person-4"
+    ],
+    "user": [
+      "Person-8"
+    ]
+  },
+  "Email": {
+    "cypher9@digi-inc.com": [
+      "Person-7"
+    ],
+    "sophia.berlin@digicorp.com": [
+      "Person-6"
+    ],
+    "peter.smith@digicorp.com": [
+      "Person-1"
+    ],
+    "cypher2@digi-inc.corp": [
+      "Person-12"
+    ],
+    "bruno.lyon@digicorp.com": [
+      "Person-3"
+    ],
+    "cypher10@digi-inc.com": [
+      "Person-11"
+    ],
+    "admin@digi-inc.com": [
+      "Person-10",
+      "Person-9"
+    ],
+    "alee@digicorp.com": [
+      "Person-2"
+    ],
+    "nligos@digicorp.com": [
+      "Person-5"
+    ],
+    "alan.champion@digicorp.com": [
+      "Person-4"
+    ],
+    "cypher1@digi-inc.com": [
+      "Person-8"
+    ]
+  },
   "Employee number": {
-    "10478": [
-      "Person-138"
-    ],
-    "29342": [
-      "Person-139"
-    ],
     "45686": [
-      "Person-142"
-    ],
-    "29333": [
-      "Person-141"
-    ],
-    "80001": [
-      "Person-140"
+      "Person-6"
     ],
     "10232": [
-      "Person-137"
+      "Person-1"
+    ],
+    "29342": [
+      "Person-3"
+    ],
+    "10478": [
+      "Person-2"
+    ],
+    "29333": [
+      "Person-5"
+    ],
+    "80001": [
+      "Person-4"
     ]
   },
   "Legal First Name": {
-    "Alan": [
-      "Person-138",
-      "Person-140"
-    ],
-    "Bruno ": [
-      "Person-139"
-    ],
     "Sophia": [
-      "Person-142"
-    ],
-    "Norman ": [
-      "Person-141"
+      "Person-6"
     ],
     "Peter": [
-      "Person-137"
+      "Person-1"
+    ],
+    "Bruno ": [
+      "Person-3"
+    ],
+    "Alan": [
+      "Person-2",
+      "Person-4"
+    ],
+    "Norman ": [
+      "Person-5"
     ]
   },
   "Surname": {
-    "Lee": [
-      "Person-138"
-    ],
-    "Lyon": [
-      "Person-139"
-    ],
     "Berlin": [
-      "Person-142"
-    ],
-    "Ligos": [
-      "Person-141"
-    ],
-    "Champion": [
-      "Person-140"
+      "Person-6"
     ],
     "Smith": [
-      "Person-137"
+      "Person-1"
+    ],
+    "Lyon": [
+      "Person-3"
+    ],
+    "Lee": [
+      "Person-2"
+    ],
+    "Ligos": [
+      "Person-5"
+    ],
+    "Champion": [
+      "Person-4"
     ]
   },
   "Entity": {
     "Digicorp": [
-      "Person-138",
-      "Person-139",
-      "Person-142",
-      "Person-141",
-      "Person-140",
-      "Person-137"
+      "Person-6",
+      "Person-1",
+      "Person-3",
+      "Person-2",
+      "Person-5",
+      "Person-4"
     ]
   },
   "Function": {
-    "Group Leaderhip": [
-      "Person-138"
-    ],
     "Engineering": [
-      "Person-139",
-      "Person-142",
-      "Person-141",
-      "Person-140",
-      "Person-137"
+      "Person-6",
+      "Person-1",
+      "Person-3",
+      "Person-5",
+      "Person-4"
+    ],
+    "Group Leaderhip": [
+      "Person-2"
     ]
   },
   "Office Location": {
+    "Houston": [
+      "Person-6"
+    ],
     "New York, 5th Ave": [
-      "Person-138",
-      "Person-137"
+      "Person-1",
+      "Person-2"
     ],
     "SFO, 1 Mission": [
-      "Person-139",
-      "Person-141",
-      "Person-140"
-    ],
-    "Houston": [
-      "Person-142"
-    ]
-  },
-  "Email": {
-    "alee@digicorp.com": [
-      "Person-138"
-    ],
-    "bruno.lyon@digicorp.com": [
-      "Person-139"
-    ],
-    "sophia.berlin@digicorp.com": [
-      "Person-142"
-    ],
-    "nligos@digicorp.com": [
-      "Person-141"
-    ],
-    "alan.champion@digicorp.com": [
-      "Person-140"
-    ],
-    "peter.smith@digicorp.com": [
-      "Person-137"
-    ]
-  },
-  "Summary": {
-    "Alan Lee": [
-      "Person-138"
-    ],
-    "Bruno  Lyon": [
-      "Person-139"
-    ],
-    "Sophia Berlin": [
-      "Person-142"
-    ],
-    "Norman  Ligos": [
-      "Person-141"
-    ],
-    "Alan Champion": [
-      "Person-140"
-    ],
-    "Peter Smitha": [
-      "Person-137"
+      "Person-3",
+      "Person-5",
+      "Person-4"
     ]
   }
 }

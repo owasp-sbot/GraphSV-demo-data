@@ -1,4 +1,4 @@
-Person,edge_1,Role,edge_2,Role
+Person,edge_1,Role_1,edge_2,Role_2
 Peter Smith,has role,SVP - Special Projects,reports to,CEO
 Alan Lee,has role,CEO,,
 Bruno Lyon,has role,Lead Engineer,reports to,SVP - Special Projects
