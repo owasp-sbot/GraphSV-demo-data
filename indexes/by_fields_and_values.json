@@ -1,18 +1,18 @@
 {
   "Summary": {
-    "Platform Specialist": [
+    "Lead Engineer": [
       "Role-1"
     ],
-    "Lead Engineer": [
+    "CEO": [
       "Role-5"
     ],
-    "CEO": [
+    "Platform Specialist": [
       "Role-4"
     ],
-    "SVP - Special Projects": [
+    "Engineer": [
       "Role-3"
     ],
-    "Engineer": [
+    "SVP - Special Projects": [
       "Role-2"
     ],
     "test": [
@@ -51,28 +51,28 @@
     "user": [
       "Person-8"
     ],
-    "Project Management": [
+    "Executive function": [
       "Function-1"
     ],
-    "Executive function": [
+    "Project Management": [
       "Function-3"
     ],
     "IT": [
       "Function-2"
     ],
-    "Data Engineering": [
+    "Software Engineering": [
       "Team-5"
     ],
-    "Data Science": [
+    "Platform Engineering": [
       "Team-4"
     ],
-    "Executive": [
+    "Data Engineering": [
       "Team-3"
     ],
-    "Platform Engineering": [
+    "Executive": [
       "Team-2"
     ],
-    "Software Engineering": [
+    "Data Science": [
       "Team-1"
     ],
     "Digicorp": [

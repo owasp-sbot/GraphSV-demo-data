@@ -2,192 +2,172 @@
   [
     "Person-1",
     "has role",
-    "Role-3"
+    "Role-2"
   ],
   [
-    "Role-3",
+    "Role-2",
     "is role of",
     "Person-1"
   ],
   [
-    "Role-3",
+    "Role-2",
     "reports to",
-    "Role-4"
+    "Role-5"
   ],
   [
-    "Role-4",
+    "Role-5",
     "is manager of",
-    "Role-3"
+    "Role-2"
   ],
   [
     "Person-2",
     "has role",
-    "Role-4"
+    "Role-5"
   ],
   [
-    "Role-4",
+    "Role-5",
     "is role of",
     "Person-2"
   ],
   [
     "Person-3",
     "has role",
-    "Role-5"
+    "Role-1"
   ],
   [
-    "Role-5",
+    "Role-1",
     "is role of",
     "Person-3"
   ],
   [
-    "Role-5",
+    "Role-1",
     "reports to",
-    "Role-3"
+    "Role-2"
   ],
   [
-    "Role-3",
+    "Role-2",
     "is manager of",
-    "Role-5"
+    "Role-1"
   ],
   [
     "Person-4",
     "has role",
-    "Role-2"
+    "Role-3"
   ],
   [
-    "Role-2",
+    "Role-3",
     "is role of",
     "Person-4"
   ],
   [
-    "Role-2",
+    "Role-3",
     "reports to",
-    "Role-5"
+    "Role-1"
   ],
   [
-    "Role-5",
+    "Role-1",
     "is manager of",
-    "Role-2"
+    "Role-3"
   ],
   [
     "Person-6",
     "has role",
-    "Role-2"
+    "Role-3"
   ],
   [
-    "Role-2",
+    "Role-3",
     "is role of",
     "Person-6"
   ],
   [
     "Person-5",
     "has role",
-    "Role-1"
+    "Role-4"
   ],
   [
-    "Role-1",
+    "Role-4",
     "is role of",
     "Person-5"
   ],
   [
-    "Role-1",
-    "reports to",
-    "Role-3"
-  ],
-  [
-    "Role-3",
-    "is manager of",
-    "Role-1"
-  ],
-  [
-    "Role-3",
-    "is funded by",
-    "Team-4"
-  ],
-  [
-    "Team-4",
-    "funds",
-    "Role-3"
-  ],
-  [
     "Role-4",
-    "is funded by",
-    "Team-3"
+    "reports to",
+    "Role-2"
   ],
   [
-    "Team-3",
-    "funds",
+    "Role-2",
+    "is manager of",
     "Role-4"
+  ],
+  [
+    "Role-2",
+    "is funded by",
+    "Team-1"
+  ],
+  [
+    "Team-1",
+    "funds",
+    "Role-2"
+  ],
+  [
+    "Team-1",
+    "is funded by",
+    "Function-3"
+  ],
+  [
+    "Function-3",
+    "funds",
+    "Team-1"
+  ],
+  [
+    "Function-3",
+    "is function within",
+    "Business_Unit-1"
+  ],
+  [
+    "Business_Unit-1",
+    "has function",
+    "Function-3"
   ],
   [
     "Role-5",
     "is funded by",
-    "Team-1"
+    "Team-2"
   ],
   [
-    "Team-1",
+    "Team-2",
     "funds",
     "Role-5"
   ],
   [
-    "Role-2",
+    "Team-2",
     "is funded by",
-    "Team-1"
+    "Function-1"
   ],
   [
-    "Team-1",
+    "Function-1",
     "funds",
-    "Role-2"
+    "Team-2"
   ],
   [
-    "Role-2",
-    "is funded by",
-    "Team-5"
+    "Function-1",
+    "is function within",
+    "Business_Unit-1"
   ],
   [
-    "Team-5",
-    "funds",
-    "Role-2"
+    "Business_Unit-1",
+    "has function",
+    "Function-1"
   ],
   [
     "Role-1",
     "is funded by",
-    "Team-2"
+    "Team-5"
   ],
   [
-    "Team-2",
+    "Team-5",
     "funds",
     "Role-1"
-  ],
-  [
-    "Team-4",
-    "is funded by",
-    "Function-1"
-  ],
-  [
-    "Function-1",
-    "funds",
-    "Team-4"
-  ],
-  [
-    "Team-3",
-    "is funded by",
-    "Function-3"
-  ],
-  [
-    "Function-3",
-    "funds",
-    "Team-3"
-  ],
-  [
-    "Team-1",
-    "is funded by",
-    "Function-2"
-  ],
-  [
-    "Function-2",
-    "funds",
-    "Team-1"
   ],
   [
     "Team-5",
@@ -200,43 +180,63 @@
     "Team-5"
   ],
   [
-    "Team-2",
+    "Function-2",
+    "is function within",
+    "Business_Unit-1"
+  ],
+  [
+    "Business_Unit-1",
+    "has function",
+    "Function-2"
+  ],
+  [
+    "Role-3",
+    "is funded by",
+    "Team-5"
+  ],
+  [
+    "Team-5",
+    "funds",
+    "Role-3"
+  ],
+  [
+    "Role-3",
+    "is funded by",
+    "Team-3"
+  ],
+  [
+    "Team-3",
+    "funds",
+    "Role-3"
+  ],
+  [
+    "Team-3",
     "is funded by",
     "Function-2"
   ],
   [
     "Function-2",
     "funds",
-    "Team-2"
+    "Team-3"
   ],
   [
-    "Function-1",
-    "is function within",
-    "Business_Unit-1"
+    "Role-4",
+    "is funded by",
+    "Team-4"
   ],
   [
-    "Business_Unit-1",
-    "has function",
-    "Function-1"
+    "Team-4",
+    "funds",
+    "Role-4"
   ],
   [
-    "Function-3",
-    "is function within",
-    "Business_Unit-1"
-  ],
-  [
-    "Business_Unit-1",
-    "has function",
-    "Function-3"
+    "Team-4",
+    "is funded by",
+    "Function-2"
   ],
   [
     "Function-2",
-    "is function within",
-    "Business_Unit-1"
-  ],
-  [
-    "Business_Unit-1",
-    "has function",
-    "Function-2"
+    "funds",
+    "Team-4"
   ]
 ]

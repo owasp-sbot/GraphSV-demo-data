@@ -1,29 +1,29 @@
 {
-  "Platform Specialist": [
+  "Lead Engineer": [
     [
       "Role-1",
       "Summary"
     ]
   ],
-  "Lead Engineer": [
+  "CEO": [
     [
       "Role-5",
       "Summary"
     ]
   ],
-  "CEO": [
+  "Platform Specialist": [
     [
       "Role-4",
       "Summary"
     ]
   ],
-  "SVP - Special Projects": [
+  "Engineer": [
     [
       "Role-3",
       "Summary"
     ]
   ],
-  "Engineer": [
+  "SVP - Special Projects": [
     [
       "Role-2",
       "Summary"
@@ -365,13 +365,13 @@
       "Summary"
     ]
   ],
-  "Project Management": [
+  "Executive function": [
     [
       "Function-1",
       "Summary"
     ]
   ],
-  "Executive function": [
+  "Project Management": [
     [
       "Function-3",
       "Summary"
@@ -383,31 +383,31 @@
       "Summary"
     ]
   ],
-  "Data Engineering": [
+  "Software Engineering": [
     [
       "Team-5",
       "Summary"
     ]
   ],
-  "Data Science": [
+  "Platform Engineering": [
     [
       "Team-4",
       "Summary"
     ]
   ],
-  "Executive": [
+  "Data Engineering": [
     [
       "Team-3",
       "Summary"
     ]
   ],
-  "Platform Engineering": [
+  "Executive": [
     [
       "Team-2",
       "Summary"
     ]
   ],
-  "Software Engineering": [
+  "Data Science": [
     [
       "Team-1",
       "Summary"

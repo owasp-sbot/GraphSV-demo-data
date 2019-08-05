@@ -1,135 +1,135 @@
 {
   "has role": {
     "Person-1": [
-      "Role-3"
+      "Role-2"
     ],
     "Person-2": [
-      "Role-4"
-    ],
-    "Person-3": [
       "Role-5"
     ],
+    "Person-3": [
+      "Role-1"
+    ],
     "Person-4": [
-      "Role-2"
+      "Role-3"
     ],
     "Person-6": [
-      "Role-2"
+      "Role-3"
     ],
     "Person-5": [
-      "Role-1"
+      "Role-4"
     ]
   },
   "is role of": {
-    "Role-3": [
+    "Role-2": [
       "Person-1"
     ],
-    "Role-4": [
+    "Role-5": [
       "Person-2"
     ],
-    "Role-5": [
+    "Role-1": [
       "Person-3"
     ],
-    "Role-2": [
+    "Role-3": [
       "Person-4",
       "Person-6"
     ],
-    "Role-1": [
+    "Role-4": [
       "Person-5"
     ]
   },
   "reports to": {
-    "Role-3": [
-      "Role-4"
-    ],
-    "Role-5": [
-      "Role-3"
-    ],
     "Role-2": [
       "Role-5"
     ],
     "Role-1": [
-      "Role-3"
-    ]
-  },
-  "is manager of": {
-    "Role-4": [
-      "Role-3"
+      "Role-2"
     ],
     "Role-3": [
-      "Role-5",
       "Role-1"
     ],
-    "Role-5": [
+    "Role-4": [
       "Role-2"
     ]
   },
-  "is funded by": {
-    "Role-3": [
-      "Team-4"
-    ],
-    "Role-4": [
-      "Team-3"
-    ],
+  "is manager of": {
     "Role-5": [
-      "Team-1"
+      "Role-2"
     ],
     "Role-2": [
-      "Team-1",
-      "Team-5"
+      "Role-1",
+      "Role-4"
     ],
     "Role-1": [
-      "Team-2"
-    ],
-    "Team-4": [
-      "Function-1"
-    ],
-    "Team-3": [
-      "Function-3"
+      "Role-3"
+    ]
+  },
+  "is funded by": {
+    "Role-2": [
+      "Team-1"
     ],
     "Team-1": [
-      "Function-2"
+      "Function-3"
+    ],
+    "Role-5": [
+      "Team-2"
+    ],
+    "Team-2": [
+      "Function-1"
+    ],
+    "Role-1": [
+      "Team-5"
     ],
     "Team-5": [
       "Function-2"
     ],
-    "Team-2": [
+    "Role-3": [
+      "Team-5",
+      "Team-3"
+    ],
+    "Team-3": [
+      "Function-2"
+    ],
+    "Role-4": [
+      "Team-4"
+    ],
+    "Team-4": [
       "Function-2"
     ]
   },
   "funds": {
-    "Team-4": [
-      "Role-3"
-    ],
-    "Team-3": [
-      "Role-4"
-    ],
     "Team-1": [
-      "Role-5",
       "Role-2"
-    ],
-    "Team-5": [
-      "Role-2"
-    ],
-    "Team-2": [
-      "Role-1"
-    ],
-    "Function-1": [
-      "Team-4"
     ],
     "Function-3": [
-      "Team-3"
+      "Team-1"
+    ],
+    "Team-2": [
+      "Role-5"
+    ],
+    "Function-1": [
+      "Team-2"
+    ],
+    "Team-5": [
+      "Role-1",
+      "Role-3"
     ],
     "Function-2": [
-      "Team-1",
       "Team-5",
-      "Team-2"
+      "Team-3",
+      "Team-4"
+    ],
+    "Team-3": [
+      "Role-3"
+    ],
+    "Team-4": [
+      "Role-4"
     ]
   },
   "is function within": {
-    "Function-1": [
+    "Function-3": [
       "Business_Unit-1"
     ],
-    "Function-3": [
+    "Function-1": [
       "Business_Unit-1"
     ],
     "Function-2": [
@@ -138,8 +138,8 @@
   },
   "has function": {
     "Business_Unit-1": [
-      "Function-1",
       "Function-3",
+      "Function-1",
       "Function-2"
     ]
   }

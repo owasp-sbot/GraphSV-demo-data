@@ -3,17 +3,20 @@
     "path": "Role/Role-1.json",
     "links": {
       "is role of": [
-        "Person-5"
+        "Person-3"
       ],
       "reports to": [
+        "Role-2"
+      ],
+      "is manager of": [
         "Role-3"
       ],
       "is funded by": [
-        "Team-2"
+        "Team-5"
       ]
     },
     "data": {
-      "Summary": "Platform Specialist",
+      "Summary": "Lead Engineer",
       "Key": "Role-1",
       "Issue Type": "Role"
     }
@@ -21,21 +24,18 @@
   "Role-5": {
     "path": "Role/Role-5.json",
     "links": {
-      "is role of": [
-        "Person-3"
-      ],
-      "reports to": [
-        "Role-3"
-      ],
       "is manager of": [
         "Role-2"
       ],
+      "is role of": [
+        "Person-2"
+      ],
       "is funded by": [
-        "Team-1"
+        "Team-2"
       ]
     },
     "data": {
-      "Summary": "Lead Engineer",
+      "Summary": "CEO",
       "Key": "Role-5",
       "Issue Type": "Role"
     }
@@ -43,18 +43,18 @@
   "Role-4": {
     "path": "Role/Role-4.json",
     "links": {
-      "is manager of": [
-        "Role-3"
-      ],
       "is role of": [
-        "Person-2"
+        "Person-5"
+      ],
+      "reports to": [
+        "Role-2"
       ],
       "is funded by": [
-        "Team-3"
+        "Team-4"
       ]
     },
     "data": {
-      "Summary": "CEO",
+      "Summary": "Platform Specialist",
       "Key": "Role-4",
       "Issue Type": "Role"
     }
@@ -63,21 +63,19 @@
     "path": "Role/Role-3.json",
     "links": {
       "is role of": [
-        "Person-1"
+        "Person-4",
+        "Person-6"
       ],
       "reports to": [
-        "Role-4"
-      ],
-      "is manager of": [
-        "Role-5",
         "Role-1"
       ],
       "is funded by": [
-        "Team-4"
+        "Team-5",
+        "Team-3"
       ]
     },
     "data": {
-      "Summary": "SVP - Special Projects",
+      "Summary": "Engineer",
       "Key": "Role-3",
       "Issue Type": "Role"
     }
@@ -86,19 +84,21 @@
     "path": "Role/Role-2.json",
     "links": {
       "is role of": [
-        "Person-4",
-        "Person-6"
+        "Person-1"
       ],
       "reports to": [
         "Role-5"
       ],
+      "is manager of": [
+        "Role-1",
+        "Role-4"
+      ],
       "is funded by": [
-        "Team-1",
-        "Team-5"
+        "Team-1"
       ]
     },
     "data": {
-      "Summary": "Engineer",
+      "Summary": "SVP - Special Projects",
       "Key": "Role-2",
       "Issue Type": "Role"
     }
@@ -117,7 +117,7 @@
     "path": "Person/Person-6.json",
     "links": {
       "has role": [
-        "Role-2"
+        "Role-3"
       ]
     },
     "data": {
@@ -137,7 +137,7 @@
     "path": "Person/Person-1.json",
     "links": {
       "has role": [
-        "Role-3"
+        "Role-2"
       ]
     },
     "data": {
@@ -167,7 +167,7 @@
     "path": "Person/Person-3.json",
     "links": {
       "has role": [
-        "Role-5"
+        "Role-1"
       ]
     },
     "data": {
@@ -207,7 +207,7 @@
     "path": "Person/Person-2.json",
     "links": {
       "has role": [
-        "Role-4"
+        "Role-5"
       ]
     },
     "data": {
@@ -237,7 +237,7 @@
     "path": "Person/Person-5.json",
     "links": {
       "has role": [
-        "Role-1"
+        "Role-4"
       ]
     },
     "data": {
@@ -257,7 +257,7 @@
     "path": "Person/Person-4.json",
     "links": {
       "has role": [
-        "Role-2"
+        "Role-3"
       ]
     },
     "data": {
@@ -287,14 +287,14 @@
     "path": "Function/Function-1.json",
     "links": {
       "funds": [
-        "Team-4"
+        "Team-2"
       ],
       "is function within": [
         "Business_Unit-1"
       ]
     },
     "data": {
-      "Summary": "Project Management",
+      "Summary": "Executive function",
       "Key": "Function-1",
       "Issue Type": "Function"
     }
@@ -303,14 +303,14 @@
     "path": "Function/Function-3.json",
     "links": {
       "funds": [
-        "Team-3"
+        "Team-1"
       ],
       "is function within": [
         "Business_Unit-1"
       ]
     },
     "data": {
-      "Summary": "Executive function",
+      "Summary": "Project Management",
       "Key": "Function-3",
       "Issue Type": "Function"
     }
@@ -319,9 +319,9 @@
     "path": "Function/Function-2.json",
     "links": {
       "funds": [
-        "Team-1",
         "Team-5",
-        "Team-2"
+        "Team-3",
+        "Team-4"
       ],
       "is function within": [
         "Business_Unit-1"
@@ -337,14 +337,15 @@
     "path": "Team/Team-5.json",
     "links": {
       "funds": [
-        "Role-2"
+        "Role-1",
+        "Role-3"
       ],
       "is funded by": [
         "Function-2"
       ]
     },
     "data": {
-      "Summary": "Data Engineering",
+      "Summary": "Software Engineering",
       "Key": "Team-5",
       "Issue Type": "Team"
     }
@@ -353,14 +354,14 @@
     "path": "Team/Team-4.json",
     "links": {
       "funds": [
-        "Role-3"
+        "Role-4"
       ],
       "is funded by": [
-        "Function-1"
+        "Function-2"
       ]
     },
     "data": {
-      "Summary": "Data Science",
+      "Summary": "Platform Engineering",
       "Key": "Team-4",
       "Issue Type": "Team"
     }
@@ -369,14 +370,14 @@
     "path": "Team/Team-3.json",
     "links": {
       "funds": [
-        "Role-4"
+        "Role-3"
       ],
       "is funded by": [
-        "Function-3"
+        "Function-2"
       ]
     },
     "data": {
-      "Summary": "Executive",
+      "Summary": "Data Engineering",
       "Key": "Team-3",
       "Issue Type": "Team"
     }
@@ -385,14 +386,14 @@
     "path": "Team/Team-2.json",
     "links": {
       "funds": [
-        "Role-1"
+        "Role-5"
       ],
       "is funded by": [
-        "Function-2"
+        "Function-1"
       ]
     },
     "data": {
-      "Summary": "Platform Engineering",
+      "Summary": "Executive",
       "Key": "Team-2",
       "Issue Type": "Team"
     }
@@ -401,15 +402,14 @@
     "path": "Team/Team-1.json",
     "links": {
       "funds": [
-        "Role-5",
         "Role-2"
       ],
       "is funded by": [
-        "Function-2"
+        "Function-3"
       ]
     },
     "data": {
-      "Summary": "Software Engineering",
+      "Summary": "Data Science",
       "Key": "Team-1",
       "Issue Type": "Team"
     }
@@ -418,8 +418,8 @@
     "path": "Business_Unit/Business_Unit-1.json",
     "links": {
       "has function": [
-        "Function-1",
         "Function-3",
+        "Function-1",
         "Function-2"
       ]
     },
