@@ -7,6 +7,9 @@
       ],
       "reports to": [
         "Role-3"
+      ],
+      "is funded by": [
+        "Team-2"
       ]
     },
     "data": {
@@ -26,6 +29,9 @@
       ],
       "is manager of": [
         "Role-2"
+      ],
+      "is funded by": [
+        "Team-1"
       ]
     },
     "data": {
@@ -42,6 +48,9 @@
       ],
       "is role of": [
         "Person-2"
+      ],
+      "is funded by": [
+        "Team-3"
       ]
     },
     "data": {
@@ -62,6 +71,9 @@
       "is manager of": [
         "Role-5",
         "Role-1"
+      ],
+      "is funded by": [
+        "Team-4"
       ]
     },
     "data": {
@@ -79,6 +91,10 @@
       ],
       "reports to": [
         "Role-5"
+      ],
+      "is funded by": [
+        "Team-1",
+        "Team-5"
       ]
     },
     "data": {
@@ -265,6 +281,152 @@
       "Summary": "user",
       "Key": "Person-8",
       "Issue Type": "Person"
+    }
+  },
+  "Function-1": {
+    "path": "Function/Function-1.json",
+    "links": {
+      "funds": [
+        "Team-4"
+      ],
+      "is function within": [
+        "Business_Unit-1"
+      ]
+    },
+    "data": {
+      "Summary": "Project Management",
+      "Key": "Function-1",
+      "Issue Type": "Function"
+    }
+  },
+  "Function-3": {
+    "path": "Function/Function-3.json",
+    "links": {
+      "funds": [
+        "Team-3"
+      ],
+      "is function within": [
+        "Business_Unit-1"
+      ]
+    },
+    "data": {
+      "Summary": "Executive function",
+      "Key": "Function-3",
+      "Issue Type": "Function"
+    }
+  },
+  "Function-2": {
+    "path": "Function/Function-2.json",
+    "links": {
+      "funds": [
+        "Team-1",
+        "Team-5",
+        "Team-2"
+      ],
+      "is function within": [
+        "Business_Unit-1"
+      ]
+    },
+    "data": {
+      "Summary": "IT",
+      "Key": "Function-2",
+      "Issue Type": "Function"
+    }
+  },
+  "Team-5": {
+    "path": "Team/Team-5.json",
+    "links": {
+      "funds": [
+        "Role-2"
+      ],
+      "is funded by": [
+        "Function-2"
+      ]
+    },
+    "data": {
+      "Summary": "Data Engineering",
+      "Key": "Team-5",
+      "Issue Type": "Team"
+    }
+  },
+  "Team-4": {
+    "path": "Team/Team-4.json",
+    "links": {
+      "funds": [
+        "Role-3"
+      ],
+      "is funded by": [
+        "Function-1"
+      ]
+    },
+    "data": {
+      "Summary": "Data Science",
+      "Key": "Team-4",
+      "Issue Type": "Team"
+    }
+  },
+  "Team-3": {
+    "path": "Team/Team-3.json",
+    "links": {
+      "funds": [
+        "Role-4"
+      ],
+      "is funded by": [
+        "Function-3"
+      ]
+    },
+    "data": {
+      "Summary": "Executive",
+      "Key": "Team-3",
+      "Issue Type": "Team"
+    }
+  },
+  "Team-2": {
+    "path": "Team/Team-2.json",
+    "links": {
+      "funds": [
+        "Role-1"
+      ],
+      "is funded by": [
+        "Function-2"
+      ]
+    },
+    "data": {
+      "Summary": "Platform Engineering",
+      "Key": "Team-2",
+      "Issue Type": "Team"
+    }
+  },
+  "Team-1": {
+    "path": "Team/Team-1.json",
+    "links": {
+      "funds": [
+        "Role-5",
+        "Role-2"
+      ],
+      "is funded by": [
+        "Function-2"
+      ]
+    },
+    "data": {
+      "Summary": "Software Engineering",
+      "Key": "Team-1",
+      "Issue Type": "Team"
+    }
+  },
+  "Business_Unit-1": {
+    "path": "Business_Unit/Business_Unit-1.json",
+    "links": {
+      "has function": [
+        "Function-1",
+        "Function-3",
+        "Function-2"
+      ]
+    },
+    "data": {
+      "Summary": "Digicorp",
+      "Key": "Business_Unit-1",
+      "Issue Type": "Business Unit"
     }
   }
 }

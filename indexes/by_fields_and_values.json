@@ -50,6 +50,33 @@
     ],
     "user": [
       "Person-8"
+    ],
+    "Project Management": [
+      "Function-1"
+    ],
+    "Executive function": [
+      "Function-3"
+    ],
+    "IT": [
+      "Function-2"
+    ],
+    "Data Engineering": [
+      "Team-5"
+    ],
+    "Data Science": [
+      "Team-4"
+    ],
+    "Executive": [
+      "Team-3"
+    ],
+    "Platform Engineering": [
+      "Team-2"
+    ],
+    "Software Engineering": [
+      "Team-1"
+    ],
+    "Digicorp": [
+      "Business_Unit-1"
     ]
   },
   "Email": {

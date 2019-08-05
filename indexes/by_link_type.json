@@ -62,5 +62,85 @@
     "Role-5": [
       "Role-2"
     ]
+  },
+  "is funded by": {
+    "Role-3": [
+      "Team-4"
+    ],
+    "Role-4": [
+      "Team-3"
+    ],
+    "Role-5": [
+      "Team-1"
+    ],
+    "Role-2": [
+      "Team-1",
+      "Team-5"
+    ],
+    "Role-1": [
+      "Team-2"
+    ],
+    "Team-4": [
+      "Function-1"
+    ],
+    "Team-3": [
+      "Function-3"
+    ],
+    "Team-1": [
+      "Function-2"
+    ],
+    "Team-5": [
+      "Function-2"
+    ],
+    "Team-2": [
+      "Function-2"
+    ]
+  },
+  "funds": {
+    "Team-4": [
+      "Role-3"
+    ],
+    "Team-3": [
+      "Role-4"
+    ],
+    "Team-1": [
+      "Role-5",
+      "Role-2"
+    ],
+    "Team-5": [
+      "Role-2"
+    ],
+    "Team-2": [
+      "Role-1"
+    ],
+    "Function-1": [
+      "Team-4"
+    ],
+    "Function-3": [
+      "Team-3"
+    ],
+    "Function-2": [
+      "Team-1",
+      "Team-5",
+      "Team-2"
+    ]
+  },
+  "is function within": {
+    "Function-1": [
+      "Business_Unit-1"
+    ],
+    "Function-3": [
+      "Business_Unit-1"
+    ],
+    "Function-2": [
+      "Business_Unit-1"
+    ]
+  },
+  "has function": {
+    "Business_Unit-1": [
+      "Function-1",
+      "Function-3",
+      "Function-2"
+    ]
   }
 }

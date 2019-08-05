@@ -83,6 +83,10 @@
     [
       "Person-4",
       "Entity"
+    ],
+    [
+      "Business_Unit-1",
+      "Summary"
     ]
   ],
   "Engineering": [
@@ -358,6 +362,54 @@
   "user": [
     [
       "Person-8",
+      "Summary"
+    ]
+  ],
+  "Project Management": [
+    [
+      "Function-1",
+      "Summary"
+    ]
+  ],
+  "Executive function": [
+    [
+      "Function-3",
+      "Summary"
+    ]
+  ],
+  "IT": [
+    [
+      "Function-2",
+      "Summary"
+    ]
+  ],
+  "Data Engineering": [
+    [
+      "Team-5",
+      "Summary"
+    ]
+  ],
+  "Data Science": [
+    [
+      "Team-4",
+      "Summary"
+    ]
+  ],
+  "Executive": [
+    [
+      "Team-3",
+      "Summary"
+    ]
+  ],
+  "Platform Engineering": [
+    [
+      "Team-2",
+      "Summary"
+    ]
+  ],
+  "Software Engineering": [
+    [
+      "Team-1",
       "Summary"
     ]
   ]
