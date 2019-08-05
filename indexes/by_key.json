@@ -118,6 +118,10 @@
     "links": {
       "has role": [
         "Role-3"
+      ],
+      "owns": [
+        "Device-6",
+        "Account-3"
       ]
     },
     "data": {
@@ -138,6 +142,10 @@
     "links": {
       "has role": [
         "Role-2"
+      ],
+      "owns": [
+        "Device-1",
+        "Account-5"
       ]
     },
     "data": {
@@ -168,6 +176,10 @@
     "links": {
       "has role": [
         "Role-1"
+      ],
+      "owns": [
+        "Device-3",
+        "Account-1"
       ]
     },
     "data": {
@@ -208,6 +220,10 @@
     "links": {
       "has role": [
         "Role-5"
+      ],
+      "owns": [
+        "Device-2",
+        "Account-4"
       ]
     },
     "data": {
@@ -238,6 +254,10 @@
     "links": {
       "has role": [
         "Role-4"
+      ],
+      "owns": [
+        "Device-5",
+        "Account-6"
       ]
     },
     "data": {
@@ -258,6 +278,10 @@
     "links": {
       "has role": [
         "Role-3"
+      ],
+      "owns": [
+        "Device-4",
+        "Account-2"
       ]
     },
     "data": {
@@ -414,6 +438,84 @@
       "Issue Type": "Team"
     }
   },
+  "Device-2": {
+    "path": "Device/Device-2.json",
+    "links": {
+      "is owned by": [
+        "Person-2"
+      ]
+    },
+    "data": {
+      "Summary": "VALAPONT",
+      "Key": "Device-2",
+      "Issue Type": "Device"
+    }
+  },
+  "Device-3": {
+    "path": "Device/Device-3.json",
+    "links": {
+      "is owned by": [
+        "Person-3"
+      ]
+    },
+    "data": {
+      "Summary": "XLXN2A-047",
+      "Key": "Device-3",
+      "Issue Type": "Device"
+    }
+  },
+  "Device-4": {
+    "path": "Device/Device-4.json",
+    "links": {
+      "is owned by": [
+        "Person-4"
+      ]
+    },
+    "data": {
+      "Summary": "FR-APW-1404",
+      "Key": "Device-4",
+      "Issue Type": "Device"
+    }
+  },
+  "Device-5": {
+    "path": "Device/Device-5.json",
+    "links": {
+      "is owned by": [
+        "Person-5"
+      ]
+    },
+    "data": {
+      "Summary": "PC-NLIGO-49321",
+      "Key": "Device-5",
+      "Issue Type": "Device"
+    }
+  },
+  "Device-6": {
+    "path": "Device/Device-6.json",
+    "links": {
+      "is owned by": [
+        "Person-6"
+      ]
+    },
+    "data": {
+      "Summary": "PC-PSMIT-49873",
+      "Key": "Device-6",
+      "Issue Type": "Device"
+    }
+  },
+  "Device-1": {
+    "path": "Device/Device-1.json",
+    "links": {
+      "is owned by": [
+        "Person-1"
+      ]
+    },
+    "data": {
+      "Summary": "XLXN2A-046",
+      "Key": "Device-1",
+      "Issue Type": "Device"
+    }
+  },
   "Business_Unit-1": {
     "path": "Business_Unit/Business_Unit-1.json",
     "links": {
@@ -427,6 +529,108 @@
       "Summary": "Digicorp",
       "Key": "Business_Unit-1",
       "Issue Type": "Business Unit"
+    }
+  },
+  "Account-3": {
+    "path": "Account/Account-3.json",
+    "links": {
+      "is owned by": [
+        "Person-6"
+      ]
+    },
+    "data": {
+      "Summary": "sophia.berlin@digicorp.com",
+      "Key": "Account-3",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-2": {
+    "path": "Account/Account-2.json",
+    "links": {
+      "is owned by": [
+        "Person-4"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
+      ]
+    },
+    "data": {
+      "Summary": "alan.champion@digicorp.com",
+      "Key": "Account-2",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-5": {
+    "path": "Account/Account-5.json",
+    "links": {
+      "is owned by": [
+        "Person-1"
+      ]
+    },
+    "data": {
+      "Summary": "peter.smith@digicorp.com",
+      "Key": "Account-5",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-4": {
+    "path": "Account/Account-4.json",
+    "links": {
+      "is owned by": [
+        "Person-2"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
+      ]
+    },
+    "data": {
+      "Summary": "alee@digicorp.com",
+      "Key": "Account-4",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-6": {
+    "path": "Account/Account-6.json",
+    "links": {
+      "is owned by": [
+        "Person-5"
+      ]
+    },
+    "data": {
+      "Summary": "nligos@digicorp.com",
+      "Key": "Account-6",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-1": {
+    "path": "Account/Account-1.json",
+    "links": {
+      "is owned by": [
+        "Person-3"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
+      ]
+    },
+    "data": {
+      "Summary": "bruno.lyon@digicorp.com",
+      "Key": "Account-1",
+      "Issue Type": "Account"
+    }
+  },
+  "Business_Asset-1": {
+    "path": "Business_Asset/Business_Asset-1.json",
+    "links": {
+      "has critical business asset": [
+        "Account-4",
+        "Account-1",
+        "Account-2"
+      ]
+    },
+    "data": {
+      "Summary": "VIP and Superuser identity",
+      "Key": "Business_Asset-1",
+      "Issue Type": "Business Asset"
     }
   }
 }

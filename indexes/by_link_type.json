@@ -142,5 +142,87 @@
       "Function-1",
       "Function-2"
     ]
+  },
+  "is owned by": {
+    "Device-1": [
+      "Person-1"
+    ],
+    "Device-2": [
+      "Person-2"
+    ],
+    "Device-3": [
+      "Person-3"
+    ],
+    "Device-4": [
+      "Person-4"
+    ],
+    "Device-6": [
+      "Person-6"
+    ],
+    "Device-5": [
+      "Person-5"
+    ],
+    "Account-5": [
+      "Person-1"
+    ],
+    "Account-4": [
+      "Person-2"
+    ],
+    "Account-1": [
+      "Person-3"
+    ],
+    "Account-2": [
+      "Person-4"
+    ],
+    "Account-3": [
+      "Person-6"
+    ],
+    "Account-6": [
+      "Person-5"
+    ]
+  },
+  "owns": {
+    "Person-1": [
+      "Device-1",
+      "Account-5"
+    ],
+    "Person-2": [
+      "Device-2",
+      "Account-4"
+    ],
+    "Person-3": [
+      "Device-3",
+      "Account-1"
+    ],
+    "Person-4": [
+      "Device-4",
+      "Account-2"
+    ],
+    "Person-6": [
+      "Device-6",
+      "Account-3"
+    ],
+    "Person-5": [
+      "Device-5",
+      "Account-6"
+    ]
+  },
+  "represents critical business asset": {
+    "Account-4": [
+      "Business_Asset-1"
+    ],
+    "Account-1": [
+      "Business_Asset-1"
+    ],
+    "Account-2": [
+      "Business_Asset-1"
+    ]
+  },
+  "has critical business asset": {
+    "Business_Asset-1": [
+      "Account-4",
+      "Account-1",
+      "Account-2"
+    ]
   }
 }

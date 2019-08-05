@@ -238,5 +238,155 @@
     "Function-2",
     "funds",
     "Team-4"
+  ],
+  [
+    "Device-1",
+    "is owned by",
+    "Person-1"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Device-1"
+  ],
+  [
+    "Device-2",
+    "is owned by",
+    "Person-2"
+  ],
+  [
+    "Person-2",
+    "owns",
+    "Device-2"
+  ],
+  [
+    "Device-3",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Device-3"
+  ],
+  [
+    "Device-4",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Device-4"
+  ],
+  [
+    "Device-6",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Device-6"
+  ],
+  [
+    "Device-5",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Device-5"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Account-5"
+  ],
+  [
+    "Account-5",
+    "is owned by",
+    "Person-1"
+  ],
+  [
+    "Person-2",
+    "owns",
+    "Account-4"
+  ],
+  [
+    "Account-4",
+    "is owned by",
+    "Person-2"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Account-1"
+  ],
+  [
+    "Account-1",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-2"
+  ],
+  [
+    "Account-2",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-3"
+  ],
+  [
+    "Account-3",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-6"
+  ],
+  [
+    "Account-6",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Account-4",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-4"
+  ],
+  [
+    "Account-1",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-1"
+  ],
+  [
+    "Account-2",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-2"
   ]
 ]

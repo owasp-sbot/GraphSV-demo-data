@@ -75,8 +75,47 @@
     "Data Science": [
       "Team-1"
     ],
+    "VALAPONT": [
+      "Device-2"
+    ],
+    "XLXN2A-047": [
+      "Device-3"
+    ],
+    "FR-APW-1404": [
+      "Device-4"
+    ],
+    "PC-NLIGO-49321": [
+      "Device-5"
+    ],
+    "PC-PSMIT-49873": [
+      "Device-6"
+    ],
+    "XLXN2A-046": [
+      "Device-1"
+    ],
     "Digicorp": [
       "Business_Unit-1"
+    ],
+    "sophia.berlin@digicorp.com": [
+      "Account-3"
+    ],
+    "alan.champion@digicorp.com": [
+      "Account-2"
+    ],
+    "peter.smith@digicorp.com": [
+      "Account-5"
+    ],
+    "alee@digicorp.com": [
+      "Account-4"
+    ],
+    "nligos@digicorp.com": [
+      "Account-6"
+    ],
+    "bruno.lyon@digicorp.com": [
+      "Account-1"
+    ],
+    "VIP and Superuser identity": [
+      "Business_Asset-1"
     ]
   },
   "Email": {

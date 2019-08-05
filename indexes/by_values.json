@@ -121,6 +121,10 @@
     [
       "Person-6",
       "Email"
+    ],
+    [
+      "Account-3",
+      "Summary"
     ]
   ],
   "Sophia Berlin": [
@@ -161,6 +165,10 @@
     [
       "Person-1",
       "Email"
+    ],
+    [
+      "Account-5",
+      "Summary"
     ]
   ],
   "Peter Smith": [
@@ -217,6 +225,10 @@
     [
       "Person-3",
       "Email"
+    ],
+    [
+      "Account-1",
+      "Summary"
     ]
   ],
   "Bruno Lyon": [
@@ -285,6 +297,10 @@
     [
       "Person-2",
       "Email"
+    ],
+    [
+      "Account-4",
+      "Summary"
     ]
   ],
   "Alan Lee": [
@@ -321,6 +337,10 @@
     [
       "Person-5",
       "Email"
+    ],
+    [
+      "Account-6",
+      "Summary"
     ]
   ],
   "Norman Ligos": [
@@ -345,6 +365,10 @@
     [
       "Person-4",
       "Email"
+    ],
+    [
+      "Account-2",
+      "Summary"
     ]
   ],
   "Alan Champion": [
@@ -410,6 +434,48 @@
   "Data Science": [
     [
       "Team-1",
+      "Summary"
+    ]
+  ],
+  "VALAPONT": [
+    [
+      "Device-2",
+      "Summary"
+    ]
+  ],
+  "XLXN2A-047": [
+    [
+      "Device-3",
+      "Summary"
+    ]
+  ],
+  "FR-APW-1404": [
+    [
+      "Device-4",
+      "Summary"
+    ]
+  ],
+  "PC-NLIGO-49321": [
+    [
+      "Device-5",
+      "Summary"
+    ]
+  ],
+  "PC-PSMIT-49873": [
+    [
+      "Device-6",
+      "Summary"
+    ]
+  ],
+  "XLXN2A-046": [
+    [
+      "Device-1",
+      "Summary"
+    ]
+  ],
+  "VIP and Superuser identity": [
+    [
+      "Business_Asset-1",
       "Summary"
     ]
   ]
