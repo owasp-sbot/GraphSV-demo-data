@@ -1,0 +1,66 @@
+{
+  "has role": {
+    "Person-1": [
+      "Role-3"
+    ],
+    "Person-2": [
+      "Role-4"
+    ],
+    "Person-3": [
+      "Role-5"
+    ],
+    "Person-4": [
+      "Role-2"
+    ],
+    "Person-6": [
+      "Role-2"
+    ],
+    "Person-5": [
+      "Role-1"
+    ]
+  },
+  "is role of": {
+    "Role-3": [
+      "Person-1"
+    ],
+    "Role-4": [
+      "Person-2"
+    ],
+    "Role-5": [
+      "Person-3"
+    ],
+    "Role-2": [
+      "Person-4",
+      "Person-6"
+    ],
+    "Role-1": [
+      "Person-5"
+    ]
+  },
+  "reports to": {
+    "Role-3": [
+      "Role-4"
+    ],
+    "Role-5": [
+      "Role-3"
+    ],
+    "Role-2": [
+      "Role-5"
+    ],
+    "Role-1": [
+      "Role-3"
+    ]
+  },
+  "is manager of": {
+    "Role-4": [
+      "Role-3"
+    ],
+    "Role-3": [
+      "Role-5",
+      "Role-1"
+    ],
+    "Role-5": [
+      "Role-2"
+    ]
+  }
+}
