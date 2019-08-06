@@ -96,6 +96,9 @@
     "Digicorp": [
       "Business_Unit-1"
     ],
+    "Sunways": [
+      "Application-1"
+    ],
     "sophia.berlin@digicorp.com": [
       "Account-3"
     ],
@@ -105,8 +108,23 @@
     "peter.smith@digicorp.com": [
       "Account-5"
     ],
+    "cypher1@digi-inc.com": [
+      "Account-9"
+    ],
+    "cypher2@digi-inc.corp": [
+      "Account-8"
+    ],
     "alee@digicorp.com": [
       "Account-4"
+    ],
+    "cypher10@digi-inc.com": [
+      "Account-7"
+    ],
+    "admin@digi-inc.com": [
+      "Account-11"
+    ],
+    "cypher9@digi-inc.com": [
+      "Account-10"
     ],
     "nligos@digicorp.com": [
       "Account-6"
@@ -116,6 +134,9 @@
     ],
     "VIP and Superuser identity": [
       "Business_Asset-1"
+    ],
+    "Trade Secrets": [
+      "Business_Asset-2"
     ]
   },
   "Email": {

@@ -179,32 +179,54 @@
     ],
     "Account-6": [
       "Person-5"
+    ],
+    "Account-10": [
+      "Person-1"
+    ],
+    "Account-9": [
+      "Person-2"
+    ],
+    "Account-11": [
+      "Person-3",
+      "Person-4"
+    ],
+    "Account-7": [
+      "Person-6"
+    ],
+    "Account-8": [
+      "Person-5"
     ]
   },
   "owns": {
     "Person-1": [
       "Device-1",
-      "Account-5"
+      "Account-5",
+      "Account-10"
     ],
     "Person-2": [
       "Device-2",
-      "Account-4"
+      "Account-4",
+      "Account-9"
     ],
     "Person-3": [
       "Device-3",
-      "Account-1"
+      "Account-1",
+      "Account-11"
     ],
     "Person-4": [
       "Device-4",
-      "Account-2"
+      "Account-2",
+      "Account-11"
     ],
     "Person-6": [
       "Device-6",
-      "Account-3"
+      "Account-3",
+      "Account-7"
     ],
     "Person-5": [
       "Device-5",
-      "Account-6"
+      "Account-6",
+      "Account-8"
     ]
   },
   "represents critical business asset": {
@@ -216,6 +238,9 @@
     ],
     "Account-2": [
       "Business_Asset-1"
+    ],
+    "Application-1": [
+      "Business_Asset-2"
     ]
   },
   "has critical business asset": {
@@ -223,6 +248,41 @@
       "Account-4",
       "Account-1",
       "Account-2"
+    ],
+    "Business_Asset-2": [
+      "Application-1"
+    ]
+  },
+  "is user account for": {
+    "Account-10": [
+      "Application-1"
+    ],
+    "Account-9": [
+      "Application-1"
+    ],
+    "Account-7": [
+      "Application-1"
+    ],
+    "Account-8": [
+      "Application-1"
+    ]
+  },
+  "has user account": {
+    "Application-1": [
+      "Account-10",
+      "Account-9",
+      "Account-7",
+      "Account-8"
+    ]
+  },
+  "is admin account for": {
+    "Account-11": [
+      "Application-1"
+    ]
+  },
+  "has admin account": {
+    "Application-1": [
+      "Account-11"
     ]
   }
 }

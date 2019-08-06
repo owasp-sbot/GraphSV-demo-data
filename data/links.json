@@ -388,5 +388,125 @@
     "Business_Asset-1",
     "has critical business asset",
     "Account-2"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Account-10"
+  ],
+  [
+    "Account-10",
+    "is owned by",
+    "Person-1"
+  ],
+  [
+    "Person-2",
+    "owns",
+    "Account-9"
+  ],
+  [
+    "Account-9",
+    "is owned by",
+    "Person-2"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Account-11"
+  ],
+  [
+    "Account-11",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-11"
+  ],
+  [
+    "Account-11",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-7"
+  ],
+  [
+    "Account-7",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-8"
+  ],
+  [
+    "Account-8",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Account-10",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-10"
+  ],
+  [
+    "Application-1",
+    "represents critical business asset",
+    "Business_Asset-2"
+  ],
+  [
+    "Business_Asset-2",
+    "has critical business asset",
+    "Application-1"
+  ],
+  [
+    "Account-9",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-9"
+  ],
+  [
+    "Account-11",
+    "is admin account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has admin account",
+    "Account-11"
+  ],
+  [
+    "Account-7",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-7"
+  ],
+  [
+    "Account-8",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-8"
   ]
 ]

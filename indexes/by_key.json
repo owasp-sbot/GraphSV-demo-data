@@ -121,7 +121,8 @@
       ],
       "owns": [
         "Device-6",
-        "Account-3"
+        "Account-3",
+        "Account-7"
       ]
     },
     "data": {
@@ -145,7 +146,8 @@
       ],
       "owns": [
         "Device-1",
-        "Account-5"
+        "Account-5",
+        "Account-10"
       ]
     },
     "data": {
@@ -179,7 +181,8 @@
       ],
       "owns": [
         "Device-3",
-        "Account-1"
+        "Account-1",
+        "Account-11"
       ]
     },
     "data": {
@@ -223,7 +226,8 @@
       ],
       "owns": [
         "Device-2",
-        "Account-4"
+        "Account-4",
+        "Account-9"
       ]
     },
     "data": {
@@ -257,7 +261,8 @@
       ],
       "owns": [
         "Device-5",
-        "Account-6"
+        "Account-6",
+        "Account-8"
       ]
     },
     "data": {
@@ -281,7 +286,8 @@
       ],
       "owns": [
         "Device-4",
-        "Account-2"
+        "Account-2",
+        "Account-11"
       ]
     },
     "data": {
@@ -531,6 +537,28 @@
       "Issue Type": "Business Unit"
     }
   },
+  "Application-1": {
+    "path": "Application/Application-1.json",
+    "links": {
+      "has user account": [
+        "Account-10",
+        "Account-9",
+        "Account-7",
+        "Account-8"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-2"
+      ],
+      "has admin account": [
+        "Account-11"
+      ]
+    },
+    "data": {
+      "Summary": "Sunways",
+      "Key": "Application-1",
+      "Issue Type": "Application"
+    }
+  },
   "Account-3": {
     "path": "Account/Account-3.json",
     "links": {
@@ -573,6 +601,38 @@
       "Issue Type": "Account"
     }
   },
+  "Account-9": {
+    "path": "Account/Account-9.json",
+    "links": {
+      "is owned by": [
+        "Person-2"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher1@digi-inc.com",
+      "Key": "Account-9",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-8": {
+    "path": "Account/Account-8.json",
+    "links": {
+      "is owned by": [
+        "Person-5"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher2@digi-inc.corp",
+      "Key": "Account-8",
+      "Issue Type": "Account"
+    }
+  },
   "Account-4": {
     "path": "Account/Account-4.json",
     "links": {
@@ -586,6 +646,55 @@
     "data": {
       "Summary": "alee@digicorp.com",
       "Key": "Account-4",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-7": {
+    "path": "Account/Account-7.json",
+    "links": {
+      "is owned by": [
+        "Person-6"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher10@digi-inc.com",
+      "Key": "Account-7",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-11": {
+    "path": "Account/Account-11.json",
+    "links": {
+      "is owned by": [
+        "Person-3",
+        "Person-4"
+      ],
+      "is admin account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "admin@digi-inc.com",
+      "Key": "Account-11",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-10": {
+    "path": "Account/Account-10.json",
+    "links": {
+      "is owned by": [
+        "Person-1"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher9@digi-inc.com",
+      "Key": "Account-10",
       "Issue Type": "Account"
     }
   },
@@ -630,6 +739,19 @@
     "data": {
       "Summary": "VIP and Superuser identity",
       "Key": "Business_Asset-1",
+      "Issue Type": "Business Asset"
+    }
+  },
+  "Business_Asset-2": {
+    "path": "Business_Asset/Business_Asset-2.json",
+    "links": {
+      "has critical business asset": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "Trade Secrets",
+      "Key": "Business_Asset-2",
       "Issue Type": "Business Asset"
     }
   }
