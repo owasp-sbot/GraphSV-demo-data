@@ -1224,6 +1224,24 @@
     ],
     "Vulnerability-9": [
       "Incident_Fact-7"
+    ],
+    "Timeline_Fact-5": [
+      "Incident_Fact-24"
+    ],
+    "Timeline_Fact-4": [
+      "Incident_Fact-13"
+    ],
+    "Timeline_Fact-3": [
+      "Incident_Fact-7"
+    ],
+    "Timeline_Fact-1": [
+      "Incident_Fact-7"
+    ],
+    "Timeline_Fact-2": [
+      "Incident_Fact-18"
+    ],
+    "Timeline_Fact-6": [
+      "Incident_Fact-16"
     ]
   },
   "supports": {
@@ -1256,7 +1274,21 @@
       "Vulnerability-8"
     ],
     "Incident_Fact-7": [
-      "Vulnerability-9"
+      "Vulnerability-9",
+      "Timeline_Fact-3",
+      "Timeline_Fact-1"
+    ],
+    "Incident_Fact-24": [
+      "Timeline_Fact-5"
+    ],
+    "Incident_Fact-13": [
+      "Timeline_Fact-4"
+    ],
+    "Incident_Fact-18": [
+      "Timeline_Fact-2"
+    ],
+    "Incident_Fact-16": [
+      "Timeline_Fact-6"
     ]
   },
   "indicates failure of": {
@@ -1405,6 +1437,376 @@
     ],
     "Capability-30": [
       "Incident_Fact-7"
+    ]
+  },
+  "causes": {
+    "Incident-1": [
+      "Investigation_Thread-10",
+      "Investigation_Thread-9",
+      "Investigation_Thread-8",
+      "Investigation_Thread-7",
+      "Investigation_Thread-5",
+      "Investigation_Thread-3",
+      "Investigation_Thread-2",
+      "Investigation_Thread-4",
+      "Investigation_Thread-1",
+      "Investigation_Thread-6",
+      "Investigation_Thread-12",
+      "Investigation_Thread-11"
+    ],
+    "Investigation_Thread-10": [
+      "Incident_Task-23",
+      "Incident_Task-19",
+      "Incident_Task-29",
+      "Incident_Task-27",
+      "Incident_Task-14",
+      "Incident_Task-24",
+      "Incident_Task-30",
+      "Incident_Task-22",
+      "Incident_Task-12",
+      "Incident_Task-21"
+    ],
+    "Investigation_Thread-9": [
+      "Incident_Task-6",
+      "Incident_Task-28"
+    ],
+    "Investigation_Thread-8": [
+      "Incident_Task-10",
+      "Incident_Task-1",
+      "Incident_Task-11",
+      "Incident_Task-7",
+      "Incident_Task-15",
+      "Incident_Task-5",
+      "Incident_Task-18"
+    ],
+    "Investigation_Thread-7": [
+      "Incident_Task-4",
+      "Incident_Task-2",
+      "Incident_Task-13"
+    ],
+    "Investigation_Thread-5": [
+      "Incident_Task-9",
+      "Incident_Task-8"
+    ],
+    "Investigation_Thread-3": [
+      "Incident_Task-25",
+      "Incident_Task-26",
+      "Incident_Task-16",
+      "Incident_Task-17"
+    ],
+    "Investigation_Thread-2": [
+      "Incident_Task-16",
+      "Incident_Task-20",
+      "Incident_Task-3"
+    ],
+    "Investigation_Thread-4": [
+      "Incident_Task-17"
+    ]
+  },
+  "is caused by": {
+    "Investigation_Thread-10": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-9": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-8": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-7": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-5": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-3": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-2": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-4": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-1": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-6": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-12": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-11": [
+      "Incident-1"
+    ],
+    "Incident_Task-23": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-19": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-29": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-27": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-14": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-24": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-30": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-22": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-12": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-21": [
+      "Investigation_Thread-10"
+    ],
+    "Incident_Task-6": [
+      "Investigation_Thread-9"
+    ],
+    "Incident_Task-28": [
+      "Investigation_Thread-9"
+    ],
+    "Incident_Task-10": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-1": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-11": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-7": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-15": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-5": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-18": [
+      "Investigation_Thread-8"
+    ],
+    "Incident_Task-4": [
+      "Investigation_Thread-7"
+    ],
+    "Incident_Task-2": [
+      "Investigation_Thread-7"
+    ],
+    "Incident_Task-13": [
+      "Investigation_Thread-7"
+    ],
+    "Incident_Task-9": [
+      "Investigation_Thread-5"
+    ],
+    "Incident_Task-8": [
+      "Investigation_Thread-5"
+    ],
+    "Incident_Task-25": [
+      "Investigation_Thread-3"
+    ],
+    "Incident_Task-26": [
+      "Investigation_Thread-3"
+    ],
+    "Incident_Task-16": [
+      "Investigation_Thread-3",
+      "Investigation_Thread-2"
+    ],
+    "Incident_Task-17": [
+      "Investigation_Thread-3",
+      "Investigation_Thread-4"
+    ],
+    "Incident_Task-20": [
+      "Investigation_Thread-2"
+    ],
+    "Incident_Task-3": [
+      "Investigation_Thread-2"
+    ]
+  },
+  "establishes": {
+    "Incident_Task-23": [
+      "Incident_Fact-30"
+    ],
+    "Incident_Task-29": [
+      "Incident_Fact-12"
+    ],
+    "Incident_Task-27": [
+      "Incident_Fact-27"
+    ],
+    "Incident_Task-14": [
+      "Incident_Fact-6"
+    ],
+    "Incident_Task-24": [
+      "Incident_Fact-4"
+    ],
+    "Incident_Task-30": [
+      "Incident_Fact-9"
+    ],
+    "Incident_Task-22": [
+      "Incident_Fact-11"
+    ],
+    "Incident_Task-12": [
+      "Incident_Fact-24",
+      "Incident_Fact-2"
+    ],
+    "Incident_Task-21": [
+      "Incident_Fact-20"
+    ],
+    "Incident_Task-6": [
+      "Incident_Fact-22"
+    ],
+    "Incident_Task-28": [
+      "Incident_Fact-29"
+    ],
+    "Incident_Task-10": [
+      "Incident_Fact-17"
+    ],
+    "Incident_Task-11": [
+      "Incident_Fact-15"
+    ],
+    "Incident_Task-7": [
+      "Incident_Fact-1"
+    ],
+    "Incident_Task-15": [
+      "Incident_Fact-10"
+    ],
+    "Incident_Task-5": [
+      "Incident_Fact-25"
+    ],
+    "Incident_Task-18": [
+      "Incident_Fact-21"
+    ],
+    "Incident_Task-2": [
+      "Incident_Fact-23"
+    ],
+    "Incident_Task-13": [
+      "Incident_Fact-8"
+    ],
+    "Incident_Task-9": [
+      "Incident_Fact-3",
+      "Incident_Fact-5"
+    ],
+    "Incident_Task-25": [
+      "Incident_Fact-13"
+    ],
+    "Incident_Task-26": [
+      "Incident_Fact-26"
+    ],
+    "Incident_Task-16": [
+      "Incident_Fact-7",
+      "Incident_Fact-16"
+    ],
+    "Incident_Task-17": [
+      "Incident_Fact-18",
+      "Incident_Fact-14"
+    ],
+    "Incident_Task-20": [
+      "Incident_Fact-19"
+    ],
+    "Incident_Task-3": [
+      "Incident_Fact-28"
+    ]
+  },
+  "is established by": {
+    "Incident_Fact-30": [
+      "Incident_Task-23"
+    ],
+    "Incident_Fact-12": [
+      "Incident_Task-29"
+    ],
+    "Incident_Fact-27": [
+      "Incident_Task-27"
+    ],
+    "Incident_Fact-6": [
+      "Incident_Task-14"
+    ],
+    "Incident_Fact-4": [
+      "Incident_Task-24"
+    ],
+    "Incident_Fact-9": [
+      "Incident_Task-30"
+    ],
+    "Incident_Fact-11": [
+      "Incident_Task-22"
+    ],
+    "Incident_Fact-24": [
+      "Incident_Task-12"
+    ],
+    "Incident_Fact-2": [
+      "Incident_Task-12"
+    ],
+    "Incident_Fact-20": [
+      "Incident_Task-21"
+    ],
+    "Incident_Fact-22": [
+      "Incident_Task-6"
+    ],
+    "Incident_Fact-29": [
+      "Incident_Task-28"
+    ],
+    "Incident_Fact-17": [
+      "Incident_Task-10"
+    ],
+    "Incident_Fact-15": [
+      "Incident_Task-11"
+    ],
+    "Incident_Fact-1": [
+      "Incident_Task-7"
+    ],
+    "Incident_Fact-10": [
+      "Incident_Task-15"
+    ],
+    "Incident_Fact-25": [
+      "Incident_Task-5"
+    ],
+    "Incident_Fact-21": [
+      "Incident_Task-18"
+    ],
+    "Incident_Fact-23": [
+      "Incident_Task-2"
+    ],
+    "Incident_Fact-8": [
+      "Incident_Task-13"
+    ],
+    "Incident_Fact-3": [
+      "Incident_Task-9"
+    ],
+    "Incident_Fact-5": [
+      "Incident_Task-9"
+    ],
+    "Incident_Fact-13": [
+      "Incident_Task-25"
+    ],
+    "Incident_Fact-26": [
+      "Incident_Task-26"
+    ],
+    "Incident_Fact-7": [
+      "Incident_Task-16"
+    ],
+    "Incident_Fact-18": [
+      "Incident_Task-17"
+    ],
+    "Incident_Fact-16": [
+      "Incident_Task-16"
+    ],
+    "Incident_Fact-19": [
+      "Incident_Task-20"
+    ],
+    "Incident_Fact-28": [
+      "Incident_Task-3"
+    ],
+    "Incident_Fact-14": [
+      "Incident_Task-17"
     ]
   }
 }

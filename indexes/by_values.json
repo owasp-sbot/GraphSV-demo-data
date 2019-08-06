@@ -755,6 +755,12 @@
       "Summary"
     ]
   ],
+  "No, this application has been built in-house.": [
+    [
+      "Incident_Fact-24",
+      "Summary"
+    ]
+  ],
   "There is no single accountable lead for technical support and question triage in the team in the event of a security incident": [
     [
       "Incident_Fact-12",
@@ -767,9 +773,33 @@
       "Summary"
     ]
   ],
+  "There are multiple detecitons for adware, malware, process execution and evasion techniques": [
+    [
+      "Incident_Fact-28",
+      "Summary"
+    ]
+  ],
+  "There is no full time Data Protection Officer; this is outsourced to Smithers & Waylon LLP": [
+    [
+      "Incident_Fact-29",
+      "Summary"
+    ]
+  ],
   "There are no activity logs available for the application": [
     [
       "Incident_Fact-4",
+      "Summary"
+    ]
+  ],
+  "2019.07.31 at 16:59": [
+    [
+      "Incident_Fact-13",
+      "Summary"
+    ]
+  ],
+  "No; no third parties have been involved in development or admin of this system": [
+    [
+      "Incident_Fact-25",
       "Summary"
     ]
   ],
@@ -779,9 +809,39 @@
       "Summary"
     ]
   ],
+  "2FA has not been set up by the owner of the digi-inc.com email domain": [
+    [
+      "Incident_Fact-14",
+      "Summary"
+    ]
+  ],
   "Password re-sets for Sunways need to be done manually, one by one, by an admin user": [
     [
       "Incident_Fact-3",
+      "Summary"
+    ]
+  ],
+  "ALee has a Sunways login followed by a password change shortly after the successful unrecognised login to his Digicorp address": [
+    [
+      "Incident_Fact-18",
+      "Summary"
+    ]
+  ],
+  "No": [
+    [
+      "Incident_Fact-22",
+      "Summary"
+    ]
+  ],
+  "No, there is an off-grid email domain that is used exclusively to gain access to this system.": [
+    [
+      "Incident_Fact-23",
+      "Summary"
+    ]
+  ],
+  "ALee stores credentials for multiple systems in the draft folder": [
+    [
+      "Incident_Fact-19",
       "Summary"
     ]
   ],
@@ -791,9 +851,51 @@
       "Summary"
     ]
   ],
+  "2FA is enforced for all users except ALee.": [
+    [
+      "Incident_Fact-15",
+      "Summary"
+    ]
+  ],
   "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton": [
     [
       "Incident_Fact-1",
+      "Summary"
+    ]
+  ],
+  "2FA was enforced for all users except ALee, who was not enrolled.": [
+    [
+      "Incident_Fact-16",
+      "Summary"
+    ]
+  ],
+  "Compromise of availability or integrity can cost upwards of $1M a day, minimum": [
+    [
+      "Incident_Fact-20",
+      "Summary"
+    ]
+  ],
+  "Current investigation is focused: account compromise of legitimate user ; malware ; malicious employee": [
+    [
+      "Incident_Fact-21",
+      "Summary"
+    ]
+  ],
+  "6 users have access. Peter Smith ; Alan Lee ; Bruno Lyon ; Alan Champion ; Peter Smith ; Norman Ligos.": [
+    [
+      "Incident_Fact-17",
+      "Summary"
+    ]
+  ],
+  "This is a new trading application for processing high volume, automated transactions": [
+    [
+      "Incident_Fact-30",
+      "Summary"
+    ]
+  ],
+  "Norman Ligos discovered the incident": [
+    [
+      "Incident_Fact-26",
       "Summary"
     ]
   ],
@@ -818,6 +920,12 @@
   "User access logs could not be accessed for 5 hours": [
     [
       "Incident_Fact-6",
+      "Summary"
+    ]
+  ],
+  "Peter Smith, who runs Special Projects": [
+    [
+      "Incident_Fact-27",
       "Summary"
     ]
   ],
@@ -875,6 +983,258 @@
       "Summary"
     ]
   ],
+  "What user activity logs are available (going back how long)?": [
+    [
+      "Incident_Task-24",
+      "Summary"
+    ]
+  ],
+  "Are there any detections for malware or hacking on the devices owned by Sunways users?": [
+    [
+      "Incident_Task-3",
+      "Summary"
+    ]
+  ],
+  "Is the system licenced from or managed by a 3rd party?": [
+    [
+      "Incident_Task-12",
+      "Summary"
+    ]
+  ],
+  "Who is the relevant contact in Legal for regulatory reporting?": [
+    [
+      "Incident_Task-28",
+      "Summary"
+    ]
+  ],
+  "Who is the technical support lead?": [
+    [
+      "Incident_Task-29",
+      "Summary"
+    ]
+  ],
+  "Is there any evidence that encryption or API keys have been compromised?": [
+    [
+      "Incident_Task-13",
+      "Summary"
+    ]
+  ],
+  "Are credentials used to access the Sunways application used for any other critical or sensitive apps?": [
+    [
+      "Incident_Task-2",
+      "Summary"
+    ]
+  ],
+  "When was the incident discovered?": [
+    [
+      "Incident_Task-25",
+      "Summary"
+    ]
+  ],
+  "Does any 3rd party have legitimate access to the system and how are their actions logged?": [
+    [
+      "Incident_Task-5",
+      "Summary"
+    ]
+  ],
+  "What access logs are available (going back how long)?": [
+    [
+      "Incident_Task-14",
+      "Summary"
+    ]
+  ],
+  "What are the possible causes of compromise that need investigation?": [
+    [
+      "Incident_Task-18",
+      "Summary"
+    ]
+  ],
+  "Has a passoword re-set been actioned for all system users?": [
+    [
+      "Incident_Task-9",
+      "Summary"
+    ]
+  ],
+  "What is the process for back ups?": [
+    [
+      "Incident_Task-22",
+      "Summary"
+    ]
+  ],
+  "What is the purpose of the application?": [
+    [
+      "Incident_Task-23",
+      "Summary"
+    ]
+  ],
+  "Has 2FA been enforced for all users?": [
+    [
+      "Incident_Task-8",
+      "Summary"
+    ]
+  ],
+  "What data does it create, store, process and / or transmit?": [
+    [
+      "Incident_Task-19",
+      "Summary"
+    ]
+  ],
+  "What alerts are available on user devices from prevention / detection technologies?": [
+    [
+      "Incident_Task-15",
+      "Summary"
+    ]
+  ],
+  "Are there any other apps that should be in scope for investigation?": [
+    [
+      "Incident_Task-4",
+      "Summary"
+    ]
+  ],
+  "What are the findings from investigation of Digicorp email access logs?": [
+    [
+      "Incident_Task-16",
+      "Summary"
+    ]
+  ],
+  "Does the applicaiton have an authentication gateway for remote users?": [
+    [
+      "Incident_Task-7",
+      "Summary"
+    ]
+  ],
+  "What does an investigation of ALee's Digicorp inbox show about possible route of compromise?": [
+    [
+      "Incident_Task-20",
+      "Summary"
+    ]
+  ],
+  "What is the finanial impact of the applicaiton being offilne?": [
+    [
+      "Incident_Task-21",
+      "Summary"
+    ]
+  ],
+  "Does any customer PII touch the system?": [
+    [
+      "Incident_Task-6",
+      "Summary"
+    ]
+  ],
+  "What are the findings from investigation of Sunways email access logs?": [
+    [
+      "Incident_Task-17",
+      "Summary"
+    ]
+  ],
+  "Who discovered the incident?": [
+    [
+      "Incident_Task-26",
+      "Summary"
+    ]
+  ],
+  "Who manages JML processes?": [
+    [
+      "Incident_Task-30",
+      "Summary"
+    ]
+  ],
+  "How many users have access to the system?": [
+    [
+      "Incident_Task-10",
+      "Summary"
+    ]
+  ],
+  "Are any credentials shared?": [
+    [
+      "Incident_Task-1",
+      "Summary"
+    ]
+  ],
+  "Is 2FA enforced?": [
+    [
+      "Incident_Task-11",
+      "Summary"
+    ]
+  ],
+  "Who is the business owner?": [
+    [
+      "Incident_Task-27",
+      "Summary"
+    ]
+  ],
+  "Understand possible threat vectors": [
+    [
+      "Investigation_Thread-8",
+      "Summary"
+    ]
+  ],
+  "Identify any data exposure": [
+    [
+      "Investigation_Thread-4",
+      "Summary"
+    ]
+  ],
+  "Limit blast radius": [
+    [
+      "Investigation_Thread-5",
+      "Summary"
+    ]
+  ],
+  "Understand regulatory impact": [
+    [
+      "Investigation_Thread-9",
+      "Summary"
+    ]
+  ],
+  "Establish root cause of compromise": [
+    [
+      "Investigation_Thread-2",
+      "Summary"
+    ]
+  ],
+  "Understand the application": [
+    [
+      "Investigation_Thread-10",
+      "Summary"
+    ]
+  ],
+  "What long term process changes are needed based on findings?": [
+    [
+      "Investigation_Thread-11",
+      "Summary"
+    ]
+  ],
+  "Establish the timeline for the incident": [
+    [
+      "Investigation_Thread-3",
+      "Summary"
+    ]
+  ],
+  "What steps need to be taken to return to normal business operations?": [
+    [
+      "Investigation_Thread-12",
+      "Summary"
+    ]
+  ],
+  "Establish if this could be connected to the recent uptick in malware detections": [
+    [
+      "Investigation_Thread-1",
+      "Summary"
+    ]
+  ],
+  "Remediate discovered issues": [
+    [
+      "Investigation_Thread-6",
+      "Summary"
+    ]
+  ],
+  "Understand blast radius": [
+    [
+      "Investigation_Thread-7",
+      "Summary"
+    ]
+  ],
   "Data Science": [
     [
       "Team-5",
@@ -902,6 +1262,42 @@
   "Software Engineering": [
     [
       "Team-1",
+      "Summary"
+    ]
+  ],
+  "2019.07.29 // 07:01 // NLigos disables 2FA for his account.": [
+    [
+      "Timeline_Fact-3",
+      "Summary"
+    ]
+  ],
+  "2019.06.12 // 04:10 // ALee account has login, immediately followed by passowrd change": [
+    [
+      "Timeline_Fact-2",
+      "Summary"
+    ]
+  ],
+  "2019.07.31 // 17:30 // Security informed by NLigos there is no 3rd party access to this application": [
+    [
+      "Timeline_Fact-5",
+      "Summary"
+    ]
+  ],
+  "2019.07.31 // 16:59 // Code deletion reported to Security by Norman Ligos": [
+    [
+      "Timeline_Fact-4",
+      "Summary"
+    ]
+  ],
+  "2019.08.01 // 01:23 // ALee advises the login at 03:24 was not him": [
+    [
+      "Timeline_Fact-6",
+      "Summary"
+    ]
+  ],
+  "2019.06.12 // 03:24 // ALee account has 7 failed logins and then a login from IP external to Digicorp": [
+    [
+      "Timeline_Fact-1",
       "Summary"
     ]
   ],
@@ -938,6 +1334,12 @@
   "XLXN2A-047": [
     [
       "Device-1",
+      "Summary"
+    ]
+  ],
+  "Suspected sabotage of Sunways application": [
+    [
+      "Incident-1",
       "Summary"
     ]
   ],

@@ -1,0 +1,5 @@
+{
+  "Summary": "2FA was enforced for all users except ALee, who was not enrolled.",
+  "Key": "Incident_Fact-16",
+  "Issue Type": "Incident Fact"
+}
