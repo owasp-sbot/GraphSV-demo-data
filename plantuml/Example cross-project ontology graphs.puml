@@ -1,0 +1,363 @@
+@startuml
+
+node Attack_Surface #FFB6C1
+node Threat_Actor #FF4500
+node Attack_Vector #FF4500
+node Exploit #FF4500
+node Control #ADD8E6
+node Vulnerability #FFB6C1
+node Impact #FF0000
+node Risk #FF0000
+node Sophistication_Level #FF4500
+node Asset_Class #ADD8E6
+node Yield_to_Attacker #FF4500
+node Cost_to_Attacker #FF4500
+node Priv_Level #FF4500
+
+Threat_Actor --> Attack_Vector : selects
+Threat_Actor --> Attack_Surface : has access to
+Attack_Surface --> Asset_Class : presents
+Asset_Class --> Vulnerability : is affected by
+Attack_Vector --> Exploit : presents \noptions for
+Vulnerability --> Impact : exploit causes
+Vulnerability --> Exploit : used by
+Exploit --> Sophistication_Level : has
+Exploit --> Cost_to_Attacker : has
+Exploit --> Priv_Level : requires
+Asset_Class <-- Attack_Vector : can be \n used on
+Exploit --> Asset_Class : deployed against
+Control -> Attack_Vector : can mitigate
+Control -> Exploit : can mitigate
+Control -> Vulnerability : can mitigate \n/ fix
+Vulnerability -> Yield_to_Attacker : exploit delivers
+Impact -> Risk : realises
+
+
+
+node Project #00b33c
+node Outcomes #00b33c
+node Key_Results #00b33c
+node Tasks #00ff55
+node Sub_Tasks #00ff55
+node Budget_Year #00b33c
+node Facts #00ff55
+node Questions #00ff55
+node Decisions #00ff55
+node Hypothesis #00ff55
+
+Project --> Budget_Year : funded in
+Project -> Outcomes : targets
+Outcomes -> Key_Results : delivered by
+Key_Results --> Tasks : delivered by
+Tasks --> Sub_Tasks : delivered by
+Tasks --> Facts : establish
+Sub_Tasks --> Facts : establish
+Key_Results -> Hypothesis : generate
+Hypothesis --> Tasks : are tested by
+Tasks --> Decisions : lead to
+Tasks --> Questions : answer / lead to
+Questions --> Facts : answer provides \nevidence of
+Facts --> Decisions : support
+
+
+
+node Project1 #00b33c
+node Outcomes1 #00b33c
+node Key_Results1 #00b33c
+node Tasks1 #00ff55
+node Sub_Tasks1 #00ff55
+node Budget_Year1 #00b33c
+node Facts1 #00ff55
+node Questions1 #00ff55
+node Decisions1 #00ff55
+node Hypothesis1 #00ff55
+
+Project1 --> Budget_Year1 : funded in
+Project1 -> Outcomes1 : targets
+Outcomes1 -> Key_Results1 : delivered by
+Key_Results1 --> Tasks1 : delivered by
+Tasks1 --> Sub_Tasks1 : delivered by
+Tasks1 --> Facts1 : establish
+Sub_Tasks1 --> Facts1 : establish
+Key_Results1 -> Hypothesis1 : generate
+Hypothesis1 --> Tasks1 : are tested by
+Tasks1 --> Decisions1 : lead to
+Tasks1 --> Questions1 : answer / lead to
+Questions1 --> Facts1 : answer provides \nevidence of
+Facts1 --> Decisions1 : support
+
+
+
+node IT_System #ffff33
+node Account #ffff80
+node Application #ffff80
+node API #ffff80
+node Device #ffff80
+node Data #ffff80
+
+IT_System --> Account : is made up of
+IT_System --> Device : is made up of
+IT_System --> Application : is made up of
+Account --> Application : has access to
+Application --> Data : stores / processes
+Account --> Device : is associated with
+Application --> API : exposes
+API --> Application : consumed by
+Device <-- Application : is installed on
+Device --> Device : has network connection to
+
+
+
+node ACME_Metals #cceeff
+node Finance #cceeff
+node Payroll #1ab2ff
+node SVP #cceeff
+node Skills #cceeff
+node Capabilities #cceeff
+node Processes #cceeff
+node Joe_Blogs #1ab2ff
+node Location #1ab2ff
+node Policy #cceeff
+
+ACME_Metals -> Finance : funds
+Finance --> Capabilities : require
+Capabilities <-- Skills : are required \nto deliver
+SVP --> Skills : require
+Joe_Blogs --> Skills : have
+Payroll -> SVP : fund
+SVP -> Location : based out of
+Payroll --> Capabilities : deliver
+Processes -> Policy : governed by
+Joe_Blogs --> SVP : own
+Finance --> Payroll : fund
+Capabilities -> Processes : have
+
+Facts -> Vulnerability : supports
+Vulnerability -> Project1 : fixed by
+Vulnerability --> Device : affects
+Device --> Joe_Blogs
+
+@enduml
+
+
+
+@startuml
+
+node ACME_Metals #cceeff
+node Finance #cceeff
+node Payroll #1ab2ff
+node SVP #cceeff
+node Skills #cceeff
+node Capabilities #cceeff
+node Processes #cceeff
+node Joe_Blogs #1ab2ff
+node Location #1ab2ff
+node Policy #cceeff
+
+ACME_Metals -> Finance : funds
+Finance --> Capabilities : require
+Capabilities <-- Skills : are required \nto deliver
+SVP --> Skills : require
+Joe_Blogs --> Skills : have
+Payroll -> SVP : fund
+SVP -> Location : based out of
+Payroll --> Capabilities : deliver
+Processes -> Policy : governed by
+Joe_Blogs --> SVP : own
+Finance --> Payroll : fund
+Capabilities -> Processes : have
+
+
+
+node Security_Event #ff9933
+node Security_Incident #ff4d4d
+node Playbook #ff4d4d
+node IR_Thread #ff9999
+node Incident_Task #ff9999
+node Incident_Fact #ff4d4d
+node Incident_Evidence #ff4d4d
+node Timeline_Fact #ff4d4d
+
+Security_Event -> Security_Incident : is escalated to
+Security_Incident -> Playbook : can use / generates
+Playbook --> IR_Thread : sets tasks for
+Security_Incident --> IR_Thread : causes
+IR_Thread --> Incident_Task : causes
+Incident_Task -> Incident_Fact : captures evidence \nthat supports
+Incident_Fact -> Timeline_Fact : captures evidence \nthat supports
+Incident_Fact --> Incident_Evidence : supported by
+Incident_Task --> Incident_Evidence : captures
+
+Joe_Blogs --> Security_Event : is reporter
+
+
+
+node IT_System #ffff33
+node Account #ffff80
+node Xero #ffff80
+node API #ffff80
+node Device #ffff80
+node Data #ffff80
+
+IT_System --> Account : is made up of
+IT_System --> Device : is made up of
+IT_System --> Xero : is made up of
+Account --> Xero : has access to
+Xero --> Data : stores / processes
+Account --> Device : is associated with
+Xero --> API : exposes
+API --> Xero : consumed by
+Device <-- Xero : is installed on
+Device --> Device : has network connection to
+
+Payroll --> Xero : uses
+
+@enduml
+
+@startuml
+
+node Project #00b33c
+node Outcomes #00b33c
+node Key_Results #00b33c
+node Tasks #00ff55
+node Sub_Tasks #00ff55
+node Budget_Year #00b33c
+node Facts #00ff55
+node Questions #00ff55
+node Decisions #00ff55
+node Hypothesis #00ff55
+
+Project --> Budget_Year : funded in
+Project -> Outcomes : targets
+Outcomes -> Key_Results : delivered by
+Key_Results --> Tasks : delivered by
+Tasks --> Sub_Tasks : delivered by
+Tasks --> Facts : establish
+Sub_Tasks --> Facts : establish
+Key_Results -> Hypothesis : generate
+Hypothesis --> Tasks : are tested by
+Tasks --> Decisions : lead to
+Tasks --> Questions : answer / lead to
+Questions --> Facts : answer provides \nevidence of
+Facts --> Decisions : support
+
+
+
+node Business_Unit #cceeff
+node Functions #cceeff
+node Teams #1ab2ff
+node Roles #cceeff
+node Skills #cceeff
+node Capabilities #cceeff
+node Processes #cceeff
+node People #1ab2ff
+node Location #1ab2ff
+node Policy #cceeff
+
+Business_Unit -> Functions : funds
+Functions --> Capabilities : require
+Capabilities <-- Skills : are required \nto deliver
+Roles --> Skills : require
+People --> Skills : have
+Teams -> Roles : fund
+Roles -> Location : based out of
+Teams --> Capabilities : deliver
+Processes -> Policy : governed by
+People --> Roles : own
+Functions --> Teams : fund
+Capabilities -> Processes : have
+
+
+
+node IT_System #ffff33
+node Account #ffff80
+node Application #ffff80
+node API #ffff80
+node Device #ffff80
+node Data #ffff80
+
+IT_System --> Account : is made up of
+IT_System --> Device : is made up of
+IT_System --> Application : is made up of
+Account --> Application : has access to
+Application --> Data : stores / processes
+Account --> Device : is associated with
+Application --> API : exposes
+API --> Application : consumed by
+Device <-- Application : is installed on
+Device --> Device : has network connection to
+
+
+
+node Partner #00b3b3
+node Service #00b3b3
+node Technology 	#D3D3D3
+node Module 	#D3D3D3
+node Configuration 	#D3D3D3
+node Subscription_Level 	#D3D3D3
+node Active_Licence 	#D3D3D3
+node Account_Representatives 	#D3D3D3
+node Roadmap_Item 	#D3D3D3
+
+Partner --> Account_Representatives : has assigned
+Partner --> Service : provides
+Partner --> Technology : provides
+Technology --> Module : has
+Module --> Active_Licence : has
+Module --> Configuration : has
+Technology --> Roadmap_Item : has
+Technology --> Subscription_Level : has
+Subscription_Level --> Active_Licence : has
+
+
+
+node Attack_Surface #FFB6C1
+node Threat_Actor #FF4500
+node Attack_Vector #FF4500
+node Exploit #FF4500
+node Control #ADD8E6
+node Vulnerability #FFB6C1
+node Impact #FF0000
+node Risk #FF0000
+node Sophistication_Level #FF4500
+node Asset_Class #ADD8E6
+node Yield_to_Attacker #FF4500
+node Cost_to_Attacker #FF4500
+node Priv_Level #FF4500
+
+Threat_Actor --> Attack_Vector : selects
+Threat_Actor --> Attack_Surface : has access to
+Attack_Surface --> Asset_Class : presents
+Asset_Class --> Vulnerability : is affected by
+Attack_Vector --> Exploit : presents \noptions for
+Vulnerability --> Impact : exploit causes
+Vulnerability --> Exploit : used by
+Exploit --> Sophistication_Level : has
+Exploit --> Cost_to_Attacker : has
+Exploit --> Priv_Level : requires
+Asset_Class <-- Attack_Vector : can be \n used on
+Exploit --> Asset_Class : deployed against
+Control -> Attack_Vector : can mitigate
+Control -> Exploit : can mitigate
+Control -> Vulnerability : can mitigate \n/ fix
+Vulnerability -> Yield_to_Attacker : exploit delivers
+Impact -> Risk : realises
+
+
+
+Projecdt --> Capabilities : requires
+Outcomes --> Business_Unit : save money for
+Tasks --> IT_System : change
+Tasks --> Service : require
+IT_System --> Vulnerability : has
+Control --> IT_System : does not cover
+Business_Unit --> Threat_Actor : is target for
+Application --> Attack_Surface : is exposed to
+Application --> Exploit : is vulnerable to
+Partner --> Attack_Surface : creates new
+Impact -> Teams : will disrupt
+Impact --> Processes : will disrupt
+Impact --> Data : has regulatory \nimplications due to
+Outcomes -> Risk : expose business to
+
+@enduml
