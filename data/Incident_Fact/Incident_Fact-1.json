@@ -1,0 +1,5 @@
+{
+  "Summary": "Several user accounts have logs that suggest failed brute force attacks. ALee has the same pattern, followed by a login they do not recognise.",
+  "Key": "Incident_Fact-1",
+  "Issue Type": "Incident Fact"
+}

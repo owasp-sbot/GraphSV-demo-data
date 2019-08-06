@@ -625,6 +625,12 @@
       "Summary"
     ]
   ],
+  "Detection Engineering": [
+    [
+      "Capability-25",
+      "Summary"
+    ]
+  ],
   "Accountable roles": [
     [
       "Capability-1",
@@ -676,6 +682,78 @@
   "Security capability testing": [
     [
       "Capability-15",
+      "Summary"
+    ]
+  ],
+  "There are no activity logs available for the application": [
+    [
+      "Incident_Fact-9",
+      "Summary"
+    ]
+  ],
+  "There is no single accountable lead for technical support and question triage in the team in the event of a security incident": [
+    [
+      "Incident_Fact-12",
+      "Summary"
+    ]
+  ],
+  "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton": [
+    [
+      "Incident_Fact-5",
+      "Summary"
+    ]
+  ],
+  "No formal security code review has been performed": [
+    [
+      "Incident_Fact-4",
+      "Summary"
+    ]
+  ],
+  "Code is only backed up locally to developer laptops": [
+    [
+      "Incident_Fact-8",
+      "Summary"
+    ]
+  ],
+  "Admin accounts for Sunways are shared across users": [
+    [
+      "Incident_Fact-3",
+      "Summary"
+    ]
+  ],
+  "There is no formal JML process and accounts are disabled, not removed": [
+    [
+      "Incident_Fact-2",
+      "Summary"
+    ]
+  ],
+  "Several user accounts have logs that suggest failed brute force attacks. ALee has the same pattern, followed by a login they do not recognise.": [
+    [
+      "Incident_Fact-1",
+      "Summary"
+    ]
+  ],
+  "Laptops used for this project only have standard AV installed": [
+    [
+      "Incident_Fact-7",
+      "Summary"
+    ]
+  ],
+  "Password re-sets for Sunways need to be done manually, one by one, by an admin user": [
+    [
+      "Incident_Fact-10",
+      "Summary"
+    ]
+  ],
+  "User access logs could not be accessed for 5 hours": [
+    [
+      "Incident_Fact-11",
+      "Summary"
+    ]
+  ],
+  "API keys are stored in plain text on user devices": [
+    [
+      "Incident_Fact-6",
       "Summary"
     ]
   ],
@@ -808,6 +886,72 @@
   "Sunways": [
     [
       "Application-1",
+      "Summary"
+    ]
+  ],
+  "If a threat actor gains access to the API key, access cannot be restricted and the key needs to be reset, which will impact any dependent services": [
+    [
+      "Vulnerability-2",
+      "Summary"
+    ]
+  ],
+  "Digicorp does not have visiblity into attacks against users that fail, so there is no early warning system of an uptick in attacks attempting to compromise user accounts or credentials": [
+    [
+      "Vulnerability-3",
+      "Summary"
+    ]
+  ],
+  "Due to loss of repudiation, if a threat actor gains access to the API key, it would not be possble to know if or what data they accessed through APIs": [
+    [
+      "Vulnerability-4",
+      "Summary"
+    ]
+  ],
+  "In the event of another incident, Security will have a 5 hour lag before they can establish (or rule out) which user account may have been compromised, or been used by a legitimate user to act maliciously": [
+    [
+      "Vulnerability-8",
+      "Summary"
+    ]
+  ],
+  "Technical vulnerabilities can be introduced through code, and remain undetected, enabling threat actors to find and exploit them, and increasing downstream costs": [
+    [
+      "Vulnerability-9",
+      "Summary"
+    ]
+  ],
+  "If an internal or external threat actor gains access to Sunways, and acts maliciously to impact confidentiality, integrity or availability of data, there are no logs to evidence what account took what actions": [
+    [
+      "Vulnerability-5",
+      "Summary"
+    ]
+  ],
+  "In the event of another incident, or a requirement for architecture change, there is no person who can make a final decision on the impact or appropriateness of the change": [
+    [
+      "Vulnerability-6",
+      "Summary"
+    ]
+  ],
+  "If code is deleted accidentally or malicously, there is no single time of 'last complete backup', or knowledge of who has the most recent code base": [
+    [
+      "Vulnerability-11",
+      "Summary"
+    ]
+  ],
+  "As the number of system users grows, a threat actor who comrpomises an account with high privielege can re-enable legitimate users and take on their identity - rather than needing to create a new user account": [
+    [
+      "Vulnerability-10",
+      "Summary"
+    ]
+  ],
+  "Custom or commodity malware can be created or adapted to bypass AV detection at a low level of threat actor sophistication": [
+    [
+      "Vulnerability-7",
+      "Summary"
+    ]
+  ],
+  "An external threat actor can launch a brute force attack to discover credentials for the application direct from the internet": [
+    [
+      "Vulnerability-1",
       "Summary"
     ]
   ],

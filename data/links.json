@@ -1848,5 +1848,455 @@
     "Security_Impact-1",
     "escalated by",
     "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-12",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-7",
+    "can arise due to exploit of",
+    "Vulnerability-8"
+  ],
+  [
+    "Vulnerability-8",
+    "expoit causes",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-6",
+    "can arise due to exploit of",
+    "Vulnerability-5"
+  ],
+  [
+    "Vulnerability-5",
+    "expoit causes",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-3",
+    "can arise due to exploit of",
+    "Vulnerability-5"
+  ],
+  [
+    "Vulnerability-5",
+    "expoit causes",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "can arise due to exploit of",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-11",
+    "expoit causes",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-4",
+    "can arise due to exploit of",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-11",
+    "expoit causes",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-11",
+    "can arise due to exploit of",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-11",
+    "expoit causes",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-4",
+    "can arise due to exploit of",
+    "Vulnerability-9"
+  ],
+  [
+    "Vulnerability-9",
+    "expoit causes",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-12",
+    "can arise due to exploit of",
+    "Vulnerability-1"
+  ],
+  [
+    "Vulnerability-1",
+    "expoit causes",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-7",
+    "can arise due to exploit of",
+    "Vulnerability-7"
+  ],
+  [
+    "Vulnerability-7",
+    "expoit causes",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-13",
+    "can arise due to exploit of",
+    "Vulnerability-4"
+  ],
+  [
+    "Vulnerability-4",
+    "expoit causes",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-3",
+    "can arise due to exploit of",
+    "Vulnerability-2"
+  ],
+  [
+    "Vulnerability-2",
+    "expoit causes",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-7",
+    "can arise due to exploit of",
+    "Vulnerability-3"
+  ],
+  [
+    "Vulnerability-3",
+    "expoit causes",
+    "Security_Impact-7"
+  ],
+  [
+    "Vulnerability-6",
+    "is supported by",
+    "Incident_Fact-12"
+  ],
+  [
+    "Incident_Fact-12",
+    "supports",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-8",
+    "is supported by",
+    "Incident_Fact-11"
+  ],
+  [
+    "Incident_Fact-11",
+    "supports",
+    "Vulnerability-8"
+  ],
+  [
+    "Vulnerability-5",
+    "is supported by",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-9",
+    "supports",
+    "Vulnerability-5"
+  ],
+  [
+    "Vulnerability-11",
+    "is supported by",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "supports",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-9",
+    "is supported by",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-4",
+    "supports",
+    "Vulnerability-9"
+  ],
+  [
+    "Vulnerability-1",
+    "is supported by",
+    "Incident_Fact-5"
+  ],
+  [
+    "Incident_Fact-5",
+    "supports",
+    "Vulnerability-1"
+  ],
+  [
+    "Vulnerability-7",
+    "is supported by",
+    "Incident_Fact-7"
+  ],
+  [
+    "Incident_Fact-7",
+    "supports",
+    "Vulnerability-7"
+  ],
+  [
+    "Vulnerability-4",
+    "is supported by",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "supports",
+    "Vulnerability-4"
+  ],
+  [
+    "Vulnerability-2",
+    "is supported by",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "supports",
+    "Vulnerability-2"
+  ],
+  [
+    "Vulnerability-3",
+    "is supported by",
+    "Incident_Fact-1"
+  ],
+  [
+    "Incident_Fact-1",
+    "supports",
+    "Vulnerability-3"
+  ],
+  [
+    "Incident_Fact-12",
+    "indicates failure of",
+    "Capability-1"
+  ],
+  [
+    "Capability-1",
+    "failure causes",
+    "Incident_Fact-12"
+  ],
+  [
+    "Incident_Fact-11",
+    "indicates failure of",
+    "Capability-17"
+  ],
+  [
+    "Capability-17",
+    "failure causes",
+    "Incident_Fact-11"
+  ],
+  [
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-21"
+  ],
+  [
+    "Capability-21",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-8",
+    "indicates failure of",
+    "Capability-6"
+  ],
+  [
+    "Capability-6",
+    "failure causes",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-5",
+    "indicates failure of",
+    "Capability-21"
+  ],
+  [
+    "Capability-21",
+    "failure causes",
+    "Incident_Fact-5"
+  ],
+  [
+    "Incident_Fact-7",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-7"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-1",
+    "indicates failure of",
+    "Capability-25"
+  ],
+  [
+    "Capability-25",
+    "failure causes",
+    "Incident_Fact-1"
+  ],
+  [
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Vulnerability-10",
+    "is supported by",
+    "Incident_Fact-2"
+  ],
+  [
+    "Incident_Fact-2",
+    "supports",
+    "Vulnerability-10"
+  ],
+  [
+    "Incident_Fact-2",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-2"
+  ],
+  [
+    "Incident_Fact-12",
+    "indicates failure of",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "failure causes",
+    "Incident_Fact-12"
+  ],
+  [
+    "Incident_Fact-11",
+    "indicates failure of",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "failure causes",
+    "Incident_Fact-11"
+  ],
+  [
+    "Incident_Fact-2",
+    "indicates failure of",
+    "Capability-11"
+  ],
+  [
+    "Capability-11",
+    "failure causes",
+    "Incident_Fact-2"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-5",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-5"
+  ],
+  [
+    "Incident_Fact-7",
+    "indicates failure of",
+    "Capability-15"
+  ],
+  [
+    "Capability-15",
+    "failure causes",
+    "Incident_Fact-7"
+  ],
+  [
+    "Incident_Fact-10",
+    "indicates failure of",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "failure causes",
+    "Incident_Fact-10"
+  ],
+  [
+    "Incident_Fact-3",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-3"
   ]
 ]

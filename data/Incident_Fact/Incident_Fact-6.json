@@ -1,0 +1,5 @@
+{
+  "Summary": "API keys are stored in plain text on user devices",
+  "Key": "Incident_Fact-6",
+  "Issue Type": "Incident Fact"
+}

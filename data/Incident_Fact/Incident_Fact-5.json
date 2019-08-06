@@ -1,0 +1,5 @@
+{
+  "Summary": "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton",
+  "Key": "Incident_Fact-5",
+  "Issue Type": "Incident Fact"
+}
