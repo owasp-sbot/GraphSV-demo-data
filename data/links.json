@@ -508,5 +508,25 @@
     "Application-1",
     "has user account",
     "Account-8"
+  ],
+  [
+    "Account-9",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-9"
+  ],
+  [
+    "Account-11",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-11"
   ]
 ]

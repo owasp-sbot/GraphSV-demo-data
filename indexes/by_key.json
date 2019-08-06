@@ -609,6 +609,9 @@
       ],
       "is user account for": [
         "Application-1"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
       ]
     },
     "data": {
@@ -674,6 +677,9 @@
       ],
       "is admin account for": [
         "Application-1"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
       ]
     },
     "data": {
@@ -733,7 +739,9 @@
       "has critical business asset": [
         "Account-4",
         "Account-1",
-        "Account-2"
+        "Account-2",
+        "Account-9",
+        "Account-11"
       ]
     },
     "data": {

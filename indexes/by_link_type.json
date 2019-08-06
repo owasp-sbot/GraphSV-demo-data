@@ -241,13 +241,21 @@
     ],
     "Application-1": [
       "Business_Asset-2"
+    ],
+    "Account-9": [
+      "Business_Asset-1"
+    ],
+    "Account-11": [
+      "Business_Asset-1"
     ]
   },
   "has critical business asset": {
     "Business_Asset-1": [
       "Account-4",
       "Account-1",
-      "Account-2"
+      "Account-2",
+      "Account-9",
+      "Account-11"
     ],
     "Business_Asset-2": [
       "Application-1"
