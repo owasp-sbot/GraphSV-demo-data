@@ -1,0 +1,5 @@
+{
+  "Summary": "In the next quarter, if a threat actor of moderate sophistication compromises an account, Security may not be able to detect potential malicious behaviour for 5 hours in line with the batch extract process for access logs that is currently available. The loss amount from impacts a threat actor can cause is <$1M if disaster recover processes are not improved.",
+  "Key": "Risk-3",
+  "Issue Type": "Risk"
+}

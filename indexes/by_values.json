@@ -1421,6 +1421,30 @@
       "Summary"
     ]
   ],
+  "If a threat actor compromises API keys, the key reset process would take around 3 hours, costing <$2M in worse case based on current API integrations": [
+    [
+      "Risk-1",
+      "Summary"
+    ]
+  ],
+  "In the next quarter, there is no point of contact who can advise on how quickly vulnerabilities can be fixed or mitigated, or whether the application will need taking down. The expected loss due to this control gap is <$1M if a similar incident occurs.": [
+    [
+      "Risk-4",
+      "Summary"
+    ]
+  ],
+  "In the next quarter, if a threat actor of moderate sophistication compromises an account, Security may not be able to detect potential malicious behaviour for 5 hours in line with the batch extract process for access logs that is currently available. The loss amount from impacts a threat actor can cause is <$1M if disaster recover processes are not improved.": [
+    [
+      "Risk-3",
+      "Summary"
+    ]
+  ],
+  "If a threat actor or employee deletes code deliberately or accidentally, there is currently no control to assure continunity to an SLA, which could lead to losses >$3M depending on when the deletion occurs.": [
+    [
+      "Risk-2",
+      "Summary"
+    ]
+  ],
   "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))": [
     [
       "Detection-3",

@@ -1,0 +1,5 @@
+{
+  "Summary": "If a threat actor compromises API keys, the key reset process would take around 3 hours, costing <$2M in worse case based on current API integrations",
+  "Key": "Risk-1",
+  "Issue Type": "Risk"
+}

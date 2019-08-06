@@ -1808,5 +1808,33 @@
     "Incident_Fact-14": [
       "Incident_Task-17"
     ]
+  },
+  "requires decision about": {
+    "Vulnerability-11": [
+      "Risk-4"
+    ],
+    "Vulnerability-7": [
+      "Risk-3"
+    ],
+    "Vulnerability-6": [
+      "Risk-2"
+    ],
+    "Vulnerability-1": [
+      "Risk-1"
+    ]
+  },
+  "decision is required due to": {
+    "Risk-4": [
+      "Vulnerability-11"
+    ],
+    "Risk-3": [
+      "Vulnerability-7"
+    ],
+    "Risk-2": [
+      "Vulnerability-6"
+    ],
+    "Risk-1": [
+      "Vulnerability-1"
+    ]
   }
 }

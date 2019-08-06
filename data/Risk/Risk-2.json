@@ -1,0 +1,5 @@
+{
+  "Summary": "If a threat actor or employee deletes code deliberately or accidentally, there is currently no control to assure continunity to an SLA, which could lead to losses >$3M depending on when the deletion occurs.",
+  "Key": "Risk-2",
+  "Issue Type": "Risk"
+}

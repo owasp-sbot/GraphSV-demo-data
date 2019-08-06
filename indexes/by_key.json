@@ -3405,6 +3405,9 @@
       ],
       "is supported by": [
         "Incident_Fact-11"
+      ],
+      "requires decision about": [
+        "Risk-2"
       ]
     },
     "data": {
@@ -3422,6 +3425,9 @@
       ],
       "is supported by": [
         "Incident_Fact-12"
+      ],
+      "requires decision about": [
+        "Risk-4"
       ]
     },
     "data": {
@@ -3456,6 +3462,9 @@
       ],
       "is supported by": [
         "Incident_Fact-6"
+      ],
+      "requires decision about": [
+        "Risk-3"
       ]
     },
     "data": {
@@ -3473,6 +3482,9 @@
       ],
       "is supported by": [
         "Incident_Fact-8"
+      ],
+      "requires decision about": [
+        "Risk-1"
       ]
     },
     "data": {
@@ -3680,6 +3692,58 @@
       "Summary": "alan.champion@digicorp.com",
       "Key": "Account-1",
       "Issue Type": "Account"
+    }
+  },
+  "Risk-1": {
+    "path": "Risk/Risk-1.json",
+    "links": {
+      "decision is required due to": [
+        "Vulnerability-1"
+      ]
+    },
+    "data": {
+      "Summary": "If a threat actor compromises API keys, the key reset process would take around 3 hours, costing <$2M in worse case based on current API integrations",
+      "Key": "Risk-1",
+      "Issue Type": "Risk"
+    }
+  },
+  "Risk-4": {
+    "path": "Risk/Risk-4.json",
+    "links": {
+      "decision is required due to": [
+        "Vulnerability-11"
+      ]
+    },
+    "data": {
+      "Summary": "In the next quarter, there is no point of contact who can advise on how quickly vulnerabilities can be fixed or mitigated, or whether the application will need taking down. The expected loss due to this control gap is <$1M if a similar incident occurs.",
+      "Key": "Risk-4",
+      "Issue Type": "Risk"
+    }
+  },
+  "Risk-3": {
+    "path": "Risk/Risk-3.json",
+    "links": {
+      "decision is required due to": [
+        "Vulnerability-7"
+      ]
+    },
+    "data": {
+      "Summary": "In the next quarter, if a threat actor of moderate sophistication compromises an account, Security may not be able to detect potential malicious behaviour for 5 hours in line with the batch extract process for access logs that is currently available. The loss amount from impacts a threat actor can cause is <$1M if disaster recover processes are not improved.",
+      "Key": "Risk-3",
+      "Issue Type": "Risk"
+    }
+  },
+  "Risk-2": {
+    "path": "Risk/Risk-2.json",
+    "links": {
+      "decision is required due to": [
+        "Vulnerability-6"
+      ]
+    },
+    "data": {
+      "Summary": "If a threat actor or employee deletes code deliberately or accidentally, there is currently no control to assure continunity to an SLA, which could lead to losses >$3M depending on when the deletion occurs.",
+      "Key": "Risk-2",
+      "Issue Type": "Risk"
     }
   },
   "Detection-3": {

@@ -4348,5 +4348,85 @@
     "Timeline_Fact-6",
     "is supported by",
     "Incident_Fact-16"
+  ],
+  [
+    "Vulnerability-11",
+    "requires decision about",
+    "Risk-4"
+  ],
+  [
+    "Risk-4",
+    "decision is required due to",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-7",
+    "requires decision about",
+    "Risk-3"
+  ],
+  [
+    "Risk-3",
+    "decision is required due to",
+    "Vulnerability-7"
+  ],
+  [
+    "Vulnerability-6",
+    "requires decision about",
+    "Risk-2"
+  ],
+  [
+    "Risk-2",
+    "decision is required due to",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-1",
+    "requires decision about",
+    "Risk-1"
+  ],
+  [
+    "Risk-1",
+    "decision is required due to",
+    "Vulnerability-1"
+  ],
+  [
+    "Risk-4",
+    "owned by",
+    "Role-2"
+  ],
+  [
+    "Role-2",
+    "owns",
+    "Risk-4"
+  ],
+  [
+    "Risk-3",
+    "owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Risk-3"
+  ],
+  [
+    "Risk-2",
+    "owned by",
+    "Role-4"
+  ],
+  [
+    "Role-4",
+    "owns",
+    "Risk-2"
+  ],
+  [
+    "Risk-1",
+    "owned by",
+    "Role-5"
+  ],
+  [
+    "Role-5",
+    "owns",
+    "Risk-1"
   ]
 ]

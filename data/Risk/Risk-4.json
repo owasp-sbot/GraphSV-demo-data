@@ -1,0 +1,5 @@
+{
+  "Summary": "In the next quarter, there is no point of contact who can advise on how quickly vulnerabilities can be fixed or mitigated, or whether the application will need taking down. The expected loss due to this control gap is <$1M if a similar incident occurs.",
+  "Key": "Risk-4",
+  "Issue Type": "Risk"
+}
