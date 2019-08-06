@@ -710,5 +710,131 @@
     "Person-13": [
       "Role-7"
     ]
+  },
+  "can escalate to": {
+    "Security_Impact-6": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-13": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-4": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-5": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-10": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-3": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-1": [
+      "Security_Impact-8",
+      "Security_Impact-11",
+      "Security_Impact-2"
+    ],
+    "Security_Impact-12": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-7": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-9": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ]
+  },
+  "escalated by": {
+    "Security_Impact-13": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ],
+    "Security_Impact-8": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-11": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-2": [
+      "Security_Impact-13",
+      "Security_Impact-4",
+      "Security_Impact-5",
+      "Security_Impact-10",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-4": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ],
+    "Security_Impact-5": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ],
+    "Security_Impact-10": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ],
+    "Security_Impact-3": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ],
+    "Security_Impact-1": [
+      "Security_Impact-6",
+      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-9"
+    ]
   }
 }

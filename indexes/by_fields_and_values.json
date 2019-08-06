@@ -1,5 +1,44 @@
 {
   "Summary": {
+    "Increased time to detect": [
+      "Security_Impact-7"
+    ],
+    "Delayed fulfilment of services": [
+      "Security_Impact-13"
+    ],
+    "Inability to avoid future recurrence": [
+      "Security_Impact-12"
+    ],
+    "Inability to establish root cause": [
+      "Security_Impact-6"
+    ],
+    "Hard to hire or retain employees": [
+      "Security_Impact-1"
+    ],
+    "Disruption to teams productivity": [
+      "Security_Impact-3"
+    ],
+    "Material increase in unforecast costs": [
+      "Security_Impact-2"
+    ],
+    "Loss of competitiveness": [
+      "Security_Impact-5"
+    ],
+    "Increased time to recover": [
+      "Security_Impact-9"
+    ],
+    "Material drop in profit margin": [
+      "Security_Impact-11"
+    ],
+    "Regulatory intervention": [
+      "Security_Impact-10"
+    ],
+    "Apparent or actual threat to business viability": [
+      "Security_Impact-8"
+    ],
+    "Missed targets and deadlines": [
+      "Security_Impact-4"
+    ],
     "Lead Engineer": [
       "Role-1"
     ],

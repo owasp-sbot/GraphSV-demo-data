@@ -1,4 +1,256 @@
 {
+  "Security_Impact-7": {
+    "path": "Security_Impact/Security_Impact-7.json",
+    "links": {
+      "can escalate to": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Increased time to detect",
+      "Key": "Security_Impact-7",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-13": {
+    "path": "Security_Impact/Security_Impact-13.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Delayed fulfilment of services",
+      "Key": "Security_Impact-13",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-12": {
+    "path": "Security_Impact/Security_Impact-12.json",
+    "links": {
+      "can escalate to": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Inability to avoid future recurrence",
+      "Key": "Security_Impact-12",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-6": {
+    "path": "Security_Impact/Security_Impact-6.json",
+    "links": {
+      "can escalate to": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Inability to establish root cause",
+      "Key": "Security_Impact-6",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-1": {
+    "path": "Security_Impact/Security_Impact-1.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Hard to hire or retain employees",
+      "Key": "Security_Impact-1",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-3": {
+    "path": "Security_Impact/Security_Impact-3.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Disruption to teams productivity",
+      "Key": "Security_Impact-3",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-2": {
+    "path": "Security_Impact/Security_Impact-2.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Material increase in unforecast costs",
+      "Key": "Security_Impact-2",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-5": {
+    "path": "Security_Impact/Security_Impact-5.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Loss of competitiveness",
+      "Key": "Security_Impact-5",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-9": {
+    "path": "Security_Impact/Security_Impact-9.json",
+    "links": {
+      "can escalate to": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Increased time to recover",
+      "Key": "Security_Impact-9",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-11": {
+    "path": "Security_Impact/Security_Impact-11.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Material drop in profit margin",
+      "Key": "Security_Impact-11",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-10": {
+    "path": "Security_Impact/Security_Impact-10.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Regulatory intervention",
+      "Key": "Security_Impact-10",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-8": {
+    "path": "Security_Impact/Security_Impact-8.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-13",
+        "Security_Impact-4",
+        "Security_Impact-5",
+        "Security_Impact-10",
+        "Security_Impact-3",
+        "Security_Impact-1"
+      ]
+    },
+    "data": {
+      "Summary": "Apparent or actual threat to business viability",
+      "Key": "Security_Impact-8",
+      "Issue Type": "Security Impact"
+    }
+  },
+  "Security_Impact-4": {
+    "path": "Security_Impact/Security_Impact-4.json",
+    "links": {
+      "escalated by": [
+        "Security_Impact-6",
+        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-9"
+      ],
+      "can escalate to": [
+        "Security_Impact-8",
+        "Security_Impact-11",
+        "Security_Impact-2"
+      ]
+    },
+    "data": {
+      "Summary": "Missed targets and deadlines",
+      "Key": "Security_Impact-4",
+      "Issue Type": "Security Impact"
+    }
+  },
   "Role-1": {
     "path": "Role/Role-1.json",
     "links": {

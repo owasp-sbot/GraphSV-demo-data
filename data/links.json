@@ -1428,5 +1428,425 @@
     "Person-13",
     "has role assigned",
     "Role-7"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-4",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-2",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "escalated by",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "escalated by",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-9"
   ]
 ]
