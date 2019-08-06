@@ -195,6 +195,78 @@
     ],
     "Account-8": [
       "Person-5"
+    ],
+    "Capability-12": [
+      "Role-9"
+    ],
+    "Capability-20": [
+      "Role-9"
+    ],
+    "Capability-23": [
+      "Role-9"
+    ],
+    "Capability-18": [
+      "Role-9"
+    ],
+    "Capability-9": [
+      "Role-6"
+    ],
+    "Capability-8": [
+      "Role-6"
+    ],
+    "Capability-19": [
+      "Role-6"
+    ],
+    "Capability-5": [
+      "Role-6"
+    ],
+    "Capability-1": [
+      "Role-6"
+    ],
+    "Capability-2": [
+      "Role-6"
+    ],
+    "Capability-24": [
+      "Role-6"
+    ],
+    "Capability-4": [
+      "Role-6"
+    ],
+    "Capability-11": [
+      "Role-6"
+    ],
+    "Capability-14": [
+      "Role-6"
+    ],
+    "Capability-13": [
+      "Role-6"
+    ],
+    "Capability-3": [
+      "Role-6"
+    ],
+    "Capability-10": [
+      "Role-8"
+    ],
+    "Capability-21": [
+      "Role-8"
+    ],
+    "Capability-22": [
+      "Role-8"
+    ],
+    "Capability-16": [
+      "Role-8"
+    ],
+    "Capability-17": [
+      "Role-7"
+    ],
+    "Capability-7": [
+      "Role-7"
+    ],
+    "Capability-15": [
+      "Role-7"
+    ],
+    "Capability-6": [
+      "Role-7"
     ]
   },
   "owns": {
@@ -227,6 +299,38 @@
       "Device-5",
       "Account-6",
       "Account-8"
+    ],
+    "Role-9": [
+      "Capability-12",
+      "Capability-20",
+      "Capability-23",
+      "Capability-18"
+    ],
+    "Role-6": [
+      "Capability-9",
+      "Capability-8",
+      "Capability-19",
+      "Capability-5",
+      "Capability-1",
+      "Capability-2",
+      "Capability-24",
+      "Capability-4",
+      "Capability-11",
+      "Capability-14",
+      "Capability-13",
+      "Capability-3"
+    ],
+    "Role-8": [
+      "Capability-10",
+      "Capability-21",
+      "Capability-22",
+      "Capability-16"
+    ],
+    "Role-7": [
+      "Capability-17",
+      "Capability-7",
+      "Capability-15",
+      "Capability-6"
     ]
   },
   "represents critical business asset": {
@@ -291,6 +395,320 @@
   "has admin account": {
     "Application-1": [
       "Account-11"
+    ]
+  },
+  "has detection": {
+    "Device-1": [
+      "Detection-12",
+      "Detection-9"
+    ],
+    "Device-2": [
+      "Detection-10",
+      "Detection-6"
+    ],
+    "Device-3": [
+      "Detection-17",
+      "Detection-5",
+      "Detection-16",
+      "Detection-1",
+      "Detection-11"
+    ],
+    "Device-4": [
+      "Detection-14",
+      "Detection-3",
+      "Detection-4",
+      "Detection-2",
+      "Detection-18"
+    ],
+    "Device-6": [
+      "Detection-8",
+      "Detection-15",
+      "Detection-7"
+    ],
+    "Device-5": [
+      "Detection-13",
+      "Detection-19"
+    ]
+  },
+  "is detection of": {
+    "Detection-12": [
+      "Device-1"
+    ],
+    "Detection-10": [
+      "Device-2"
+    ],
+    "Detection-17": [
+      "Device-3"
+    ],
+    "Detection-14": [
+      "Device-4"
+    ],
+    "Detection-8": [
+      "Device-6"
+    ],
+    "Detection-13": [
+      "Device-5"
+    ],
+    "Detection-9": [
+      "Device-1"
+    ],
+    "Detection-6": [
+      "Device-2"
+    ],
+    "Detection-5": [
+      "Device-3"
+    ],
+    "Detection-3": [
+      "Device-4"
+    ],
+    "Detection-15": [
+      "Device-6"
+    ],
+    "Detection-19": [
+      "Device-5"
+    ],
+    "Detection-16": [
+      "Device-3"
+    ],
+    "Detection-4": [
+      "Device-4"
+    ],
+    "Detection-7": [
+      "Device-6"
+    ],
+    "Detection-1": [
+      "Device-3"
+    ],
+    "Detection-2": [
+      "Device-4"
+    ],
+    "Detection-11": [
+      "Device-3"
+    ],
+    "Detection-18": [
+      "Device-4"
+    ]
+  },
+  "detected by": {
+    "Detection-12": [
+      "Application-2"
+    ],
+    "Detection-10": [
+      "Application-2"
+    ],
+    "Detection-17": [
+      "Application-2"
+    ],
+    "Detection-14": [
+      "Application-2"
+    ],
+    "Detection-8": [
+      "Application-2"
+    ],
+    "Detection-13": [
+      "Application-2"
+    ],
+    "Detection-9": [
+      "Application-2"
+    ],
+    "Detection-6": [
+      "Application-2"
+    ],
+    "Detection-5": [
+      "Application-2"
+    ],
+    "Detection-3": [
+      "Application-2"
+    ],
+    "Detection-15": [
+      "Application-2"
+    ],
+    "Detection-19": [
+      "Application-2"
+    ],
+    "Detection-16": [
+      "Application-2"
+    ],
+    "Detection-4": [
+      "Application-2"
+    ],
+    "Detection-7": [
+      "Application-2"
+    ],
+    "Detection-1": [
+      "Application-2"
+    ],
+    "Detection-2": [
+      "Application-2"
+    ],
+    "Detection-11": [
+      "Application-2"
+    ],
+    "Detection-18": [
+      "Application-2"
+    ]
+  },
+  "detected": {
+    "Application-2": [
+      "Detection-12",
+      "Detection-10",
+      "Detection-17",
+      "Detection-14",
+      "Detection-8",
+      "Detection-13",
+      "Detection-9",
+      "Detection-6",
+      "Detection-5",
+      "Detection-3",
+      "Detection-15",
+      "Detection-19",
+      "Detection-16",
+      "Detection-4",
+      "Detection-7",
+      "Detection-1",
+      "Detection-2",
+      "Detection-11",
+      "Detection-18"
+    ]
+  },
+  "delivers": {
+    "Pillar-1": [
+      "Capability-12",
+      "Capability-20",
+      "Capability-23",
+      "Capability-18"
+    ],
+    "Pillar-5": [
+      "Capability-9",
+      "Capability-8",
+      "Capability-19",
+      "Capability-5"
+    ],
+    "Pillar-4": [
+      "Capability-1",
+      "Capability-2",
+      "Capability-24",
+      "Capability-4"
+    ],
+    "Pillar-3": [
+      "Capability-11",
+      "Capability-14",
+      "Capability-13",
+      "Capability-3"
+    ],
+    "Pillar-2": [
+      "Capability-10",
+      "Capability-21",
+      "Capability-22",
+      "Capability-16"
+    ],
+    "Pillar-6": [
+      "Capability-17",
+      "Capability-7",
+      "Capability-15",
+      "Capability-6"
+    ]
+  },
+  "is delivered by": {
+    "Capability-12": [
+      "Pillar-1"
+    ],
+    "Capability-20": [
+      "Pillar-1"
+    ],
+    "Capability-23": [
+      "Pillar-1"
+    ],
+    "Capability-18": [
+      "Pillar-1"
+    ],
+    "Capability-9": [
+      "Pillar-5"
+    ],
+    "Capability-8": [
+      "Pillar-5"
+    ],
+    "Capability-19": [
+      "Pillar-5"
+    ],
+    "Capability-5": [
+      "Pillar-5"
+    ],
+    "Capability-1": [
+      "Pillar-4"
+    ],
+    "Capability-2": [
+      "Pillar-4"
+    ],
+    "Capability-24": [
+      "Pillar-4"
+    ],
+    "Capability-4": [
+      "Pillar-4"
+    ],
+    "Capability-11": [
+      "Pillar-3"
+    ],
+    "Capability-14": [
+      "Pillar-3"
+    ],
+    "Capability-13": [
+      "Pillar-3"
+    ],
+    "Capability-3": [
+      "Pillar-3"
+    ],
+    "Capability-10": [
+      "Pillar-2"
+    ],
+    "Capability-21": [
+      "Pillar-2"
+    ],
+    "Capability-22": [
+      "Pillar-2"
+    ],
+    "Capability-16": [
+      "Pillar-2"
+    ],
+    "Capability-17": [
+      "Pillar-6"
+    ],
+    "Capability-7": [
+      "Pillar-6"
+    ],
+    "Capability-15": [
+      "Pillar-6"
+    ],
+    "Capability-6": [
+      "Pillar-6"
+    ]
+  },
+  "role is assigned to": {
+    "Role-9": [
+      "Person-16"
+    ],
+    "Role-6": [
+      "Person-15"
+    ],
+    "Role-8": [
+      "Person-14"
+    ],
+    "Role-7": [
+      "Person-13"
+    ]
+  },
+  "has role assigned": {
+    "Person-16": [
+      "Role-9"
+    ],
+    "Person-15": [
+      "Role-6"
+    ],
+    "Person-14": [
+      "Role-8"
+    ],
+    "Person-13": [
+      "Role-7"
     ]
   }
 }

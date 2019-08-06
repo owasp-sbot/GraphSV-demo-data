@@ -3,11 +3,23 @@
     "Lead Engineer": [
       "Role-1"
     ],
+    "Head of Security Operations": [
+      "Role-7"
+    ],
+    "Head of Risk": [
+      "Role-6"
+    ],
+    "CISO": [
+      "Role-9"
+    ],
     "CEO": [
       "Role-5"
     ],
     "Platform Specialist": [
       "Role-4"
+    ],
+    "Head of Application Security": [
+      "Role-8"
     ],
     "Engineer": [
       "Role-3"
@@ -15,14 +27,23 @@
     "SVP - Special Projects": [
       "Role-2"
     ],
+    "Simon Dickens": [
+      "Person-15"
+    ],
     "test": [
       "Person-7"
     ],
     "Sophia Berlin": [
       "Person-6"
     ],
+    "Paul Holmes": [
+      "Person-14"
+    ],
     "Peter Smith": [
       "Person-1"
+    ],
+    "Ivan Watson": [
+      "Person-13"
     ],
     "user 24": [
       "Person-12"
@@ -48,8 +69,83 @@
     "Alan Champion": [
       "Person-4"
     ],
+    "Emma Victory": [
+      "Person-16"
+    ],
     "user": [
       "Person-8"
+    ],
+    "Asset intelligence": [
+      "Capability-8"
+    ],
+    "Data controls": [
+      "Capability-16"
+    ],
+    "Budget management": [
+      "Capability-20"
+    ],
+    "Support and enforcement": [
+      "Capability-4"
+    ],
+    "Impact and risk intelligence": [
+      "Capability-5"
+    ],
+    "Secure architecture": [
+      "Capability-21"
+    ],
+    "Incident response and threat management": [
+      "Capability-17"
+    ],
+    "Business context intelligence": [
+      "Capability-9"
+    ],
+    "Targeted training and comms": [
+      "Capability-2"
+    ],
+    "Identity and access management": [
+      "Capability-10"
+    ],
+    "Policy and standards": [
+      "Capability-11"
+    ],
+    "Audit response": [
+      "Capability-3"
+    ],
+    "Security EQ and IQ measurement": [
+      "Capability-24"
+    ],
+    "Strategic planning": [
+      "Capability-12"
+    ],
+    "Timely assurance and remediation": [
+      "Capability-13"
+    ],
+    "Accountable roles": [
+      "Capability-1"
+    ],
+    "Compliance readiness": [
+      "Capability-14"
+    ],
+    "Project management": [
+      "Capability-18"
+    ],
+    "Continuity and disaster recovery": [
+      "Capability-6"
+    ],
+    "Secure engineering": [
+      "Capability-22"
+    ],
+    "People management": [
+      "Capability-23"
+    ],
+    "Detection engineering": [
+      "Capability-7"
+    ],
+    "Threat and vulnerability intelligence": [
+      "Capability-19"
+    ],
+    "Security capability testing": [
+      "Capability-15"
     ],
     "Executive function": [
       "Function-1"
@@ -59,6 +155,24 @@
     ],
     "IT": [
       "Function-2"
+    ],
+    "Program Management": [
+      "Pillar-1"
+    ],
+    "Detect, Respond, Recover": [
+      "Pillar-6"
+    ],
+    "Situational understanding": [
+      "Pillar-5"
+    ],
+    "Culture of Operations": [
+      "Pillar-4"
+    ],
+    "Govern and Assure": [
+      "Pillar-3"
+    ],
+    "Prevent and Protect": [
+      "Pillar-2"
     ],
     "Software Engineering": [
       "Team-5"

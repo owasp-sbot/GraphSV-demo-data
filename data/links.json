@@ -908,5 +908,525 @@
     "Application-2",
     "detected",
     "Detection-18"
+  ],
+  [
+    "Pillar-1",
+    "delivers",
+    "Capability-12"
+  ],
+  [
+    "Capability-12",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Pillar-1",
+    "delivers",
+    "Capability-20"
+  ],
+  [
+    "Capability-20",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Pillar-1",
+    "delivers",
+    "Capability-23"
+  ],
+  [
+    "Capability-23",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Pillar-1",
+    "delivers",
+    "Capability-18"
+  ],
+  [
+    "Capability-18",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-9"
+  ],
+  [
+    "Capability-9",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-19"
+  ],
+  [
+    "Capability-19",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-5"
+  ],
+  [
+    "Capability-5",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-1"
+  ],
+  [
+    "Capability-1",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-2"
+  ],
+  [
+    "Capability-2",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-24"
+  ],
+  [
+    "Capability-24",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-4"
+  ],
+  [
+    "Capability-4",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-11"
+  ],
+  [
+    "Capability-11",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-14"
+  ],
+  [
+    "Capability-14",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-13"
+  ],
+  [
+    "Capability-13",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-3"
+  ],
+  [
+    "Capability-3",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-21"
+  ],
+  [
+    "Capability-21",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-16"
+  ],
+  [
+    "Capability-16",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-17"
+  ],
+  [
+    "Capability-17",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-7"
+  ],
+  [
+    "Capability-7",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-15"
+  ],
+  [
+    "Capability-15",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-6"
+  ],
+  [
+    "Capability-6",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-12",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-12"
+  ],
+  [
+    "Capability-20",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-20"
+  ],
+  [
+    "Capability-23",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-23"
+  ],
+  [
+    "Capability-18",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-18"
+  ],
+  [
+    "Capability-9",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-9"
+  ],
+  [
+    "Capability-8",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-8"
+  ],
+  [
+    "Capability-19",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-19"
+  ],
+  [
+    "Capability-5",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-5"
+  ],
+  [
+    "Capability-1",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-1"
+  ],
+  [
+    "Capability-2",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-2"
+  ],
+  [
+    "Capability-24",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-24"
+  ],
+  [
+    "Capability-4",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-4"
+  ],
+  [
+    "Capability-11",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-11"
+  ],
+  [
+    "Capability-14",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-14"
+  ],
+  [
+    "Capability-13",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-13"
+  ],
+  [
+    "Capability-3",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-3"
+  ],
+  [
+    "Capability-10",
+    "is owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-10"
+  ],
+  [
+    "Capability-21",
+    "is owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-21"
+  ],
+  [
+    "Capability-22",
+    "is owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-22"
+  ],
+  [
+    "Capability-16",
+    "is owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-16"
+  ],
+  [
+    "Capability-17",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-17"
+  ],
+  [
+    "Capability-7",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-7"
+  ],
+  [
+    "Capability-15",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-15"
+  ],
+  [
+    "Capability-6",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-6"
+  ],
+  [
+    "Role-9",
+    "role is assigned to",
+    "Person-16"
+  ],
+  [
+    "Person-16",
+    "has role assigned",
+    "Role-9"
+  ],
+  [
+    "Role-6",
+    "role is assigned to",
+    "Person-15"
+  ],
+  [
+    "Person-15",
+    "has role assigned",
+    "Role-6"
+  ],
+  [
+    "Role-8",
+    "role is assigned to",
+    "Person-14"
+  ],
+  [
+    "Person-14",
+    "has role assigned",
+    "Role-8"
+  ],
+  [
+    "Role-7",
+    "role is assigned to",
+    "Person-13"
+  ],
+  [
+    "Person-13",
+    "has role assigned",
+    "Role-7"
   ]
 ]

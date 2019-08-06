@@ -21,6 +21,71 @@
       "Issue Type": "Role"
     }
   },
+  "Role-7": {
+    "path": "Role/Role-7.json",
+    "links": {
+      "owns": [
+        "Capability-17",
+        "Capability-7",
+        "Capability-15",
+        "Capability-6"
+      ],
+      "role is assigned to": [
+        "Person-13"
+      ]
+    },
+    "data": {
+      "Summary": "Head of Security Operations",
+      "Key": "Role-7",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-6": {
+    "path": "Role/Role-6.json",
+    "links": {
+      "owns": [
+        "Capability-9",
+        "Capability-8",
+        "Capability-19",
+        "Capability-5",
+        "Capability-1",
+        "Capability-2",
+        "Capability-24",
+        "Capability-4",
+        "Capability-11",
+        "Capability-14",
+        "Capability-13",
+        "Capability-3"
+      ],
+      "role is assigned to": [
+        "Person-15"
+      ]
+    },
+    "data": {
+      "Summary": "Head of Risk",
+      "Key": "Role-6",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-9": {
+    "path": "Role/Role-9.json",
+    "links": {
+      "owns": [
+        "Capability-12",
+        "Capability-20",
+        "Capability-23",
+        "Capability-18"
+      ],
+      "role is assigned to": [
+        "Person-16"
+      ]
+    },
+    "data": {
+      "Summary": "CISO",
+      "Key": "Role-9",
+      "Issue Type": "Role"
+    }
+  },
   "Role-5": {
     "path": "Role/Role-5.json",
     "links": {
@@ -56,6 +121,25 @@
     "data": {
       "Summary": "Platform Specialist",
       "Key": "Role-4",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-8": {
+    "path": "Role/Role-8.json",
+    "links": {
+      "owns": [
+        "Capability-10",
+        "Capability-21",
+        "Capability-22",
+        "Capability-16"
+      ],
+      "role is assigned to": [
+        "Person-14"
+      ]
+    },
+    "data": {
+      "Summary": "Head of Application Security",
+      "Key": "Role-8",
       "Issue Type": "Role"
     }
   },
@@ -103,6 +187,19 @@
       "Issue Type": "Role"
     }
   },
+  "Person-15": {
+    "path": "Person/Person-15.json",
+    "links": {
+      "has role assigned": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Simon Dickens",
+      "Key": "Person-15",
+      "Issue Type": "Person"
+    }
+  },
   "Person-7": {
     "path": "Person/Person-7.json",
     "links": {},
@@ -138,6 +235,19 @@
       "Issue Type": "Person"
     }
   },
+  "Person-14": {
+    "path": "Person/Person-14.json",
+    "links": {
+      "has role assigned": [
+        "Role-8"
+      ]
+    },
+    "data": {
+      "Summary": "Paul Holmes",
+      "Key": "Person-14",
+      "Issue Type": "Person"
+    }
+  },
   "Person-1": {
     "path": "Person/Person-1.json",
     "links": {
@@ -160,6 +270,19 @@
       "Email": "peter.smith@digicorp.com",
       "Summary": "Peter Smith",
       "Key": "Person-1",
+      "Issue Type": "Person"
+    }
+  },
+  "Person-13": {
+    "path": "Person/Person-13.json",
+    "links": {
+      "has role assigned": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Ivan Watson",
+      "Key": "Person-13",
       "Issue Type": "Person"
     }
   },
@@ -303,6 +426,19 @@
       "Issue Type": "Person"
     }
   },
+  "Person-16": {
+    "path": "Person/Person-16.json",
+    "links": {
+      "has role assigned": [
+        "Role-9"
+      ]
+    },
+    "data": {
+      "Summary": "Emma Victory",
+      "Key": "Person-16",
+      "Issue Type": "Person"
+    }
+  },
   "Person-8": {
     "path": "Person/Person-8.json",
     "links": {},
@@ -311,6 +447,390 @@
       "Summary": "user",
       "Key": "Person-8",
       "Issue Type": "Person"
+    }
+  },
+  "Capability-8": {
+    "path": "Capability/Capability-8.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-5"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Asset intelligence",
+      "Key": "Capability-8",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-16": {
+    "path": "Capability/Capability-16.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-2"
+      ],
+      "is owned by": [
+        "Role-8"
+      ]
+    },
+    "data": {
+      "Summary": "Data controls",
+      "Key": "Capability-16",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-20": {
+    "path": "Capability/Capability-20.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-1"
+      ],
+      "is owned by": [
+        "Role-9"
+      ]
+    },
+    "data": {
+      "Summary": "Budget management",
+      "Key": "Capability-20",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-4": {
+    "path": "Capability/Capability-4.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-4"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Support and enforcement",
+      "Key": "Capability-4",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-5": {
+    "path": "Capability/Capability-5.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-5"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Impact and risk intelligence",
+      "Key": "Capability-5",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-21": {
+    "path": "Capability/Capability-21.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-2"
+      ],
+      "is owned by": [
+        "Role-8"
+      ]
+    },
+    "data": {
+      "Summary": "Secure architecture",
+      "Key": "Capability-21",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-17": {
+    "path": "Capability/Capability-17.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-6"
+      ],
+      "is owned by": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Incident response and threat management",
+      "Key": "Capability-17",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-9": {
+    "path": "Capability/Capability-9.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-5"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Business context intelligence",
+      "Key": "Capability-9",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-2": {
+    "path": "Capability/Capability-2.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-4"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Targeted training and comms",
+      "Key": "Capability-2",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-10": {
+    "path": "Capability/Capability-10.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-2"
+      ],
+      "is owned by": [
+        "Role-8"
+      ]
+    },
+    "data": {
+      "Summary": "Identity and access management",
+      "Key": "Capability-10",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-11": {
+    "path": "Capability/Capability-11.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-3"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Policy and standards",
+      "Key": "Capability-11",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-3": {
+    "path": "Capability/Capability-3.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-3"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Audit response",
+      "Key": "Capability-3",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-24": {
+    "path": "Capability/Capability-24.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-4"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Security EQ and IQ measurement",
+      "Key": "Capability-24",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-12": {
+    "path": "Capability/Capability-12.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-1"
+      ],
+      "is owned by": [
+        "Role-9"
+      ]
+    },
+    "data": {
+      "Summary": "Strategic planning",
+      "Key": "Capability-12",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-13": {
+    "path": "Capability/Capability-13.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-3"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Timely assurance and remediation",
+      "Key": "Capability-13",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-1": {
+    "path": "Capability/Capability-1.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-4"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Accountable roles",
+      "Key": "Capability-1",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-14": {
+    "path": "Capability/Capability-14.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-3"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Compliance readiness",
+      "Key": "Capability-14",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-18": {
+    "path": "Capability/Capability-18.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-1"
+      ],
+      "is owned by": [
+        "Role-9"
+      ]
+    },
+    "data": {
+      "Summary": "Project management",
+      "Key": "Capability-18",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-6": {
+    "path": "Capability/Capability-6.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-6"
+      ],
+      "is owned by": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Continuity and disaster recovery",
+      "Key": "Capability-6",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-22": {
+    "path": "Capability/Capability-22.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-2"
+      ],
+      "is owned by": [
+        "Role-8"
+      ]
+    },
+    "data": {
+      "Summary": "Secure engineering",
+      "Key": "Capability-22",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-23": {
+    "path": "Capability/Capability-23.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-1"
+      ],
+      "is owned by": [
+        "Role-9"
+      ]
+    },
+    "data": {
+      "Summary": "People management",
+      "Key": "Capability-23",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-7": {
+    "path": "Capability/Capability-7.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-6"
+      ],
+      "is owned by": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Detection engineering",
+      "Key": "Capability-7",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-19": {
+    "path": "Capability/Capability-19.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-5"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Threat and vulnerability intelligence",
+      "Key": "Capability-19",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-15": {
+    "path": "Capability/Capability-15.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-6"
+      ],
+      "is owned by": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Security capability testing",
+      "Key": "Capability-15",
+      "Issue Type": "Capability"
     }
   },
   "Function-1": {
@@ -361,6 +881,102 @@
       "Summary": "IT",
       "Key": "Function-2",
       "Issue Type": "Function"
+    }
+  },
+  "Pillar-1": {
+    "path": "Pillar/Pillar-1.json",
+    "links": {
+      "delivers": [
+        "Capability-12",
+        "Capability-20",
+        "Capability-23",
+        "Capability-18"
+      ]
+    },
+    "data": {
+      "Summary": "Program Management",
+      "Key": "Pillar-1",
+      "Issue Type": "Pillar"
+    }
+  },
+  "Pillar-6": {
+    "path": "Pillar/Pillar-6.json",
+    "links": {
+      "delivers": [
+        "Capability-17",
+        "Capability-7",
+        "Capability-15",
+        "Capability-6"
+      ]
+    },
+    "data": {
+      "Summary": "Detect, Respond, Recover",
+      "Key": "Pillar-6",
+      "Issue Type": "Pillar"
+    }
+  },
+  "Pillar-5": {
+    "path": "Pillar/Pillar-5.json",
+    "links": {
+      "delivers": [
+        "Capability-9",
+        "Capability-8",
+        "Capability-19",
+        "Capability-5"
+      ]
+    },
+    "data": {
+      "Summary": "Situational understanding",
+      "Key": "Pillar-5",
+      "Issue Type": "Pillar"
+    }
+  },
+  "Pillar-4": {
+    "path": "Pillar/Pillar-4.json",
+    "links": {
+      "delivers": [
+        "Capability-1",
+        "Capability-2",
+        "Capability-24",
+        "Capability-4"
+      ]
+    },
+    "data": {
+      "Summary": "Culture of Operations",
+      "Key": "Pillar-4",
+      "Issue Type": "Pillar"
+    }
+  },
+  "Pillar-3": {
+    "path": "Pillar/Pillar-3.json",
+    "links": {
+      "delivers": [
+        "Capability-11",
+        "Capability-14",
+        "Capability-13",
+        "Capability-3"
+      ]
+    },
+    "data": {
+      "Summary": "Govern and Assure",
+      "Key": "Pillar-3",
+      "Issue Type": "Pillar"
+    }
+  },
+  "Pillar-2": {
+    "path": "Pillar/Pillar-2.json",
+    "links": {
+      "delivers": [
+        "Capability-10",
+        "Capability-21",
+        "Capability-22",
+        "Capability-16"
+      ]
+    },
+    "data": {
+      "Summary": "Prevent and Protect",
+      "Key": "Pillar-2",
+      "Issue Type": "Pillar"
     }
   },
   "Team-5": {
@@ -449,6 +1065,10 @@
     "links": {
       "is owned by": [
         "Person-2"
+      ],
+      "has detection": [
+        "Detection-10",
+        "Detection-6"
       ]
     },
     "data": {
@@ -462,6 +1082,13 @@
     "links": {
       "is owned by": [
         "Person-3"
+      ],
+      "has detection": [
+        "Detection-17",
+        "Detection-5",
+        "Detection-16",
+        "Detection-1",
+        "Detection-11"
       ]
     },
     "data": {
@@ -475,6 +1102,13 @@
     "links": {
       "is owned by": [
         "Person-4"
+      ],
+      "has detection": [
+        "Detection-14",
+        "Detection-3",
+        "Detection-4",
+        "Detection-2",
+        "Detection-18"
       ]
     },
     "data": {
@@ -488,6 +1122,10 @@
     "links": {
       "is owned by": [
         "Person-5"
+      ],
+      "has detection": [
+        "Detection-13",
+        "Detection-19"
       ]
     },
     "data": {
@@ -501,6 +1139,11 @@
     "links": {
       "is owned by": [
         "Person-6"
+      ],
+      "has detection": [
+        "Detection-8",
+        "Detection-15",
+        "Detection-7"
       ]
     },
     "data": {
@@ -514,6 +1157,10 @@
     "links": {
       "is owned by": [
         "Person-1"
+      ],
+      "has detection": [
+        "Detection-12",
+        "Detection-9"
       ]
     },
     "data": {
@@ -539,7 +1186,29 @@
   },
   "Application-2": {
     "path": "Application/Application-2.json",
-    "links": {},
+    "links": {
+      "detected": [
+        "Detection-12",
+        "Detection-10",
+        "Detection-17",
+        "Detection-14",
+        "Detection-8",
+        "Detection-13",
+        "Detection-9",
+        "Detection-6",
+        "Detection-5",
+        "Detection-3",
+        "Detection-15",
+        "Detection-19",
+        "Detection-16",
+        "Detection-4",
+        "Detection-7",
+        "Detection-1",
+        "Detection-2",
+        "Detection-11",
+        "Detection-18"
+      ]
+    },
     "data": {
       "Summary": "Blockatron",
       "Key": "Application-2",
@@ -744,7 +1413,14 @@
   },
   "Detection-3": {
     "path": "Detection/Detection-3.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)",
       "Key": "Detection-3",
@@ -753,7 +1429,14 @@
   },
   "Detection-17": {
     "path": "Detection/Detection-17.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)",
       "Key": "Detection-17",
@@ -762,7 +1445,14 @@
   },
   "Detection-16": {
     "path": "Detection/Detection-16.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)",
       "Key": "Detection-16",
@@ -771,7 +1461,14 @@
   },
   "Detection-2": {
     "path": "Detection/Detection-2.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
       "Key": "Detection-2",
@@ -780,7 +1477,14 @@
   },
   "Detection-9": {
     "path": "Detection/Detection-9.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-1"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)",
       "Key": "Detection-9",
@@ -789,7 +1493,14 @@
   },
   "Detection-11": {
     "path": "Detection/Detection-11.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)",
       "Key": "Detection-11",
@@ -798,7 +1509,14 @@
   },
   "Detection-5": {
     "path": "Detection/Detection-5.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)",
       "Key": "Detection-5",
@@ -807,7 +1525,14 @@
   },
   "Detection-4": {
     "path": "Detection/Detection-4.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))",
       "Key": "Detection-4",
@@ -816,7 +1541,14 @@
   },
   "Detection-10": {
     "path": "Detection/Detection-10.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-2"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
       "Key": "Detection-10",
@@ -825,7 +1557,14 @@
   },
   "Detection-8": {
     "path": "Detection/Detection-8.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-6"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)",
       "Key": "Detection-8",
@@ -834,7 +1573,14 @@
   },
   "Detection-13": {
     "path": "Detection/Detection-13.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-5"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
       "Key": "Detection-13",
@@ -843,7 +1589,14 @@
   },
   "Detection-7": {
     "path": "Detection/Detection-7.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-6"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:183746702)",
       "Key": "Detection-7",
@@ -852,7 +1605,14 @@
   },
   "Detection-6": {
     "path": "Detection/Detection-6.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-2"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)",
       "Key": "Detection-6",
@@ -861,7 +1621,14 @@
   },
   "Detection-12": {
     "path": "Detection/Detection-12.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-1"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)",
       "Key": "Detection-12",
@@ -870,7 +1637,14 @@
   },
   "Detection-19": {
     "path": "Detection/Detection-19.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-5"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)",
       "Key": "Detection-19",
@@ -879,7 +1653,14 @@
   },
   "Detection-1": {
     "path": "Detection/Detection-1.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)",
       "Key": "Detection-1",
@@ -888,7 +1669,14 @@
   },
   "Detection-15": {
     "path": "Detection/Detection-15.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-6"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
       "Key": "Detection-15",
@@ -897,7 +1685,14 @@
   },
   "Detection-14": {
     "path": "Detection/Detection-14.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)",
       "Key": "Detection-14",
@@ -906,7 +1701,14 @@
   },
   "Detection-18": {
     "path": "Detection/Detection-18.json",
-    "links": {},
+    "links": {
+      "is detection of": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
     "data": {
       "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
       "Key": "Detection-18",

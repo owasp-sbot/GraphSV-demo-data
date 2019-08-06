@@ -5,6 +5,24 @@
       "Summary"
     ]
   ],
+  "Head of Security Operations": [
+    [
+      "Role-7",
+      "Summary"
+    ]
+  ],
+  "Head of Risk": [
+    [
+      "Role-6",
+      "Summary"
+    ]
+  ],
+  "CISO": [
+    [
+      "Role-9",
+      "Summary"
+    ]
+  ],
   "CEO": [
     [
       "Role-5",
@@ -17,6 +35,12 @@
       "Summary"
     ]
   ],
+  "Head of Application Security": [
+    [
+      "Role-8",
+      "Summary"
+    ]
+  ],
   "Engineer": [
     [
       "Role-3",
@@ -26,6 +50,12 @@
   "SVP - Special Projects": [
     [
       "Role-2",
+      "Summary"
+    ]
+  ],
+  "Simon Dickens": [
+    [
+      "Person-15",
       "Summary"
     ]
   ],
@@ -137,6 +167,12 @@
       "Summary"
     ]
   ],
+  "Paul Holmes": [
+    [
+      "Person-14",
+      "Summary"
+    ]
+  ],
   "10232": [
     [
       "Person-1",
@@ -178,6 +214,12 @@
   "Peter Smith": [
     [
       "Person-1",
+      "Summary"
+    ]
+  ],
+  "Ivan Watson": [
+    [
+      "Person-13",
       "Summary"
     ]
   ],
@@ -393,6 +435,12 @@
       "Summary"
     ]
   ],
+  "Emma Victory": [
+    [
+      "Person-16",
+      "Summary"
+    ]
+  ],
   "cypher1@digi-inc.com": [
     [
       "Person-8",
@@ -406,6 +454,150 @@
   "user": [
     [
       "Person-8",
+      "Summary"
+    ]
+  ],
+  "Asset intelligence": [
+    [
+      "Capability-8",
+      "Summary"
+    ]
+  ],
+  "Data controls": [
+    [
+      "Capability-16",
+      "Summary"
+    ]
+  ],
+  "Budget management": [
+    [
+      "Capability-20",
+      "Summary"
+    ]
+  ],
+  "Support and enforcement": [
+    [
+      "Capability-4",
+      "Summary"
+    ]
+  ],
+  "Impact and risk intelligence": [
+    [
+      "Capability-5",
+      "Summary"
+    ]
+  ],
+  "Secure architecture": [
+    [
+      "Capability-21",
+      "Summary"
+    ]
+  ],
+  "Incident response and threat management": [
+    [
+      "Capability-17",
+      "Summary"
+    ]
+  ],
+  "Business context intelligence": [
+    [
+      "Capability-9",
+      "Summary"
+    ]
+  ],
+  "Targeted training and comms": [
+    [
+      "Capability-2",
+      "Summary"
+    ]
+  ],
+  "Identity and access management": [
+    [
+      "Capability-10",
+      "Summary"
+    ]
+  ],
+  "Policy and standards": [
+    [
+      "Capability-11",
+      "Summary"
+    ]
+  ],
+  "Audit response": [
+    [
+      "Capability-3",
+      "Summary"
+    ]
+  ],
+  "Security EQ and IQ measurement": [
+    [
+      "Capability-24",
+      "Summary"
+    ]
+  ],
+  "Strategic planning": [
+    [
+      "Capability-12",
+      "Summary"
+    ]
+  ],
+  "Timely assurance and remediation": [
+    [
+      "Capability-13",
+      "Summary"
+    ]
+  ],
+  "Accountable roles": [
+    [
+      "Capability-1",
+      "Summary"
+    ]
+  ],
+  "Compliance readiness": [
+    [
+      "Capability-14",
+      "Summary"
+    ]
+  ],
+  "Project management": [
+    [
+      "Capability-18",
+      "Summary"
+    ]
+  ],
+  "Continuity and disaster recovery": [
+    [
+      "Capability-6",
+      "Summary"
+    ]
+  ],
+  "Secure engineering": [
+    [
+      "Capability-22",
+      "Summary"
+    ]
+  ],
+  "People management": [
+    [
+      "Capability-23",
+      "Summary"
+    ]
+  ],
+  "Detection engineering": [
+    [
+      "Capability-7",
+      "Summary"
+    ]
+  ],
+  "Threat and vulnerability intelligence": [
+    [
+      "Capability-19",
+      "Summary"
+    ]
+  ],
+  "Security capability testing": [
+    [
+      "Capability-15",
       "Summary"
     ]
   ],
@@ -424,6 +616,42 @@
   "IT": [
     [
       "Function-2",
+      "Summary"
+    ]
+  ],
+  "Program Management": [
+    [
+      "Pillar-1",
+      "Summary"
+    ]
+  ],
+  "Detect, Respond, Recover": [
+    [
+      "Pillar-6",
+      "Summary"
+    ]
+  ],
+  "Situational understanding": [
+    [
+      "Pillar-5",
+      "Summary"
+    ]
+  ],
+  "Culture of Operations": [
+    [
+      "Pillar-4",
+      "Summary"
+    ]
+  ],
+  "Govern and Assure": [
+    [
+      "Pillar-3",
+      "Summary"
+    ]
+  ],
+  "Prevent and Protect": [
+    [
+      "Pillar-2",
       "Summary"
     ]
   ],
