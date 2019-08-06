@@ -528,5 +528,385 @@
     "Business_Asset-1",
     "has critical business asset",
     "Account-11"
+  ],
+  [
+    "Device-1",
+    "has detection",
+    "Detection-12"
+  ],
+  [
+    "Detection-12",
+    "is detection of",
+    "Device-1"
+  ],
+  [
+    "Detection-12",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-12"
+  ],
+  [
+    "Device-2",
+    "has detection",
+    "Detection-10"
+  ],
+  [
+    "Detection-10",
+    "is detection of",
+    "Device-2"
+  ],
+  [
+    "Detection-10",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-10"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-17"
+  ],
+  [
+    "Detection-17",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-17",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-17"
+  ],
+  [
+    "Device-4",
+    "has detection",
+    "Detection-14"
+  ],
+  [
+    "Detection-14",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-14",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-14"
+  ],
+  [
+    "Device-6",
+    "has detection",
+    "Detection-8"
+  ],
+  [
+    "Detection-8",
+    "is detection of",
+    "Device-6"
+  ],
+  [
+    "Detection-8",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-8"
+  ],
+  [
+    "Device-5",
+    "has detection",
+    "Detection-13"
+  ],
+  [
+    "Detection-13",
+    "is detection of",
+    "Device-5"
+  ],
+  [
+    "Detection-13",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-13"
+  ],
+  [
+    "Device-1",
+    "has detection",
+    "Detection-9"
+  ],
+  [
+    "Detection-9",
+    "is detection of",
+    "Device-1"
+  ],
+  [
+    "Detection-9",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-9"
+  ],
+  [
+    "Device-2",
+    "has detection",
+    "Detection-6"
+  ],
+  [
+    "Detection-6",
+    "is detection of",
+    "Device-2"
+  ],
+  [
+    "Detection-6",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-6"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-5"
+  ],
+  [
+    "Detection-5",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-5",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-5"
+  ],
+  [
+    "Device-4",
+    "has detection",
+    "Detection-3"
+  ],
+  [
+    "Detection-3",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-3",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-3"
+  ],
+  [
+    "Device-6",
+    "has detection",
+    "Detection-15"
+  ],
+  [
+    "Detection-15",
+    "is detection of",
+    "Device-6"
+  ],
+  [
+    "Detection-15",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-15"
+  ],
+  [
+    "Device-5",
+    "has detection",
+    "Detection-19"
+  ],
+  [
+    "Detection-19",
+    "is detection of",
+    "Device-5"
+  ],
+  [
+    "Detection-19",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-19"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-16"
+  ],
+  [
+    "Detection-16",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-16",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-16"
+  ],
+  [
+    "Device-4",
+    "has detection",
+    "Detection-4"
+  ],
+  [
+    "Detection-4",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-4",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-4"
+  ],
+  [
+    "Device-6",
+    "has detection",
+    "Detection-7"
+  ],
+  [
+    "Detection-7",
+    "is detection of",
+    "Device-6"
+  ],
+  [
+    "Detection-7",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-7"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-1"
+  ],
+  [
+    "Detection-1",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-1",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-1"
+  ],
+  [
+    "Device-4",
+    "has detection",
+    "Detection-2"
+  ],
+  [
+    "Detection-2",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-2",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-2"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-11"
+  ],
+  [
+    "Detection-11",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-11",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-11"
+  ],
+  [
+    "Device-4",
+    "has detection",
+    "Detection-18"
+  ],
+  [
+    "Detection-18",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-18",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-18"
   ]
 ]

@@ -1,0 +1,5 @@
+{
+  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
+  "Key": "Detection-15",
+  "Issue Type": "Detection"
+}

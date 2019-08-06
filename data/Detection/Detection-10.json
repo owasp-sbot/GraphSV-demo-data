@@ -1,0 +1,5 @@
+{
+  "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
+  "Key": "Detection-10",
+  "Issue Type": "Detection"
+}

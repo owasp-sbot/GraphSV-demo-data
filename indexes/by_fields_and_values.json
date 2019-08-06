@@ -96,6 +96,9 @@
     "Digicorp": [
       "Business_Unit-1"
     ],
+    "Blockatron": [
+      "Application-2"
+    ],
     "Sunways": [
       "Application-1"
     ],
@@ -131,6 +134,63 @@
     ],
     "bruno.lyon@digicorp.com": [
       "Account-1"
+    ],
+    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)": [
+      "Detection-3"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)": [
+      "Detection-17"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)": [
+      "Detection-16"
+    ],
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
+      "Detection-2"
+    ],
+    "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)": [
+      "Detection-9"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)": [
+      "Detection-11"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)": [
+      "Detection-5"
+    ],
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))": [
+      "Detection-4"
+    ],
+    "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)": [
+      "Detection-10"
+    ],
+    "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)": [
+      "Detection-8"
+    ],
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))": [
+      "Detection-13"
+    ],
+    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:183746702)": [
+      "Detection-7"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)": [
+      "Detection-6"
+    ],
+    "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)": [
+      "Detection-12"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)": [
+      "Detection-19"
+    ],
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)": [
+      "Detection-1"
+    ],
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))": [
+      "Detection-15"
+    ],
+    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)": [
+      "Detection-14"
+    ],
+    "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
+      "Detection-18"
     ],
     "VIP and Superuser identity": [
       "Business_Asset-1"

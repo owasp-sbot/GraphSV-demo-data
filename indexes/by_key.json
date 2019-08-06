@@ -537,6 +537,15 @@
       "Issue Type": "Business Unit"
     }
   },
+  "Application-2": {
+    "path": "Application/Application-2.json",
+    "links": {},
+    "data": {
+      "Summary": "Blockatron",
+      "Key": "Application-2",
+      "Issue Type": "Application"
+    }
+  },
   "Application-1": {
     "path": "Application/Application-1.json",
     "links": {
@@ -731,6 +740,177 @@
       "Summary": "bruno.lyon@digicorp.com",
       "Key": "Account-1",
       "Issue Type": "Account"
+    }
+  },
+  "Detection-3": {
+    "path": "Detection/Detection-3.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)",
+      "Key": "Detection-3",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-17": {
+    "path": "Detection/Detection-17.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)",
+      "Key": "Detection-17",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-16": {
+    "path": "Detection/Detection-16.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)",
+      "Key": "Detection-16",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-2": {
+    "path": "Detection/Detection-2.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
+      "Key": "Detection-2",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-9": {
+    "path": "Detection/Detection-9.json",
+    "links": {},
+    "data": {
+      "Summary": "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)",
+      "Key": "Detection-9",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-11": {
+    "path": "Detection/Detection-11.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)",
+      "Key": "Detection-11",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-5": {
+    "path": "Detection/Detection-5.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)",
+      "Key": "Detection-5",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-4": {
+    "path": "Detection/Detection-4.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))",
+      "Key": "Detection-4",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-10": {
+    "path": "Detection/Detection-10.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
+      "Key": "Detection-10",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-8": {
+    "path": "Detection/Detection-8.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)",
+      "Key": "Detection-8",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-13": {
+    "path": "Detection/Detection-13.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
+      "Key": "Detection-13",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-7": {
+    "path": "Detection/Detection-7.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:183746702)",
+      "Key": "Detection-7",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-6": {
+    "path": "Detection/Detection-6.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)",
+      "Key": "Detection-6",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-12": {
+    "path": "Detection/Detection-12.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)",
+      "Key": "Detection-12",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-19": {
+    "path": "Detection/Detection-19.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)",
+      "Key": "Detection-19",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-1": {
+    "path": "Detection/Detection-1.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)",
+      "Key": "Detection-1",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-15": {
+    "path": "Detection/Detection-15.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
+      "Key": "Detection-15",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-14": {
+    "path": "Detection/Detection-14.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)",
+      "Key": "Detection-14",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-18": {
+    "path": "Detection/Detection-18.json",
+    "links": {},
+    "data": {
+      "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
+      "Key": "Detection-18",
+      "Issue Type": "Detection"
     }
   },
   "Business_Asset-1": {
