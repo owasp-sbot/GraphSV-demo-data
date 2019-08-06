@@ -1,5 +1,5 @@
 {
-  "Summary": "Code is only backed up locally to developer laptops",
+  "Summary": "API keys are stored in plain text on user devices",
   "Key": "Incident_Fact-8",
   "Issue Type": "Incident Fact"
 }

@@ -1,5 +1,5 @@
 {
-  "Summary": "User access logs could not be accessed for 5 hours",
+  "Summary": "Code is only backed up locally to developer laptops",
   "Key": "Incident_Fact-11",
   "Issue Type": "Incident Fact"
 }

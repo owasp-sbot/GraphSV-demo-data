@@ -1,5 +1,5 @@
 {
-  "Summary": "Password re-sets for Sunways need to be done manually, one by one, by an admin user",
+  "Summary": "Laptops used for this project only have standard AV installed",
   "Key": "Incident_Fact-10",
   "Issue Type": "Incident Fact"
 }

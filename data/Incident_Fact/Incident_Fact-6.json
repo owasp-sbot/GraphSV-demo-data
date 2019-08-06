@@ -1,5 +1,5 @@
 {
-  "Summary": "API keys are stored in plain text on user devices",
+  "Summary": "User access logs could not be accessed for 5 hours",
   "Key": "Incident_Fact-6",
   "Issue Type": "Incident Fact"
 }

@@ -1,5 +1,5 @@
 {
-  "Summary": "There is no formal JML process and accounts are disabled, not removed",
+  "Summary": "No formal security code review has been performed",
   "Key": "Incident_Fact-2",
   "Issue Type": "Incident Fact"
 }

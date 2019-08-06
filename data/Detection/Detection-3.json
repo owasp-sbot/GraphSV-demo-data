@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)",
+  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
   "Key": "Detection-3",
   "Issue Type": "Detection"
 }

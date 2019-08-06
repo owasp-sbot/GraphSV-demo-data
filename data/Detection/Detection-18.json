@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
+  "Summary": "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)",
   "Key": "Detection-18",
   "Issue Type": "Detection"
 }

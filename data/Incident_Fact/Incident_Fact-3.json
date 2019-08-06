@@ -1,5 +1,5 @@
 {
-  "Summary": "Admin accounts for Sunways are shared across users",
+  "Summary": "Password re-sets for Sunways need to be done manually, one by one, by an admin user",
   "Key": "Incident_Fact-3",
   "Issue Type": "Incident Fact"
 }

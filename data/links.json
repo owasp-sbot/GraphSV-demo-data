@@ -12,104 +12,164 @@
   [
     "Role-2",
     "reports to",
-    "Role-5"
+    "Role-4"
   ],
   [
-    "Role-5",
+    "Role-4",
     "is manager of",
     "Role-2"
   ],
   [
     "Person-2",
     "has role",
-    "Role-5"
+    "Role-4"
   ],
   [
-    "Role-5",
+    "Role-4",
     "is role of",
     "Person-2"
   ],
   [
     "Person-3",
     "has role",
-    "Role-1"
+    "Role-3"
   ],
   [
-    "Role-1",
+    "Role-3",
     "is role of",
     "Person-3"
   ],
   [
-    "Role-1",
+    "Role-3",
     "reports to",
     "Role-2"
   ],
   [
     "Role-2",
     "is manager of",
-    "Role-1"
+    "Role-3"
   ],
   [
     "Person-4",
     "has role",
-    "Role-3"
-  ],
-  [
-    "Role-3",
-    "is role of",
-    "Person-4"
-  ],
-  [
-    "Role-3",
-    "reports to",
     "Role-1"
   ],
   [
     "Role-1",
-    "is manager of",
-    "Role-3"
+    "is role of",
+    "Person-4"
   ],
   [
-    "Person-6",
-    "has role",
+    "Role-1",
+    "reports to",
     "Role-3"
   ],
   [
     "Role-3",
+    "is manager of",
+    "Role-1"
+  ],
+  [
+    "Person-6",
+    "has role",
+    "Role-1"
+  ],
+  [
+    "Role-1",
     "is role of",
     "Person-6"
   ],
   [
     "Person-5",
     "has role",
-    "Role-4"
+    "Role-5"
   ],
   [
-    "Role-4",
+    "Role-5",
     "is role of",
     "Person-5"
   ],
   [
-    "Role-4",
+    "Role-5",
     "reports to",
     "Role-2"
   ],
   [
     "Role-2",
     "is manager of",
-    "Role-4"
+    "Role-5"
   ],
   [
     "Role-2",
     "is funded by",
-    "Team-1"
+    "Team-5"
   ],
   [
-    "Team-1",
+    "Team-5",
     "funds",
     "Role-2"
   ],
   [
+    "Team-5",
+    "is funded by",
+    "Function-2"
+  ],
+  [
+    "Function-2",
+    "funds",
+    "Team-5"
+  ],
+  [
+    "Function-2",
+    "is function within",
+    "Business_Unit-1"
+  ],
+  [
+    "Business_Unit-1",
+    "has function",
+    "Function-2"
+  ],
+  [
+    "Role-4",
+    "is funded by",
+    "Team-2"
+  ],
+  [
+    "Team-2",
+    "funds",
+    "Role-4"
+  ],
+  [
+    "Team-2",
+    "is funded by",
+    "Function-1"
+  ],
+  [
+    "Function-1",
+    "funds",
+    "Team-2"
+  ],
+  [
+    "Function-1",
+    "is function within",
+    "Business_Unit-1"
+  ],
+  [
+    "Business_Unit-1",
+    "has function",
+    "Function-1"
+  ],
+  [
+    "Role-3",
+    "is funded by",
+    "Team-1"
+  ],
+  [
+    "Team-1",
+    "funds",
+    "Role-3"
+  ],
+  [
     "Team-1",
     "is funded by",
     "Function-3"
@@ -130,124 +190,74 @@
     "Function-3"
   ],
   [
-    "Role-5",
-    "is funded by",
-    "Team-2"
-  ],
-  [
-    "Team-2",
-    "funds",
-    "Role-5"
-  ],
-  [
-    "Team-2",
-    "is funded by",
-    "Function-1"
-  ],
-  [
-    "Function-1",
-    "funds",
-    "Team-2"
-  ],
-  [
-    "Function-1",
-    "is function within",
-    "Business_Unit-1"
-  ],
-  [
-    "Business_Unit-1",
-    "has function",
-    "Function-1"
-  ],
-  [
     "Role-1",
     "is funded by",
-    "Team-5"
+    "Team-1"
   ],
   [
-    "Team-5",
+    "Team-1",
     "funds",
     "Role-1"
   ],
   [
-    "Team-5",
-    "is funded by",
-    "Function-2"
-  ],
-  [
-    "Function-2",
-    "funds",
-    "Team-5"
-  ],
-  [
-    "Function-2",
-    "is function within",
-    "Business_Unit-1"
-  ],
-  [
-    "Business_Unit-1",
-    "has function",
-    "Function-2"
-  ],
-  [
-    "Role-3",
-    "is funded by",
-    "Team-5"
-  ],
-  [
-    "Team-5",
-    "funds",
-    "Role-3"
-  ],
-  [
-    "Role-3",
+    "Role-1",
     "is funded by",
     "Team-3"
   ],
   [
     "Team-3",
     "funds",
-    "Role-3"
+    "Role-1"
   ],
   [
     "Team-3",
     "is funded by",
-    "Function-2"
+    "Function-3"
   ],
   [
-    "Function-2",
+    "Function-3",
     "funds",
     "Team-3"
   ],
   [
-    "Role-4",
+    "Role-5",
     "is funded by",
     "Team-4"
   ],
   [
     "Team-4",
     "funds",
-    "Role-4"
+    "Role-5"
   ],
   [
     "Team-4",
     "is funded by",
-    "Function-2"
+    "Function-3"
   ],
   [
-    "Function-2",
+    "Function-3",
     "funds",
     "Team-4"
   ],
   [
-    "Device-1",
+    "Device-6",
     "is owned by",
     "Person-1"
   ],
   [
     "Person-1",
     "owns",
-    "Device-1"
+    "Device-6"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Account-2"
+  ],
+  [
+    "Account-2",
+    "is owned by",
+    "Person-1"
   ],
   [
     "Device-2",
@@ -260,114 +270,44 @@
     "Device-2"
   ],
   [
-    "Device-3",
-    "is owned by",
-    "Person-3"
-  ],
-  [
-    "Person-3",
-    "owns",
-    "Device-3"
-  ],
-  [
-    "Device-4",
-    "is owned by",
-    "Person-4"
-  ],
-  [
-    "Person-4",
-    "owns",
-    "Device-4"
-  ],
-  [
-    "Device-6",
-    "is owned by",
-    "Person-6"
-  ],
-  [
-    "Person-6",
-    "owns",
-    "Device-6"
-  ],
-  [
-    "Device-5",
-    "is owned by",
-    "Person-5"
-  ],
-  [
-    "Person-5",
-    "owns",
-    "Device-5"
-  ],
-  [
-    "Person-1",
-    "owns",
-    "Account-5"
-  ],
-  [
-    "Account-5",
-    "is owned by",
-    "Person-1"
-  ],
-  [
     "Person-2",
-    "owns",
-    "Account-4"
-  ],
-  [
-    "Account-4",
-    "is owned by",
-    "Person-2"
-  ],
-  [
-    "Person-3",
-    "owns",
-    "Account-1"
-  ],
-  [
-    "Account-1",
-    "is owned by",
-    "Person-3"
-  ],
-  [
-    "Person-4",
-    "owns",
-    "Account-2"
-  ],
-  [
-    "Account-2",
-    "is owned by",
-    "Person-4"
-  ],
-  [
-    "Person-6",
-    "owns",
-    "Account-3"
-  ],
-  [
-    "Account-3",
-    "is owned by",
-    "Person-6"
-  ],
-  [
-    "Person-5",
     "owns",
     "Account-6"
   ],
   [
     "Account-6",
     "is owned by",
-    "Person-5"
+    "Person-2"
   ],
   [
-    "Account-4",
+    "Account-6",
     "represents critical business asset",
     "Business_Asset-1"
   ],
   [
     "Business_Asset-1",
     "has critical business asset",
-    "Account-4"
+    "Account-6"
+  ],
+  [
+    "Device-1",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Device-1"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Account-1"
+  ],
+  [
+    "Account-1",
+    "is owned by",
+    "Person-3"
   ],
   [
     "Account-1",
@@ -380,84 +320,94 @@
     "Account-1"
   ],
   [
-    "Account-2",
+    "Device-5",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Device-5"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-3"
+  ],
+  [
+    "Account-3",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Account-3",
     "represents critical business asset",
     "Business_Asset-1"
   ],
   [
     "Business_Asset-1",
     "has critical business asset",
-    "Account-2"
+    "Account-3"
   ],
   [
-    "Person-1",
-    "owns",
-    "Account-10"
-  ],
-  [
-    "Account-10",
+    "Device-4",
     "is owned by",
-    "Person-1"
-  ],
-  [
-    "Person-2",
-    "owns",
-    "Account-9"
-  ],
-  [
-    "Account-9",
-    "is owned by",
-    "Person-2"
-  ],
-  [
-    "Person-3",
-    "owns",
-    "Account-11"
-  ],
-  [
-    "Account-11",
-    "is owned by",
-    "Person-3"
-  ],
-  [
-    "Person-4",
-    "owns",
-    "Account-11"
-  ],
-  [
-    "Account-11",
-    "is owned by",
-    "Person-4"
+    "Person-6"
   ],
   [
     "Person-6",
+    "owns",
+    "Device-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-5"
+  ],
+  [
+    "Account-5",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Device-3",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Device-3"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-4"
+  ],
+  [
+    "Account-4",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Person-1",
     "owns",
     "Account-7"
   ],
   [
     "Account-7",
     "is owned by",
-    "Person-6"
+    "Person-1"
   ],
   [
-    "Person-5",
-    "owns",
-    "Account-8"
-  ],
-  [
-    "Account-8",
-    "is owned by",
-    "Person-5"
-  ],
-  [
-    "Account-10",
+    "Account-7",
     "is user account for",
     "Application-1"
   ],
   [
     "Application-1",
     "has user account",
-    "Account-10"
+    "Account-7"
   ],
   [
     "Application-1",
@@ -470,34 +420,14 @@
     "Application-1"
   ],
   [
-    "Account-9",
-    "is user account for",
-    "Application-1"
+    "Person-2",
+    "owns",
+    "Account-8"
   ],
   [
-    "Application-1",
-    "has user account",
-    "Account-9"
-  ],
-  [
-    "Account-11",
-    "is admin account for",
-    "Application-1"
-  ],
-  [
-    "Application-1",
-    "has admin account",
-    "Account-11"
-  ],
-  [
-    "Account-7",
-    "is user account for",
-    "Application-1"
-  ],
-  [
-    "Application-1",
-    "has user account",
-    "Account-7"
+    "Account-8",
+    "is owned by",
+    "Person-2"
   ],
   [
     "Account-8",
@@ -510,14 +440,84 @@
     "Account-8"
   ],
   [
+    "Person-3",
+    "owns",
+    "Account-11"
+  ],
+  [
+    "Account-11",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Account-11",
+    "is admin account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has admin account",
+    "Account-11"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-11"
+  ],
+  [
+    "Account-11",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-9"
+  ],
+  [
     "Account-9",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Account-9",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-9"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-10"
+  ],
+  [
+    "Account-10",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Account-10",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-10"
+  ],
+  [
+    "Account-8",
     "represents critical business asset",
     "Business_Asset-1"
   ],
   [
     "Business_Asset-1",
     "has critical business asset",
-    "Account-9"
+    "Account-8"
   ],
   [
     "Account-11",
@@ -530,14 +530,74 @@
     "Account-11"
   ],
   [
+    "Device-6",
+    "has detection",
+    "Detection-2"
+  ],
+  [
+    "Detection-2",
+    "is detection of",
+    "Device-6"
+  ],
+  [
+    "Detection-2",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-2"
+  ],
+  [
+    "Device-2",
+    "has detection",
+    "Detection-4"
+  ],
+  [
+    "Detection-4",
+    "is detection of",
+    "Device-2"
+  ],
+  [
+    "Detection-4",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-4"
+  ],
+  [
     "Device-1",
+    "has detection",
+    "Detection-1"
+  ],
+  [
+    "Detection-1",
+    "is detection of",
+    "Device-1"
+  ],
+  [
+    "Detection-1",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-1"
+  ],
+  [
+    "Device-5",
     "has detection",
     "Detection-12"
   ],
   [
     "Detection-12",
     "is detection of",
-    "Device-1"
+    "Device-5"
   ],
   [
     "Detection-12",
@@ -550,14 +610,134 @@
     "Detection-12"
   ],
   [
+    "Device-4",
+    "has detection",
+    "Detection-18"
+  ],
+  [
+    "Detection-18",
+    "is detection of",
+    "Device-4"
+  ],
+  [
+    "Detection-18",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-18"
+  ],
+  [
+    "Device-3",
+    "has detection",
+    "Detection-3"
+  ],
+  [
+    "Detection-3",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-3",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-3"
+  ],
+  [
+    "Device-6",
+    "has detection",
+    "Detection-6"
+  ],
+  [
+    "Detection-6",
+    "is detection of",
+    "Device-6"
+  ],
+  [
+    "Detection-6",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-6"
+  ],
+  [
     "Device-2",
+    "has detection",
+    "Detection-16"
+  ],
+  [
+    "Detection-16",
+    "is detection of",
+    "Device-2"
+  ],
+  [
+    "Detection-16",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-16"
+  ],
+  [
+    "Device-1",
+    "has detection",
+    "Detection-19"
+  ],
+  [
+    "Detection-19",
+    "is detection of",
+    "Device-1"
+  ],
+  [
+    "Detection-19",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-19"
+  ],
+  [
+    "Device-5",
+    "has detection",
+    "Detection-11"
+  ],
+  [
+    "Detection-11",
+    "is detection of",
+    "Device-5"
+  ],
+  [
+    "Detection-11",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-11"
+  ],
+  [
+    "Device-4",
     "has detection",
     "Detection-10"
   ],
   [
     "Detection-10",
     "is detection of",
-    "Device-2"
+    "Device-4"
   ],
   [
     "Detection-10",
@@ -572,12 +752,52 @@
   [
     "Device-3",
     "has detection",
+    "Detection-9"
+  ],
+  [
+    "Detection-9",
+    "is detection of",
+    "Device-3"
+  ],
+  [
+    "Detection-9",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-9"
+  ],
+  [
+    "Device-1",
+    "has detection",
+    "Detection-14"
+  ],
+  [
+    "Detection-14",
+    "is detection of",
+    "Device-1"
+  ],
+  [
+    "Detection-14",
+    "detected by",
+    "Application-2"
+  ],
+  [
+    "Application-2",
+    "detected",
+    "Detection-14"
+  ],
+  [
+    "Device-5",
+    "has detection",
     "Detection-17"
   ],
   [
     "Detection-17",
     "is detection of",
-    "Device-3"
+    "Device-5"
   ],
   [
     "Detection-17",
@@ -592,42 +812,42 @@
   [
     "Device-4",
     "has detection",
-    "Detection-14"
+    "Detection-15"
   ],
   [
-    "Detection-14",
+    "Detection-15",
     "is detection of",
     "Device-4"
   ],
   [
-    "Detection-14",
+    "Detection-15",
     "detected by",
     "Application-2"
   ],
   [
     "Application-2",
     "detected",
-    "Detection-14"
+    "Detection-15"
   ],
   [
-    "Device-6",
+    "Device-1",
     "has detection",
-    "Detection-8"
+    "Detection-7"
   ],
   [
-    "Detection-8",
+    "Detection-7",
     "is detection of",
-    "Device-6"
+    "Device-1"
   ],
   [
-    "Detection-8",
+    "Detection-7",
     "detected by",
     "Application-2"
   ],
   [
     "Application-2",
     "detected",
-    "Detection-8"
+    "Detection-7"
   ],
   [
     "Device-5",
@@ -652,54 +872,14 @@
   [
     "Device-1",
     "has detection",
-    "Detection-9"
+    "Detection-5"
   ],
   [
-    "Detection-9",
+    "Detection-5",
     "is detection of",
     "Device-1"
   ],
   [
-    "Detection-9",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-9"
-  ],
-  [
-    "Device-2",
-    "has detection",
-    "Detection-6"
-  ],
-  [
-    "Detection-6",
-    "is detection of",
-    "Device-2"
-  ],
-  [
-    "Detection-6",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-6"
-  ],
-  [
-    "Device-3",
-    "has detection",
-    "Detection-5"
-  ],
-  [
-    "Detection-5",
-    "is detection of",
-    "Device-3"
-  ],
-  [
     "Detection-5",
     "detected by",
     "Application-2"
@@ -708,636 +888,36 @@
     "Application-2",
     "detected",
     "Detection-5"
-  ],
-  [
-    "Device-4",
-    "has detection",
-    "Detection-3"
-  ],
-  [
-    "Detection-3",
-    "is detection of",
-    "Device-4"
-  ],
-  [
-    "Detection-3",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-3"
-  ],
-  [
-    "Device-6",
-    "has detection",
-    "Detection-15"
-  ],
-  [
-    "Detection-15",
-    "is detection of",
-    "Device-6"
-  ],
-  [
-    "Detection-15",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-15"
   ],
   [
     "Device-5",
     "has detection",
-    "Detection-19"
+    "Detection-8"
   ],
   [
-    "Detection-19",
+    "Detection-8",
     "is detection of",
     "Device-5"
   ],
   [
-    "Detection-19",
+    "Detection-8",
     "detected by",
     "Application-2"
   ],
   [
     "Application-2",
     "detected",
-    "Detection-19"
-  ],
-  [
-    "Device-3",
-    "has detection",
-    "Detection-16"
-  ],
-  [
-    "Detection-16",
-    "is detection of",
-    "Device-3"
-  ],
-  [
-    "Detection-16",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-16"
-  ],
-  [
-    "Device-4",
-    "has detection",
-    "Detection-4"
-  ],
-  [
-    "Detection-4",
-    "is detection of",
-    "Device-4"
-  ],
-  [
-    "Detection-4",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-4"
-  ],
-  [
-    "Device-6",
-    "has detection",
-    "Detection-7"
-  ],
-  [
-    "Detection-7",
-    "is detection of",
-    "Device-6"
-  ],
-  [
-    "Detection-7",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-7"
-  ],
-  [
-    "Device-3",
-    "has detection",
-    "Detection-1"
-  ],
-  [
-    "Detection-1",
-    "is detection of",
-    "Device-3"
-  ],
-  [
-    "Detection-1",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-1"
-  ],
-  [
-    "Device-4",
-    "has detection",
-    "Detection-2"
-  ],
-  [
-    "Detection-2",
-    "is detection of",
-    "Device-4"
-  ],
-  [
-    "Detection-2",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-2"
-  ],
-  [
-    "Device-3",
-    "has detection",
-    "Detection-11"
-  ],
-  [
-    "Detection-11",
-    "is detection of",
-    "Device-3"
-  ],
-  [
-    "Detection-11",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-11"
-  ],
-  [
-    "Device-4",
-    "has detection",
-    "Detection-18"
-  ],
-  [
-    "Detection-18",
-    "is detection of",
-    "Device-4"
-  ],
-  [
-    "Detection-18",
-    "detected by",
-    "Application-2"
-  ],
-  [
-    "Application-2",
-    "detected",
-    "Detection-18"
+    "Detection-8"
   ],
   [
     "Pillar-1",
-    "delivers",
-    "Capability-12"
-  ],
-  [
-    "Capability-12",
-    "is delivered by",
-    "Pillar-1"
-  ],
-  [
-    "Pillar-1",
-    "delivers",
-    "Capability-20"
-  ],
-  [
-    "Capability-20",
-    "is delivered by",
-    "Pillar-1"
-  ],
-  [
-    "Pillar-1",
-    "delivers",
-    "Capability-23"
-  ],
-  [
-    "Capability-23",
-    "is delivered by",
-    "Pillar-1"
-  ],
-  [
-    "Pillar-1",
-    "delivers",
-    "Capability-18"
-  ],
-  [
-    "Capability-18",
-    "is delivered by",
-    "Pillar-1"
-  ],
-  [
-    "Pillar-5",
-    "delivers",
-    "Capability-9"
-  ],
-  [
-    "Capability-9",
-    "is delivered by",
-    "Pillar-5"
-  ],
-  [
-    "Pillar-5",
-    "delivers",
-    "Capability-8"
-  ],
-  [
-    "Capability-8",
-    "is delivered by",
-    "Pillar-5"
-  ],
-  [
-    "Pillar-5",
-    "delivers",
-    "Capability-19"
-  ],
-  [
-    "Capability-19",
-    "is delivered by",
-    "Pillar-5"
-  ],
-  [
-    "Pillar-5",
-    "delivers",
-    "Capability-5"
-  ],
-  [
-    "Capability-5",
-    "is delivered by",
-    "Pillar-5"
-  ],
-  [
-    "Pillar-4",
-    "delivers",
-    "Capability-1"
-  ],
-  [
-    "Capability-1",
-    "is delivered by",
-    "Pillar-4"
-  ],
-  [
-    "Pillar-4",
-    "delivers",
-    "Capability-2"
-  ],
-  [
-    "Capability-2",
-    "is delivered by",
-    "Pillar-4"
-  ],
-  [
-    "Pillar-4",
-    "delivers",
-    "Capability-24"
-  ],
-  [
-    "Capability-24",
-    "is delivered by",
-    "Pillar-4"
-  ],
-  [
-    "Pillar-4",
-    "delivers",
-    "Capability-4"
-  ],
-  [
-    "Capability-4",
-    "is delivered by",
-    "Pillar-4"
-  ],
-  [
-    "Pillar-3",
-    "delivers",
-    "Capability-11"
-  ],
-  [
-    "Capability-11",
-    "is delivered by",
-    "Pillar-3"
-  ],
-  [
-    "Pillar-3",
-    "delivers",
-    "Capability-14"
-  ],
-  [
-    "Capability-14",
-    "is delivered by",
-    "Pillar-3"
-  ],
-  [
-    "Pillar-3",
-    "delivers",
-    "Capability-13"
-  ],
-  [
-    "Capability-13",
-    "is delivered by",
-    "Pillar-3"
-  ],
-  [
-    "Pillar-3",
-    "delivers",
-    "Capability-3"
-  ],
-  [
-    "Capability-3",
-    "is delivered by",
-    "Pillar-3"
-  ],
-  [
-    "Pillar-2",
-    "delivers",
-    "Capability-10"
-  ],
-  [
-    "Capability-10",
-    "is delivered by",
-    "Pillar-2"
-  ],
-  [
-    "Pillar-2",
-    "delivers",
-    "Capability-21"
-  ],
-  [
-    "Capability-21",
-    "is delivered by",
-    "Pillar-2"
-  ],
-  [
-    "Pillar-2",
-    "delivers",
-    "Capability-22"
-  ],
-  [
-    "Capability-22",
-    "is delivered by",
-    "Pillar-2"
-  ],
-  [
-    "Pillar-2",
     "delivers",
     "Capability-16"
   ],
   [
     "Capability-16",
     "is delivered by",
-    "Pillar-2"
-  ],
-  [
-    "Pillar-6",
-    "delivers",
-    "Capability-17"
-  ],
-  [
-    "Capability-17",
-    "is delivered by",
-    "Pillar-6"
-  ],
-  [
-    "Pillar-6",
-    "delivers",
-    "Capability-7"
-  ],
-  [
-    "Capability-7",
-    "is delivered by",
-    "Pillar-6"
-  ],
-  [
-    "Pillar-6",
-    "delivers",
-    "Capability-15"
-  ],
-  [
-    "Capability-15",
-    "is delivered by",
-    "Pillar-6"
-  ],
-  [
-    "Pillar-6",
-    "delivers",
-    "Capability-6"
-  ],
-  [
-    "Capability-6",
-    "is delivered by",
-    "Pillar-6"
-  ],
-  [
-    "Capability-12",
-    "is owned by",
-    "Role-9"
-  ],
-  [
-    "Role-9",
-    "owns",
-    "Capability-12"
-  ],
-  [
-    "Capability-20",
-    "is owned by",
-    "Role-9"
-  ],
-  [
-    "Role-9",
-    "owns",
-    "Capability-20"
-  ],
-  [
-    "Capability-23",
-    "is owned by",
-    "Role-9"
-  ],
-  [
-    "Role-9",
-    "owns",
-    "Capability-23"
-  ],
-  [
-    "Capability-18",
-    "is owned by",
-    "Role-9"
-  ],
-  [
-    "Role-9",
-    "owns",
-    "Capability-18"
-  ],
-  [
-    "Capability-9",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-9"
-  ],
-  [
-    "Capability-8",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-8"
-  ],
-  [
-    "Capability-19",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-19"
-  ],
-  [
-    "Capability-5",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-5"
-  ],
-  [
-    "Capability-1",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-1"
-  ],
-  [
-    "Capability-2",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-2"
-  ],
-  [
-    "Capability-24",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-24"
-  ],
-  [
-    "Capability-4",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-4"
-  ],
-  [
-    "Capability-11",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-11"
-  ],
-  [
-    "Capability-14",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-14"
-  ],
-  [
-    "Capability-13",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-13"
-  ],
-  [
-    "Capability-3",
-    "is owned by",
-    "Role-6"
-  ],
-  [
-    "Role-6",
-    "owns",
-    "Capability-3"
-  ],
-  [
-    "Capability-10",
-    "is owned by",
-    "Role-8"
-  ],
-  [
-    "Role-8",
-    "owns",
-    "Capability-10"
-  ],
-  [
-    "Capability-21",
-    "is owned by",
-    "Role-8"
-  ],
-  [
-    "Role-8",
-    "owns",
-    "Capability-21"
-  ],
-  [
-    "Capability-22",
-    "is owned by",
-    "Role-8"
-  ],
-  [
-    "Role-8",
-    "owns",
-    "Capability-22"
+    "Pillar-1"
   ],
   [
     "Capability-16",
@@ -1350,74 +930,94 @@
     "Capability-16"
   ],
   [
-    "Capability-17",
-    "is owned by",
-    "Role-7"
-  ],
-  [
-    "Role-7",
-    "owns",
-    "Capability-17"
-  ],
-  [
-    "Capability-7",
-    "is owned by",
-    "Role-7"
-  ],
-  [
-    "Role-7",
-    "owns",
-    "Capability-7"
-  ],
-  [
-    "Capability-15",
-    "is owned by",
-    "Role-7"
-  ],
-  [
-    "Role-7",
-    "owns",
-    "Capability-15"
-  ],
-  [
-    "Capability-6",
-    "is owned by",
-    "Role-7"
-  ],
-  [
-    "Role-7",
-    "owns",
-    "Capability-6"
-  ],
-  [
-    "Role-9",
+    "Role-8",
     "role is assigned to",
     "Person-16"
   ],
   [
     "Person-16",
     "has role assigned",
-    "Role-9"
+    "Role-8"
   ],
   [
-    "Role-6",
-    "role is assigned to",
-    "Person-15"
+    "Pillar-1",
+    "delivers",
+    "Capability-1"
   ],
   [
-    "Person-15",
-    "has role assigned",
-    "Role-6"
+    "Capability-1",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Capability-1",
+    "is owned by",
+    "Role-8"
   ],
   [
     "Role-8",
-    "role is assigned to",
-    "Person-14"
+    "owns",
+    "Capability-1"
   ],
   [
-    "Person-14",
-    "has role assigned",
+    "Pillar-1",
+    "delivers",
+    "Capability-18"
+  ],
+  [
+    "Capability-18",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Capability-18",
+    "is owned by",
     "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-18"
+  ],
+  [
+    "Pillar-1",
+    "delivers",
+    "Capability-12"
+  ],
+  [
+    "Capability-12",
+    "is delivered by",
+    "Pillar-1"
+  ],
+  [
+    "Capability-12",
+    "is owned by",
+    "Role-8"
+  ],
+  [
+    "Role-8",
+    "owns",
+    "Capability-12"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-24"
+  ],
+  [
+    "Capability-24",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Capability-24",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-24"
   ],
   [
     "Role-7",
@@ -1430,14 +1030,794 @@
     "Role-7"
   ],
   [
+    "Pillar-2",
+    "delivers",
+    "Capability-2"
+  ],
+  [
+    "Capability-2",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Capability-2",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-2"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-14"
+  ],
+  [
+    "Capability-14",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Capability-14",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-14"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-7"
+  ],
+  [
+    "Capability-7",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Capability-7",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-7"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-17"
+  ],
+  [
+    "Capability-17",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Capability-17",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-17"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-3"
+  ],
+  [
+    "Capability-3",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Capability-3",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-3"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-20"
+  ],
+  [
+    "Capability-20",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Capability-20",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-20"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-23"
+  ],
+  [
+    "Capability-23",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Capability-23",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-23"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-6"
+  ],
+  [
+    "Capability-6",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Capability-6",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-6"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-21"
+  ],
+  [
+    "Capability-21",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Capability-21",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-21"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-11"
+  ],
+  [
+    "Capability-11",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Capability-11",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-11"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-5"
+  ],
+  [
+    "Capability-5",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Capability-5",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-5"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-4"
+  ],
+  [
+    "Capability-4",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-4",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-4"
+  ],
+  [
+    "Role-6",
+    "role is assigned to",
+    "Person-15"
+  ],
+  [
+    "Person-15",
+    "has role assigned",
+    "Role-6"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-15"
+  ],
+  [
+    "Capability-15",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-15",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-15"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-10",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-10"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-22"
+  ],
+  [
+    "Capability-22",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-22",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-22"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-13"
+  ],
+  [
+    "Capability-13",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-13",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-13"
+  ],
+  [
+    "Role-9",
+    "role is assigned to",
+    "Person-14"
+  ],
+  [
+    "Person-14",
+    "has role assigned",
+    "Role-9"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-19"
+  ],
+  [
+    "Capability-19",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-19",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-19"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-8",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-8"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-9"
+  ],
+  [
+    "Capability-9",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-9",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-9"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
     "Security_Impact-6",
     "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-8",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
     "Security_Impact-13"
   ],
   [
     "Security_Impact-13",
-    "escalated by",
+    "can escalate to",
     "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-13"
   ],
   [
     "Security_Impact-13",
@@ -1452,762 +1832,462 @@
   [
     "Security_Impact-13",
     "can escalate to",
-    "Security_Impact-11"
+    "Security_Impact-12"
   ],
   [
-    "Security_Impact-11",
+    "Security_Impact-12",
     "escalated by",
     "Security_Impact-13"
   ],
   [
     "Security_Impact-13",
     "can escalate to",
-    "Security_Impact-2"
+    "Security_Impact-10"
   ],
   [
-    "Security_Impact-2",
+    "Security_Impact-10",
     "escalated by",
     "Security_Impact-13"
   ],
   [
-    "Security_Impact-6",
-    "can escalate to",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "escalated by",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-4",
-    "can escalate to",
-    "Security_Impact-8"
-  ],
-  [
-    "Security_Impact-8",
-    "escalated by",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "can escalate to",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-11",
-    "escalated by",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "can escalate to",
-    "Security_Impact-2"
-  ],
-  [
-    "Security_Impact-2",
-    "escalated by",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-6",
-    "can escalate to",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "escalated by",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-5",
-    "can escalate to",
-    "Security_Impact-8"
-  ],
-  [
-    "Security_Impact-8",
-    "escalated by",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "can escalate to",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-11",
-    "escalated by",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "can escalate to",
-    "Security_Impact-2"
-  ],
-  [
-    "Security_Impact-2",
-    "escalated by",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-6",
-    "can escalate to",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "escalated by",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-10",
-    "can escalate to",
-    "Security_Impact-8"
-  ],
-  [
-    "Security_Impact-8",
-    "escalated by",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "can escalate to",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-11",
-    "escalated by",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "can escalate to",
-    "Security_Impact-2"
-  ],
-  [
-    "Security_Impact-2",
-    "escalated by",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-6",
-    "can escalate to",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "escalated by",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-3",
-    "can escalate to",
-    "Security_Impact-8"
-  ],
-  [
-    "Security_Impact-8",
-    "escalated by",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "can escalate to",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-11",
-    "escalated by",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "can escalate to",
-    "Security_Impact-2"
-  ],
-  [
-    "Security_Impact-2",
-    "escalated by",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-6",
-    "can escalate to",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "escalated by",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-1",
-    "can escalate to",
-    "Security_Impact-8"
-  ],
-  [
-    "Security_Impact-8",
-    "escalated by",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "can escalate to",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-11",
-    "escalated by",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "can escalate to",
-    "Security_Impact-2"
-  ],
-  [
-    "Security_Impact-2",
-    "escalated by",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-13"
-  ],
-  [
-    "Security_Impact-13",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-12",
-    "can escalate to",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "escalated by",
-    "Security_Impact-12"
-  ],
-  [
     "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-13"
-  ],
-  [
-    "Security_Impact-13",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-7",
-    "can escalate to",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "escalated by",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-13"
-  ],
-  [
-    "Security_Impact-13",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-4",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-5"
-  ],
-  [
-    "Security_Impact-5",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-10"
-  ],
-  [
-    "Security_Impact-10",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-9",
-    "can escalate to",
-    "Security_Impact-1"
-  ],
-  [
-    "Security_Impact-1",
-    "escalated by",
-    "Security_Impact-9"
-  ],
-  [
-    "Security_Impact-12",
-    "can arise due to exploit of",
-    "Vulnerability-6"
-  ],
-  [
-    "Vulnerability-6",
-    "expoit causes",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-7",
-    "can arise due to exploit of",
-    "Vulnerability-8"
-  ],
-  [
-    "Vulnerability-8",
-    "expoit causes",
-    "Security_Impact-7"
-  ],
-  [
-    "Security_Impact-6",
-    "can arise due to exploit of",
-    "Vulnerability-5"
-  ],
-  [
-    "Vulnerability-5",
-    "expoit causes",
-    "Security_Impact-6"
-  ],
-  [
-    "Security_Impact-3",
-    "can arise due to exploit of",
-    "Vulnerability-5"
-  ],
-  [
-    "Vulnerability-5",
-    "expoit causes",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-3",
     "can arise due to exploit of",
     "Vulnerability-11"
   ],
   [
     "Vulnerability-11",
     "expoit causes",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-4",
-    "can arise due to exploit of",
-    "Vulnerability-11"
-  ],
-  [
-    "Vulnerability-11",
-    "expoit causes",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-11",
-    "can arise due to exploit of",
-    "Vulnerability-11"
-  ],
-  [
-    "Vulnerability-11",
-    "expoit causes",
-    "Security_Impact-11"
-  ],
-  [
-    "Security_Impact-4",
-    "can arise due to exploit of",
-    "Vulnerability-9"
-  ],
-  [
-    "Vulnerability-9",
-    "expoit causes",
-    "Security_Impact-4"
-  ],
-  [
-    "Security_Impact-12",
-    "can arise due to exploit of",
-    "Vulnerability-1"
-  ],
-  [
-    "Vulnerability-1",
-    "expoit causes",
-    "Security_Impact-12"
-  ],
-  [
-    "Security_Impact-7",
-    "can arise due to exploit of",
-    "Vulnerability-7"
-  ],
-  [
-    "Vulnerability-7",
-    "expoit causes",
     "Security_Impact-7"
   ],
   [
-    "Security_Impact-13",
-    "can arise due to exploit of",
-    "Vulnerability-4"
-  ],
-  [
-    "Vulnerability-4",
-    "expoit causes",
-    "Security_Impact-13"
-  ],
-  [
-    "Security_Impact-3",
-    "can arise due to exploit of",
-    "Vulnerability-2"
-  ],
-  [
-    "Vulnerability-2",
-    "expoit causes",
-    "Security_Impact-3"
-  ],
-  [
-    "Security_Impact-7",
-    "can arise due to exploit of",
-    "Vulnerability-3"
-  ],
-  [
-    "Vulnerability-3",
-    "expoit causes",
-    "Security_Impact-7"
-  ],
-  [
-    "Vulnerability-6",
+    "Vulnerability-11",
     "is supported by",
     "Incident_Fact-12"
   ],
   [
     "Incident_Fact-12",
     "supports",
-    "Vulnerability-6"
-  ],
-  [
-    "Vulnerability-8",
-    "is supported by",
-    "Incident_Fact-11"
-  ],
-  [
-    "Incident_Fact-11",
-    "supports",
-    "Vulnerability-8"
-  ],
-  [
-    "Vulnerability-5",
-    "is supported by",
-    "Incident_Fact-9"
-  ],
-  [
-    "Incident_Fact-9",
-    "supports",
-    "Vulnerability-5"
-  ],
-  [
-    "Vulnerability-11",
-    "is supported by",
-    "Incident_Fact-8"
-  ],
-  [
-    "Incident_Fact-8",
-    "supports",
     "Vulnerability-11"
   ],
   [
-    "Vulnerability-9",
-    "is supported by",
-    "Incident_Fact-4"
-  ],
-  [
-    "Incident_Fact-4",
-    "supports",
-    "Vulnerability-9"
-  ],
-  [
-    "Vulnerability-1",
-    "is supported by",
-    "Incident_Fact-5"
-  ],
-  [
-    "Incident_Fact-5",
-    "supports",
-    "Vulnerability-1"
-  ],
-  [
-    "Vulnerability-7",
-    "is supported by",
-    "Incident_Fact-7"
-  ],
-  [
-    "Incident_Fact-7",
-    "supports",
-    "Vulnerability-7"
-  ],
-  [
-    "Vulnerability-4",
-    "is supported by",
-    "Incident_Fact-6"
-  ],
-  [
-    "Incident_Fact-6",
-    "supports",
-    "Vulnerability-4"
-  ],
-  [
-    "Vulnerability-2",
-    "is supported by",
-    "Incident_Fact-6"
-  ],
-  [
-    "Incident_Fact-6",
-    "supports",
-    "Vulnerability-2"
-  ],
-  [
-    "Vulnerability-3",
-    "is supported by",
-    "Incident_Fact-1"
-  ],
-  [
-    "Incident_Fact-1",
-    "supports",
-    "Vulnerability-3"
-  ],
-  [
     "Incident_Fact-12",
-    "indicates failure of",
-    "Capability-1"
-  ],
-  [
-    "Capability-1",
-    "failure causes",
-    "Incident_Fact-12"
-  ],
-  [
-    "Incident_Fact-11",
     "indicates failure of",
     "Capability-17"
   ],
   [
     "Capability-17",
     "failure causes",
-    "Incident_Fact-11"
+    "Incident_Fact-12"
   ],
   [
-    "Incident_Fact-9",
-    "indicates failure of",
-    "Capability-10"
-  ],
-  [
-    "Capability-10",
-    "failure causes",
-    "Incident_Fact-9"
-  ],
-  [
-    "Incident_Fact-9",
-    "indicates failure of",
-    "Capability-21"
-  ],
-  [
-    "Capability-21",
-    "failure causes",
-    "Incident_Fact-9"
-  ],
-  [
-    "Incident_Fact-8",
-    "indicates failure of",
-    "Capability-6"
-  ],
-  [
-    "Capability-6",
-    "failure causes",
-    "Incident_Fact-8"
-  ],
-  [
-    "Incident_Fact-4",
-    "indicates failure of",
-    "Capability-8"
-  ],
-  [
-    "Capability-8",
-    "failure causes",
-    "Incident_Fact-4"
-  ],
-  [
-    "Incident_Fact-5",
-    "indicates failure of",
-    "Capability-21"
-  ],
-  [
-    "Capability-21",
-    "failure causes",
-    "Incident_Fact-5"
-  ],
-  [
-    "Incident_Fact-7",
-    "indicates failure of",
-    "Capability-22"
-  ],
-  [
-    "Capability-22",
-    "failure causes",
-    "Incident_Fact-7"
-  ],
-  [
-    "Incident_Fact-6",
-    "indicates failure of",
-    "Capability-22"
-  ],
-  [
-    "Capability-22",
-    "failure causes",
-    "Incident_Fact-6"
-  ],
-  [
-    "Incident_Fact-6",
-    "indicates failure of",
-    "Capability-10"
-  ],
-  [
-    "Capability-10",
-    "failure causes",
-    "Incident_Fact-6"
-  ],
-  [
-    "Incident_Fact-1",
+    "Incident_Fact-12",
     "indicates failure of",
     "Capability-25"
   ],
   [
     "Capability-25",
     "failure causes",
-    "Incident_Fact-1"
+    "Incident_Fact-12"
+  ],
+  [
+    "Security_Impact-18",
+    "can arise due to exploit of",
+    "Vulnerability-11"
+  ],
+  [
+    "Vulnerability-11",
+    "expoit causes",
+    "Security_Impact-18"
+  ],
+  [
+    "Incident_Fact-12",
+    "indicates failure of",
+    "Capability-26"
+  ],
+  [
+    "Capability-26",
+    "failure causes",
+    "Incident_Fact-12"
+  ],
+  [
+    "Incident_Fact-12",
+    "indicates failure of",
+    "Capability-2"
+  ],
+  [
+    "Capability-2",
+    "failure causes",
+    "Incident_Fact-12"
+  ],
+  [
+    "Security_Impact-16",
+    "can arise due to exploit of",
+    "Vulnerability-7"
+  ],
+  [
+    "Vulnerability-7",
+    "expoit causes",
+    "Security_Impact-16"
+  ],
+  [
+    "Vulnerability-7",
+    "is supported by",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "supports",
+    "Vulnerability-7"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-28"
+  ],
+  [
+    "Capability-28",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-13"
+  ],
+  [
+    "Capability-13",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Security_Impact-5",
+    "can arise due to exploit of",
+    "Vulnerability-7"
+  ],
+  [
+    "Vulnerability-7",
+    "expoit causes",
+    "Security_Impact-5"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-26"
+  ],
+  [
+    "Capability-26",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Incident_Fact-6",
+    "indicates failure of",
+    "Capability-2"
+  ],
+  [
+    "Capability-2",
+    "failure causes",
+    "Incident_Fact-6"
+  ],
+  [
+    "Security_Impact-14",
+    "can arise due to exploit of",
+    "Vulnerability-3"
+  ],
+  [
+    "Vulnerability-3",
+    "expoit causes",
+    "Security_Impact-14"
+  ],
+  [
+    "Vulnerability-3",
+    "is supported by",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-4",
+    "supports",
+    "Vulnerability-3"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-4"
+  ],
+  [
+    "Capability-4",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-31"
+  ],
+  [
+    "Capability-31",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Security_Impact-2",
+    "can arise due to exploit of",
+    "Vulnerability-3"
+  ],
+  [
+    "Vulnerability-3",
+    "expoit causes",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-12",
+    "can arise due to exploit of",
+    "Vulnerability-3"
+  ],
+  [
+    "Vulnerability-3",
+    "expoit causes",
+    "Security_Impact-12"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-29"
+  ],
+  [
+    "Capability-29",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-15"
+  ],
+  [
+    "Capability-15",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Security_Impact-20",
+    "can arise due to exploit of",
+    "Vulnerability-3"
+  ],
+  [
+    "Vulnerability-3",
+    "expoit causes",
+    "Security_Impact-20"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Incident_Fact-4",
+    "indicates failure of",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "failure causes",
+    "Incident_Fact-4"
+  ],
+  [
+    "Vulnerability-2",
+    "is supported by",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-9",
+    "supports",
+    "Vulnerability-2"
   ],
   [
     "Incident_Fact-9",
     "indicates failure of",
-    "Capability-22"
+    "Capability-4"
   ],
   [
-    "Capability-22",
+    "Capability-4",
     "failure causes",
     "Incident_Fact-9"
   ],
   [
-    "Vulnerability-10",
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-31"
+  ],
+  [
+    "Capability-31",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-27"
+  ],
+  [
+    "Capability-27",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Incident_Fact-9",
+    "indicates failure of",
+    "Capability-6"
+  ],
+  [
+    "Capability-6",
+    "failure causes",
+    "Incident_Fact-9"
+  ],
+  [
+    "Security_Impact-12",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-12"
+  ],
+  [
+    "Vulnerability-6",
+    "is supported by",
+    "Incident_Fact-11"
+  ],
+  [
+    "Incident_Fact-11",
+    "supports",
+    "Vulnerability-6"
+  ],
+  [
+    "Incident_Fact-11",
+    "indicates failure of",
+    "Capability-9"
+  ],
+  [
+    "Capability-9",
+    "failure causes",
+    "Incident_Fact-11"
+  ],
+  [
+    "Incident_Fact-11",
+    "indicates failure of",
+    "Capability-32"
+  ],
+  [
+    "Capability-32",
+    "failure causes",
+    "Incident_Fact-11"
+  ],
+  [
+    "Security_Impact-20",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-6",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-17",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-19",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-9",
+    "can arise due to exploit of",
+    "Vulnerability-6"
+  ],
+  [
+    "Vulnerability-6",
+    "expoit causes",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-6",
+    "can arise due to exploit of",
+    "Vulnerability-4"
+  ],
+  [
+    "Vulnerability-4",
+    "expoit causes",
+    "Security_Impact-6"
+  ],
+  [
+    "Vulnerability-4",
     "is supported by",
     "Incident_Fact-2"
   ],
   [
     "Incident_Fact-2",
     "supports",
-    "Vulnerability-10"
+    "Vulnerability-4"
+  ],
+  [
+    "Incident_Fact-2",
+    "indicates failure of",
+    "Capability-26"
+  ],
+  [
+    "Capability-26",
+    "failure causes",
+    "Incident_Fact-2"
+  ],
+  [
+    "Incident_Fact-2",
+    "indicates failure of",
+    "Capability-2"
+  ],
+  [
+    "Capability-2",
+    "failure causes",
+    "Incident_Fact-2"
+  ],
+  [
+    "Security_Impact-17",
+    "can arise due to exploit of",
+    "Vulnerability-4"
+  ],
+  [
+    "Vulnerability-4",
+    "expoit causes",
+    "Security_Impact-17"
   ],
   [
     "Incident_Fact-2",
@@ -2220,74 +2300,254 @@
     "Incident_Fact-2"
   ],
   [
-    "Incident_Fact-12",
-    "indicates failure of",
-    "Capability-8"
-  ],
-  [
-    "Capability-8",
-    "failure causes",
-    "Incident_Fact-12"
-  ],
-  [
-    "Incident_Fact-11",
-    "indicates failure of",
-    "Capability-8"
-  ],
-  [
-    "Capability-8",
-    "failure causes",
-    "Incident_Fact-11"
-  ],
-  [
     "Incident_Fact-2",
     "indicates failure of",
-    "Capability-11"
+    "Capability-34"
   ],
   [
-    "Capability-11",
+    "Capability-34",
     "failure causes",
     "Incident_Fact-2"
   ],
   [
-    "Incident_Fact-4",
+    "Security_Impact-7",
+    "can arise due to exploit of",
+    "Vulnerability-5"
+  ],
+  [
+    "Vulnerability-5",
+    "expoit causes",
+    "Security_Impact-7"
+  ],
+  [
+    "Vulnerability-5",
+    "is supported by",
+    "Incident_Fact-1"
+  ],
+  [
+    "Incident_Fact-1",
+    "supports",
+    "Vulnerability-5"
+  ],
+  [
+    "Incident_Fact-1",
     "indicates failure of",
-    "Capability-22"
+    "Capability-29"
   ],
   [
-    "Capability-22",
+    "Capability-29",
     "failure causes",
-    "Incident_Fact-4"
+    "Incident_Fact-1"
   ],
   [
-    "Incident_Fact-5",
-    "indicates failure of",
-    "Capability-22"
-  ],
-  [
-    "Capability-22",
-    "failure causes",
-    "Incident_Fact-5"
-  ],
-  [
-    "Incident_Fact-7",
+    "Incident_Fact-1",
     "indicates failure of",
     "Capability-15"
   ],
   [
     "Capability-15",
     "failure causes",
-    "Incident_Fact-7"
+    "Incident_Fact-1"
+  ],
+  [
+    "Security_Impact-18",
+    "can arise due to exploit of",
+    "Vulnerability-5"
+  ],
+  [
+    "Vulnerability-5",
+    "expoit causes",
+    "Security_Impact-18"
+  ],
+  [
+    "Incident_Fact-1",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-1"
+  ],
+  [
+    "Incident_Fact-1",
+    "indicates failure of",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "failure causes",
+    "Incident_Fact-1"
+  ],
+  [
+    "Security_Impact-16",
+    "can arise due to exploit of",
+    "Vulnerability-10"
+  ],
+  [
+    "Vulnerability-10",
+    "expoit causes",
+    "Security_Impact-16"
+  ],
+  [
+    "Vulnerability-10",
+    "is supported by",
+    "Incident_Fact-10"
+  ],
+  [
+    "Incident_Fact-10",
+    "supports",
+    "Vulnerability-10"
   ],
   [
     "Incident_Fact-10",
     "indicates failure of",
-    "Capability-22"
+    "Capability-10"
   ],
   [
-    "Capability-22",
+    "Capability-10",
     "failure causes",
     "Incident_Fact-10"
+  ],
+  [
+    "Incident_Fact-10",
+    "indicates failure of",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "failure causes",
+    "Incident_Fact-10"
+  ],
+  [
+    "Security_Impact-5",
+    "can arise due to exploit of",
+    "Vulnerability-10"
+  ],
+  [
+    "Vulnerability-10",
+    "expoit causes",
+    "Security_Impact-5"
+  ],
+  [
+    "Incident_Fact-10",
+    "indicates failure of",
+    "Capability-8"
+  ],
+  [
+    "Capability-8",
+    "failure causes",
+    "Incident_Fact-10"
+  ],
+  [
+    "Incident_Fact-10",
+    "indicates failure of",
+    "Capability-33"
+  ],
+  [
+    "Capability-33",
+    "failure causes",
+    "Incident_Fact-10"
+  ],
+  [
+    "Security_Impact-15",
+    "can arise due to exploit of",
+    "Vulnerability-1"
+  ],
+  [
+    "Vulnerability-1",
+    "expoit causes",
+    "Security_Impact-15"
+  ],
+  [
+    "Vulnerability-1",
+    "is supported by",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "supports",
+    "Vulnerability-1"
+  ],
+  [
+    "Incident_Fact-8",
+    "indicates failure of",
+    "Capability-10"
+  ],
+  [
+    "Capability-10",
+    "failure causes",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "indicates failure of",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "failure causes",
+    "Incident_Fact-8"
+  ],
+  [
+    "Security_Impact-3",
+    "can arise due to exploit of",
+    "Vulnerability-1"
+  ],
+  [
+    "Vulnerability-1",
+    "expoit causes",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-12",
+    "can arise due to exploit of",
+    "Vulnerability-8"
+  ],
+  [
+    "Vulnerability-8",
+    "expoit causes",
+    "Security_Impact-12"
+  ],
+  [
+    "Vulnerability-8",
+    "is supported by",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "supports",
+    "Vulnerability-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "indicates failure of",
+    "Capability-4"
+  ],
+  [
+    "Capability-4",
+    "failure causes",
+    "Incident_Fact-8"
+  ],
+  [
+    "Incident_Fact-8",
+    "indicates failure of",
+    "Capability-31"
+  ],
+  [
+    "Capability-31",
+    "failure causes",
+    "Incident_Fact-8"
+  ],
+  [
+    "Security_Impact-20",
+    "can arise due to exploit of",
+    "Vulnerability-8"
+  ],
+  [
+    "Vulnerability-8",
+    "expoit causes",
+    "Security_Impact-20"
   ],
   [
     "Incident_Fact-3",
@@ -2298,5 +2558,995 @@
     "Capability-10",
     "failure causes",
     "Incident_Fact-3"
+  ],
+  [
+    "Incident_Fact-3",
+    "indicates failure of",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "failure causes",
+    "Incident_Fact-3"
+  ],
+  [
+    "Incident_Fact-5",
+    "indicates failure of",
+    "Capability-4"
+  ],
+  [
+    "Capability-4",
+    "failure causes",
+    "Incident_Fact-5"
+  ],
+  [
+    "Incident_Fact-5",
+    "indicates failure of",
+    "Capability-31"
+  ],
+  [
+    "Capability-31",
+    "failure causes",
+    "Incident_Fact-5"
+  ],
+  [
+    "Security_Impact-16",
+    "can arise due to exploit of",
+    "Vulnerability-9"
+  ],
+  [
+    "Vulnerability-9",
+    "expoit causes",
+    "Security_Impact-16"
+  ],
+  [
+    "Vulnerability-9",
+    "is supported by",
+    "Incident_Fact-7"
+  ],
+  [
+    "Incident_Fact-7",
+    "supports",
+    "Vulnerability-9"
+  ],
+  [
+    "Incident_Fact-7",
+    "indicates failure of",
+    "Capability-30"
+  ],
+  [
+    "Capability-30",
+    "failure causes",
+    "Incident_Fact-7"
+  ],
+  [
+    "Security_Impact-5",
+    "can arise due to exploit of",
+    "Vulnerability-9"
+  ],
+  [
+    "Vulnerability-9",
+    "expoit causes",
+    "Security_Impact-5"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Account-6"
+  ],
+  [
+    "Account-6",
+    "is owned by",
+    "Person-1"
+  ],
+  [
+    "Person-2",
+    "owns",
+    "Account-3"
+  ],
+  [
+    "Account-3",
+    "is owned by",
+    "Person-2"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Account-5"
+  ],
+  [
+    "Account-5",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Account-5",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-5"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-1"
+  ],
+  [
+    "Account-1",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-4"
+  ],
+  [
+    "Account-4",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-2"
+  ],
+  [
+    "Account-2",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Person-1",
+    "owns",
+    "Account-8"
+  ],
+  [
+    "Account-8",
+    "is owned by",
+    "Person-1"
+  ],
+  [
+    "Person-2",
+    "owns",
+    "Account-9"
+  ],
+  [
+    "Account-9",
+    "is owned by",
+    "Person-2"
+  ],
+  [
+    "Person-3",
+    "owns",
+    "Account-10"
+  ],
+  [
+    "Account-10",
+    "is owned by",
+    "Person-3"
+  ],
+  [
+    "Account-10",
+    "is admin account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has admin account",
+    "Account-10"
+  ],
+  [
+    "Person-4",
+    "owns",
+    "Account-10"
+  ],
+  [
+    "Account-10",
+    "is owned by",
+    "Person-4"
+  ],
+  [
+    "Person-6",
+    "owns",
+    "Account-11"
+  ],
+  [
+    "Account-11",
+    "is owned by",
+    "Person-6"
+  ],
+  [
+    "Account-11",
+    "is user account for",
+    "Application-1"
+  ],
+  [
+    "Application-1",
+    "has user account",
+    "Account-11"
+  ],
+  [
+    "Person-5",
+    "owns",
+    "Account-7"
+  ],
+  [
+    "Account-7",
+    "is owned by",
+    "Person-5"
+  ],
+  [
+    "Account-9",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-9"
+  ],
+  [
+    "Account-10",
+    "represents critical business asset",
+    "Business_Asset-1"
+  ],
+  [
+    "Business_Asset-1",
+    "has critical business asset",
+    "Account-10"
+  ],
+  [
+    "Pillar-2",
+    "delivers",
+    "Capability-26"
+  ],
+  [
+    "Capability-26",
+    "is delivered by",
+    "Pillar-2"
+  ],
+  [
+    "Capability-26",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-26"
+  ],
+  [
+    "Pillar-5",
+    "delivers",
+    "Capability-25"
+  ],
+  [
+    "Capability-25",
+    "is delivered by",
+    "Pillar-5"
+  ],
+  [
+    "Capability-25",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-25"
+  ],
+  [
+    "Pillar-4",
+    "delivers",
+    "Capability-27"
+  ],
+  [
+    "Capability-27",
+    "is delivered by",
+    "Pillar-4"
+  ],
+  [
+    "Capability-27",
+    "is owned by",
+    "Role-7"
+  ],
+  [
+    "Role-7",
+    "owns",
+    "Capability-27"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-31"
+  ],
+  [
+    "Capability-31",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-31",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-31"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-29"
+  ],
+  [
+    "Capability-29",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-29",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-29"
+  ],
+  [
+    "Pillar-6",
+    "delivers",
+    "Capability-34"
+  ],
+  [
+    "Capability-34",
+    "is delivered by",
+    "Pillar-6"
+  ],
+  [
+    "Capability-34",
+    "is owned by",
+    "Role-6"
+  ],
+  [
+    "Role-6",
+    "owns",
+    "Capability-34"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-28"
+  ],
+  [
+    "Capability-28",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-28",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-28"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-33"
+  ],
+  [
+    "Capability-33",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-33",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-33"
+  ],
+  [
+    "Pillar-3",
+    "delivers",
+    "Capability-32"
+  ],
+  [
+    "Capability-32",
+    "is delivered by",
+    "Pillar-3"
+  ],
+  [
+    "Capability-32",
+    "is owned by",
+    "Role-9"
+  ],
+  [
+    "Role-9",
+    "owns",
+    "Capability-32"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-15",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-15",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-3",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-15",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-17",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-6",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-17",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-1",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-8",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-20",
+    "can escalate to",
+    "Security_Impact-4"
+  ],
+  [
+    "Security_Impact-4",
+    "escalated by",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-2",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-2"
+  ],
+  [
+    "Security_Impact-12",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-20",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "can escalate to",
+    "Security_Impact-9"
+  ],
+  [
+    "Security_Impact-9",
+    "escalated by",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "can escalate to",
+    "Security_Impact-11"
+  ],
+  [
+    "Security_Impact-11",
+    "escalated by",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-14",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-14"
+  ],
+  [
+    "Security_Impact-10",
+    "can escalate to",
+    "Security_Impact-19"
+  ],
+  [
+    "Security_Impact-19",
+    "escalated by",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-7",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-7"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-18",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-18"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-3"
+  ],
+  [
+    "Security_Impact-3",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-6"
+  ],
+  [
+    "Security_Impact-6",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-1"
+  ],
+  [
+    "Security_Impact-1",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-8"
+  ],
+  [
+    "Security_Impact-8",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-12"
+  ],
+  [
+    "Security_Impact-12",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-5",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-5"
+  ],
+  [
+    "Security_Impact-16",
+    "can escalate to",
+    "Security_Impact-10"
+  ],
+  [
+    "Security_Impact-10",
+    "escalated by",
+    "Security_Impact-16"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-15"
+  ],
+  [
+    "Security_Impact-15",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-17"
+  ],
+  [
+    "Security_Impact-17",
+    "escalated by",
+    "Security_Impact-13"
+  ],
+  [
+    "Security_Impact-13",
+    "can escalate to",
+    "Security_Impact-20"
+  ],
+  [
+    "Security_Impact-20",
+    "escalated by",
+    "Security_Impact-13"
   ]
 ]
