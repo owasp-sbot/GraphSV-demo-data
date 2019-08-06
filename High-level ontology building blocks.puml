@@ -1,0 +1,206 @@
+@startuml
+
+node Business_Structure
+node Business_Unit #cceeff
+node Functions #cceeff
+node Teams #cceeff
+node Roles #cceeff
+node Skills #cceeff
+node Capabilities #cceeff
+node Processes #cceeff
+node People #1ab2ff
+node Location #cceeff
+node Policy #cceeff
+
+Business_Structure --> Business_Unit
+Business_Unit -> Functions : funds
+Functions --> Capabilities : require
+Capabilities <-- Skills : are required \nto deliver
+Roles --> Skills : require
+People --> Skills : have
+Teams -> Roles : fund
+Roles -> Location : based out of
+Teams --> Capabilities : deliver
+Processes -> Policy : governed by
+People --> Roles : own
+Functions --> Teams : fund
+Capabilities -> Processes : have
+
+
+
+node IT_Systems
+node IT_System #ffff33
+node Account #ffff80
+node Application #ffff80
+node API #ffff80
+node Device #ffff80
+node Data #ffff80
+
+IT_Systems -> IT_System
+IT_System --> Account : is made up of
+IT_System --> Device : is made up of
+IT_System --> Application : is made up of
+Account --> Application : has access to
+Application --> Data : stores / processes
+Account --> Device : is associated with
+Application --> API : exposes
+API --> Application : consumed by
+Device <-- Application : is installed on
+Device --> Device : has network connection to
+
+
+
+
+node Threat_Model
+node Attack_Surface #FFB6C1
+node Threat_Actor #FF4500
+node Attack_Vector #FF4500
+node Exploit #FF4500
+node Control #ADD8E6
+node Vulnerability #FFB6C1
+node Impact #FF0000
+node Risk #FF0000
+node Sophistication_Level #FF4500
+node Asset_Class #ADD8E6
+node Yield_to_Attacker #FF4500
+node Cost_to_Attacker #FF4500
+node Priv_Level #FF4500
+
+Threat_Model -> Threat_Actor
+Threat_Actor --> Attack_Vector : selects
+Threat_Actor --> Attack_Surface : has access to
+Attack_Surface --> Asset_Class : presents
+Asset_Class --> Vulnerability : is affected by
+Attack_Vector --> Exploit : presents \noptions for
+Vulnerability --> Impact : exploit causes
+Vulnerability --> Exploit : used by
+Exploit --> Sophistication_Level : has
+Exploit --> Cost_to_Attacker : has
+Exploit --> Priv_Level : requires
+Asset_Class <-- Attack_Vector : can be \n used on
+Exploit --> Asset_Class : deployed against
+Control -> Attack_Vector : can mitigate
+Control -> Exploit : can mitigate
+Control -> Impact : can mitigate
+Control -> Vulnerability : can mitigate \n/ fix
+Vulnerability -> Yield_to_Attacker : exploit delivers
+Impact -> Risk : realises
+
+
+
+
+node Incident_Response
+node Security_Event #ff9933
+node Security_Incident #ff4d4d
+node Playbook #ff9999
+node IR_Thread #ff4d4d
+node Incident_Task #ff4d4d
+node Incident_Fact #ff4d4d
+node Incident_Evidence #ff4d4d
+node Timeline_Fact #ff4d4d
+
+Incident_Response --> Security_Event
+Security_Event -> Security_Incident : is escalated to
+Security_Incident -> Playbook : can use / generates
+Playbook --> IR_Thread : sets tasks for
+Security_Incident --> IR_Thread : causes
+IR_Thread --> Incident_Task : causes
+Incident_Task -> Incident_Fact : captures evidence \nthat supports
+Incident_Fact -> Timeline_Fact : captures evidence \nthat supports
+Incident_Fact --> Incident_Evidence : supported by
+Incident_Task --> Incident_Evidence : captures
+
+
+
+node Projects
+node Project #00b33c
+node Outcomes #00b33c
+node Key_Results #00b33c
+node Tasks #00b33c
+node Sub_Tasks #00b33c
+node Budget_Year #00b33c
+node Facts #00ff55
+node Questions #00ff55
+node Decisions #00ff55
+node Hypothesis #00ff55
+
+Projects --> Project
+Project --> Budget_Year : funded in
+Project -> Outcomes : targets
+Outcomes -> Key_Results : delivered by
+Key_Results --> Tasks : delivered by
+Tasks --> Sub_Tasks : delivered by
+Tasks --> Facts : establish
+Sub_Tasks --> Facts : establish
+Key_Results -> Hypothesis : generate
+Hypothesis --> Tasks : are tested by
+Tasks --> Decisions : lead to
+Tasks -> Questions : answer / lead to
+Facts --> Decisions : support
+Facts --> Tasks : are changed by
+Facts --> Facts : are superseded by
+
+
+
+node 3rd_Parties
+node Partner #00e6e6
+node Service #00e6e6
+node Technology #00e6e6
+node Module #00e6e6
+node Configuration #00e6e6
+node Subscription_Level #00e6e6
+node Active_Licence #00e6e6
+node Account_Representatives #00e6e6
+node Roadmap_Item #00e6e6
+
+3rd_Parties -> Partner
+Partner --> Account_Representatives : has assigned
+Partner --> Service : provides
+Partner --> Technology : provides
+Technology --> Module : has
+Module --> Active_Licence : has
+Module --> Configuration : has
+Technology --> Roadmap_Item : has
+Technology --> Subscription_Level : has
+Subscription_Level --> Active_Licence : has
+
+
+
+node Interactions
+node Meeting #ff99ff
+node Question #ff99ff
+node Decision #ff99ff
+node Question_Task #ff99ff
+node Fact #ff99ff
+
+Interactions -> Meeting
+Meeting <-- Decision : taken at
+Meeting <- Question : raised at
+Question --> Question_Task : answered by
+Fact --> Decision : supports
+Question_Task --> Fact : outcome supports
+Fact <-- Decision : requires
+
+
+
+node Red_Team
+node Red_Team_Goal #e60000
+node Red_Team_Task #e60000
+node Red_Team_Tool #e60000
+node Red_Team_Control_Proof_Point #e60000
+node Red_Team_Vulnerability #e60000
+node Control #ADD8E6
+
+Red_Team -> Red_Team_Goal
+Red_Team_Goal --> Red_Team_Task : delivered by
+Red_Team_Task --> Red_Team_Tool : uses
+Red_Team_Task --> Red_Team_Task : is followed by
+Red_Team_Task --> Red_Team_Vulnerability : discovers
+Red_Team_Vulnerability --> Red_Team_Task : enables
+Red_Team_Vulnerability --> Red_Team_Control_Proof_Point : exploit confirms
+Red_Team_Task --> Red_Team_Control_Proof_Point : delivers
+Red_Team_Control_Proof_Point --> Red_Team_Goal : evidences that threat \nactor can achieve
+Red_Team_Task --> Red_Team_Goal : achieves
+Red_Team_Control_Proof_Point --> Control : implies failure of; \n implies strength of
+
+@enduml
