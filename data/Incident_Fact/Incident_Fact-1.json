@@ -1,5 +1,5 @@
 {
-  "Summary": "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton",
+  "Summary": "API keys are stored in plain text on user devices",
   "Key": "Incident_Fact-1",
   "Issue Type": "Incident Fact"
 }

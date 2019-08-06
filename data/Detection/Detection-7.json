@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)",
+  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
   "Key": "Detection-7",
   "Issue Type": "Detection"
 }

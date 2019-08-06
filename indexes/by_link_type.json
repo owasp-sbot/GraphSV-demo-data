@@ -4,10 +4,10 @@
       "Role-2"
     ],
     "Person-2": [
-      "Role-4"
+      "Role-3"
     ],
     "Person-3": [
-      "Role-3"
+      "Role-5"
     ],
     "Person-4": [
       "Role-1"
@@ -16,561 +16,610 @@
       "Role-1"
     ],
     "Person-5": [
-      "Role-5"
+      "Role-4"
+    ],
+    "Person-13": [
+      "Role-8"
+    ],
+    "Person-15": [
+      "Role-6"
+    ],
+    "Person-14": [
+      "Role-7"
+    ],
+    "Person-16": [
+      "Role-9"
     ]
   },
-  "is role of": {
+  "role is assigned to": {
     "Role-2": [
       "Person-1"
     ],
-    "Role-4": [
+    "Role-3": [
       "Person-2"
     ],
-    "Role-3": [
+    "Role-5": [
       "Person-3"
     ],
     "Role-1": [
       "Person-4",
       "Person-6"
     ],
-    "Role-5": [
+    "Role-4": [
       "Person-5"
+    ],
+    "Role-8": [
+      "Person-13"
+    ],
+    "Role-6": [
+      "Person-15"
+    ],
+    "Role-7": [
+      "Person-14"
+    ],
+    "Role-9": [
+      "Person-16"
     ]
   },
   "reports to": {
     "Role-2": [
-      "Role-4"
-    ],
-    "Role-3": [
-      "Role-2"
-    ],
-    "Role-1": [
       "Role-3"
     ],
     "Role-5": [
       "Role-2"
+    ],
+    "Role-1": [
+      "Role-5"
+    ],
+    "Role-4": [
+      "Role-2"
     ]
   },
   "is manager of": {
-    "Role-4": [
+    "Role-3": [
       "Role-2"
     ],
     "Role-2": [
-      "Role-3",
-      "Role-5"
+      "Role-5",
+      "Role-4"
     ],
-    "Role-3": [
+    "Role-5": [
       "Role-1"
     ]
   },
   "is funded by": {
     "Role-2": [
+      "Team-3"
+    ],
+    "Team-3": [
+      "Function-2"
+    ],
+    "Role-3": [
       "Team-5"
     ],
     "Team-5": [
-      "Function-2"
+      "Function-3"
     ],
-    "Role-4": [
+    "Role-5": [
+      "Team-1"
+    ],
+    "Team-1": [
+      "Function-1"
+    ],
+    "Role-1": [
+      "Team-1",
       "Team-2"
     ],
     "Team-2": [
       "Function-1"
     ],
-    "Role-3": [
-      "Team-1"
-    ],
-    "Team-1": [
-      "Function-3"
-    ],
-    "Role-1": [
-      "Team-1",
-      "Team-3"
-    ],
-    "Team-3": [
-      "Function-3"
-    ],
-    "Role-5": [
+    "Role-4": [
       "Team-4"
     ],
     "Team-4": [
-      "Function-3"
+      "Function-1"
     ]
   },
   "funds": {
-    "Team-5": [
+    "Team-3": [
       "Role-2"
     ],
     "Function-2": [
-      "Team-5"
+      "Team-3"
     ],
-    "Team-2": [
-      "Role-4"
-    ],
-    "Function-1": [
-      "Team-2"
-    ],
-    "Team-1": [
-      "Role-3",
-      "Role-1"
+    "Team-5": [
+      "Role-3"
     ],
     "Function-3": [
+      "Team-5"
+    ],
+    "Team-1": [
+      "Role-5",
+      "Role-1"
+    ],
+    "Function-1": [
       "Team-1",
-      "Team-3",
+      "Team-2",
       "Team-4"
     ],
-    "Team-3": [
+    "Team-2": [
       "Role-1"
     ],
     "Team-4": [
-      "Role-5"
+      "Role-4"
     ]
   },
   "is function within": {
     "Function-2": [
       "Business_Unit-1"
     ],
-    "Function-1": [
+    "Function-3": [
       "Business_Unit-1"
     ],
-    "Function-3": [
+    "Function-1": [
       "Business_Unit-1"
     ]
   },
   "has function": {
     "Business_Unit-1": [
       "Function-2",
-      "Function-1",
-      "Function-3"
+      "Function-3",
+      "Function-1"
     ]
   },
   "is owned by": {
     "Device-6": [
       "Person-1"
     ],
-    "Account-2": [
-      "Person-1",
-      "Person-5"
-    ],
-    "Device-2": [
-      "Person-2"
-    ],
-    "Account-6": [
-      "Person-2",
-      "Person-1"
-    ],
-    "Device-1": [
-      "Person-3"
-    ],
-    "Account-1": [
-      "Person-3",
-      "Person-4"
-    ],
     "Device-5": [
-      "Person-4"
-    ],
-    "Account-3": [
-      "Person-4",
       "Person-2"
     ],
     "Device-4": [
-      "Person-6"
-    ],
-    "Account-5": [
-      "Person-6",
       "Person-3"
     ],
     "Device-3": [
-      "Person-5"
-    ],
-    "Account-4": [
-      "Person-5",
-      "Person-6"
-    ],
-    "Account-7": [
-      "Person-1",
-      "Person-5"
-    ],
-    "Account-8": [
-      "Person-2",
-      "Person-1"
-    ],
-    "Account-11": [
-      "Person-3",
-      "Person-4",
-      "Person-6"
-    ],
-    "Account-9": [
-      "Person-6",
-      "Person-2"
-    ],
-    "Account-10": [
-      "Person-5",
-      "Person-3",
       "Person-4"
     ],
-    "Capability-16": [
-      "Role-8"
+    "Device-1": [
+      "Person-6"
+    ],
+    "Device-2": [
+      "Person-5"
     ],
     "Capability-1": [
       "Role-8"
     ],
-    "Capability-18": [
+    "Capability-13": [
       "Role-8"
     ],
-    "Capability-12": [
+    "Capability-19": [
       "Role-8"
-    ],
-    "Capability-24": [
-      "Role-7"
-    ],
-    "Capability-2": [
-      "Role-7"
-    ],
-    "Capability-14": [
-      "Role-7"
-    ],
-    "Capability-7": [
-      "Role-7"
     ],
     "Capability-17": [
-      "Role-7"
+      "Role-8"
+    ],
+    "Capability-5": [
+      "Role-6"
+    ],
+    "Capability-6": [
+      "Role-6"
+    ],
+    "Capability-14": [
+      "Role-6"
+    ],
+    "Capability-4": [
+      "Role-6"
+    ],
+    "Capability-23": [
+      "Role-6"
+    ],
+    "Capability-2": [
+      "Role-6"
+    ],
+    "Capability-8": [
+      "Role-6"
+    ],
+    "Capability-12": [
+      "Role-6"
+    ],
+    "Capability-9": [
+      "Role-6"
+    ],
+    "Capability-11": [
+      "Role-6"
     ],
     "Capability-3": [
+      "Role-6"
+    ],
+    "Capability-21": [
+      "Role-6"
+    ],
+    "Capability-24": [
       "Role-7"
     ],
     "Capability-20": [
       "Role-7"
     ],
-    "Capability-23": [
+    "Capability-10": [
       "Role-7"
-    ],
-    "Capability-6": [
-      "Role-7"
-    ],
-    "Capability-21": [
-      "Role-7"
-    ],
-    "Capability-11": [
-      "Role-7"
-    ],
-    "Capability-5": [
-      "Role-7"
-    ],
-    "Capability-4": [
-      "Role-6"
     ],
     "Capability-15": [
-      "Role-6"
+      "Role-7"
     ],
-    "Capability-10": [
-      "Role-6"
+    "Capability-16": [
+      "Role-9"
+    ],
+    "Capability-7": [
+      "Role-9"
+    ],
+    "Capability-18": [
+      "Role-9"
     ],
     "Capability-22": [
-      "Role-6"
-    ],
-    "Capability-13": [
-      "Role-9"
-    ],
-    "Capability-19": [
-      "Role-9"
-    ],
-    "Capability-8": [
-      "Role-9"
-    ],
-    "Capability-9": [
       "Role-9"
     ],
     "Capability-26": [
-      "Role-7"
+      "Role-6"
     ],
     "Capability-25": [
-      "Role-7"
-    ],
-    "Capability-27": [
-      "Role-7"
+      "Role-6"
     ],
     "Capability-31": [
       "Role-6"
     ],
     "Capability-29": [
-      "Role-6"
-    ],
-    "Capability-34": [
-      "Role-6"
-    ],
-    "Capability-28": [
-      "Role-9"
-    ],
-    "Capability-33": [
-      "Role-9"
+      "Role-7"
     ],
     "Capability-32": [
+      "Role-7"
+    ],
+    "Capability-33": [
+      "Role-7"
+    ],
+    "Capability-30": [
+      "Role-9"
+    ],
+    "Capability-34": [
+      "Role-9"
+    ],
+    "Capability-27": [
       "Role-9"
     ]
   },
   "owns": {
     "Person-1": [
       "Device-6",
-      "Account-2",
-      "Account-7",
       "Account-6",
-      "Account-8"
+      "Account-10"
     ],
     "Person-2": [
-      "Device-2",
-      "Account-6",
-      "Account-8",
-      "Account-3",
-      "Account-9"
-    ],
-    "Person-3": [
-      "Device-1",
-      "Account-1",
-      "Account-11",
-      "Account-5",
-      "Account-10"
-    ],
-    "Person-4": [
       "Device-5",
-      "Account-3",
-      "Account-11",
-      "Account-1",
-      "Account-10"
-    ],
-    "Person-6": [
-      "Device-4",
-      "Account-5",
-      "Account-9",
       "Account-4",
       "Account-11"
     ],
-    "Person-5": [
-      "Device-3",
-      "Account-4",
-      "Account-10",
+    "Person-3": [
+      "Device-4",
       "Account-2",
+      "Account-8"
+    ],
+    "Person-4": [
+      "Device-3",
+      "Account-1",
+      "Account-8"
+    ],
+    "Person-6": [
+      "Device-1",
+      "Account-3",
       "Account-7"
     ],
+    "Person-5": [
+      "Device-2",
+      "Account-5",
+      "Account-9"
+    ],
     "Role-8": [
-      "Capability-16",
       "Capability-1",
-      "Capability-18",
-      "Capability-12"
+      "Capability-13",
+      "Capability-19",
+      "Capability-17",
+      "Risk-3"
+    ],
+    "Role-6": [
+      "Capability-5",
+      "Capability-6",
+      "Capability-14",
+      "Capability-4",
+      "Capability-23",
+      "Capability-2",
+      "Capability-8",
+      "Capability-12",
+      "Capability-9",
+      "Capability-11",
+      "Capability-3",
+      "Capability-21",
+      "Capability-26",
+      "Capability-25",
+      "Capability-31"
     ],
     "Role-7": [
       "Capability-24",
-      "Capability-2",
-      "Capability-14",
-      "Capability-7",
-      "Capability-17",
-      "Capability-3",
       "Capability-20",
-      "Capability-23",
-      "Capability-6",
-      "Capability-21",
-      "Capability-11",
-      "Capability-5",
-      "Capability-26",
-      "Capability-25",
-      "Capability-27"
-    ],
-    "Role-6": [
-      "Capability-4",
-      "Capability-15",
       "Capability-10",
-      "Capability-22",
-      "Capability-31",
+      "Capability-15",
       "Capability-29",
-      "Capability-34"
+      "Capability-32",
+      "Capability-33"
     ],
     "Role-9": [
-      "Capability-13",
-      "Capability-19",
-      "Capability-8",
-      "Capability-9",
-      "Capability-28",
-      "Capability-33",
-      "Capability-32"
+      "Capability-16",
+      "Capability-7",
+      "Capability-18",
+      "Capability-22",
+      "Capability-30",
+      "Capability-34",
+      "Capability-27"
+    ],
+    "Role-2": [
+      "Risk-4"
+    ],
+    "Role-3": [
+      "Risk-2"
+    ],
+    "Role-4": [
+      "Risk-1"
+    ]
+  },
+  "owned by": {
+    "Account-6": [
+      "Person-1"
+    ],
+    "Account-4": [
+      "Person-2"
+    ],
+    "Account-2": [
+      "Person-3"
+    ],
+    "Account-1": [
+      "Person-4"
+    ],
+    "Account-3": [
+      "Person-6"
+    ],
+    "Account-5": [
+      "Person-5"
+    ],
+    "Account-10": [
+      "Person-1"
+    ],
+    "Account-11": [
+      "Person-2"
+    ],
+    "Account-8": [
+      "Person-3",
+      "Person-4"
+    ],
+    "Account-7": [
+      "Person-6"
+    ],
+    "Account-9": [
+      "Person-5"
+    ],
+    "Risk-4": [
+      "Role-2"
+    ],
+    "Risk-3": [
+      "Role-8"
+    ],
+    "Risk-2": [
+      "Role-3"
+    ],
+    "Risk-1": [
+      "Role-4"
     ]
   },
   "represents critical business asset": {
-    "Account-6": [
+    "Account-4": [
+      "Business_Asset-1"
+    ],
+    "Account-2": [
       "Business_Asset-1"
     ],
     "Account-1": [
       "Business_Asset-1"
     ],
-    "Account-3": [
-      "Business_Asset-1"
-    ],
     "Application-1": [
       "Business_Asset-2"
-    ],
-    "Account-8": [
-      "Business_Asset-1"
     ],
     "Account-11": [
       "Business_Asset-1"
     ],
-    "Account-5": [
-      "Business_Asset-1"
-    ],
-    "Account-9": [
-      "Business_Asset-1"
-    ],
-    "Account-10": [
+    "Account-8": [
       "Business_Asset-1"
     ]
   },
-  "has critical business asset": {
+  "is made up of sub asset": {
     "Business_Asset-1": [
-      "Account-6",
+      "Account-4",
+      "Account-2",
       "Account-1",
-      "Account-3",
-      "Account-8",
       "Account-11",
-      "Account-5",
-      "Account-9",
-      "Account-10"
+      "Account-8"
     ],
     "Business_Asset-2": [
       "Application-1"
     ]
   },
   "is user account for": {
-    "Account-7": [
-      "Application-1"
-    ],
-    "Account-8": [
-      "Application-1"
-    ],
-    "Account-9": [
-      "Application-1"
-    ],
     "Account-10": [
       "Application-1"
     ],
     "Account-11": [
+      "Application-1"
+    ],
+    "Account-7": [
+      "Application-1"
+    ],
+    "Account-9": [
       "Application-1"
     ]
   },
   "has user account": {
     "Application-1": [
-      "Account-7",
-      "Account-8",
-      "Account-9",
       "Account-10",
-      "Account-11"
+      "Account-11",
+      "Account-7",
+      "Account-9"
     ]
   },
   "is admin account for": {
-    "Account-11": [
-      "Application-1"
-    ],
-    "Account-10": [
+    "Account-8": [
       "Application-1"
     ]
   },
   "has admin account": {
     "Application-1": [
-      "Account-11",
-      "Account-10"
+      "Account-8"
     ]
   },
   "has detection": {
     "Device-6": [
-      "Detection-2",
-      "Detection-6"
-    ],
-    "Device-2": [
-      "Detection-4",
-      "Detection-16"
-    ],
-    "Device-1": [
-      "Detection-1",
-      "Detection-19",
-      "Detection-14",
-      "Detection-7",
-      "Detection-5"
+      "Detection-9",
+      "Detection-3"
     ],
     "Device-5": [
-      "Detection-12",
-      "Detection-11",
       "Detection-17",
-      "Detection-13",
-      "Detection-8"
+      "Detection-11"
     ],
     "Device-4": [
+      "Detection-6",
+      "Detection-5",
       "Detection-18",
-      "Detection-10",
-      "Detection-15"
+      "Detection-13",
+      "Detection-1"
     ],
     "Device-3": [
-      "Detection-3",
-      "Detection-9"
+      "Detection-8",
+      "Detection-2",
+      "Detection-19",
+      "Detection-4",
+      "Detection-10"
+    ],
+    "Device-1": [
+      "Detection-14",
+      "Detection-7",
+      "Detection-15"
+    ],
+    "Device-2": [
+      "Detection-12",
+      "Detection-16"
     ]
   },
-  "is detection of": {
-    "Detection-2": [
+  "is detection logged against": {
+    "Detection-9": [
       "Device-6"
     ],
-    "Detection-4": [
-      "Device-2"
-    ],
-    "Detection-1": [
-      "Device-1"
-    ],
-    "Detection-12": [
+    "Detection-17": [
       "Device-5"
-    ],
-    "Detection-18": [
-      "Device-4"
-    ],
-    "Detection-3": [
-      "Device-3"
     ],
     "Detection-6": [
-      "Device-6"
-    ],
-    "Detection-16": [
-      "Device-2"
-    ],
-    "Detection-19": [
-      "Device-1"
-    ],
-    "Detection-11": [
-      "Device-5"
-    ],
-    "Detection-10": [
       "Device-4"
     ],
-    "Detection-9": [
+    "Detection-8": [
       "Device-3"
     ],
     "Detection-14": [
       "Device-1"
     ],
-    "Detection-17": [
+    "Detection-12": [
+      "Device-2"
+    ],
+    "Detection-3": [
+      "Device-6"
+    ],
+    "Detection-11": [
       "Device-5"
     ],
-    "Detection-15": [
+    "Detection-5": [
       "Device-4"
+    ],
+    "Detection-2": [
+      "Device-3"
     ],
     "Detection-7": [
       "Device-1"
     ],
-    "Detection-13": [
-      "Device-5"
+    "Detection-16": [
+      "Device-2"
     ],
-    "Detection-5": [
+    "Detection-18": [
+      "Device-4"
+    ],
+    "Detection-19": [
+      "Device-3"
+    ],
+    "Detection-15": [
       "Device-1"
     ],
-    "Detection-8": [
-      "Device-5"
+    "Detection-13": [
+      "Device-4"
+    ],
+    "Detection-4": [
+      "Device-3"
+    ],
+    "Detection-1": [
+      "Device-4"
+    ],
+    "Detection-10": [
+      "Device-3"
     ]
   },
   "detected by": {
+    "Detection-9": [
+      "Application-2"
+    ],
+    "Detection-17": [
+      "Application-2"
+    ],
+    "Detection-6": [
+      "Application-2"
+    ],
+    "Detection-8": [
+      "Application-2"
+    ],
+    "Detection-14": [
+      "Application-2"
+    ],
+    "Detection-12": [
+      "Application-2"
+    ],
+    "Detection-3": [
+      "Application-2"
+    ],
+    "Detection-11": [
+      "Application-2"
+    ],
+    "Detection-5": [
+      "Application-2"
+    ],
     "Detection-2": [
+      "Application-2"
+    ],
+    "Detection-7": [
+      "Application-2"
+    ],
+    "Detection-16": [
+      "Application-2"
+    ],
+    "Detection-18": [
+      "Application-2"
+    ],
+    "Detection-19": [
+      "Application-2"
+    ],
+    "Detection-15": [
+      "Application-2"
+    ],
+    "Detection-13": [
       "Application-2"
     ],
     "Detection-4": [
@@ -579,650 +628,577 @@
     "Detection-1": [
       "Application-2"
     ],
-    "Detection-12": [
-      "Application-2"
-    ],
-    "Detection-18": [
-      "Application-2"
-    ],
-    "Detection-3": [
-      "Application-2"
-    ],
-    "Detection-6": [
-      "Application-2"
-    ],
-    "Detection-16": [
-      "Application-2"
-    ],
-    "Detection-19": [
-      "Application-2"
-    ],
-    "Detection-11": [
-      "Application-2"
-    ],
     "Detection-10": [
-      "Application-2"
-    ],
-    "Detection-9": [
-      "Application-2"
-    ],
-    "Detection-14": [
-      "Application-2"
-    ],
-    "Detection-17": [
-      "Application-2"
-    ],
-    "Detection-15": [
-      "Application-2"
-    ],
-    "Detection-7": [
-      "Application-2"
-    ],
-    "Detection-13": [
-      "Application-2"
-    ],
-    "Detection-5": [
-      "Application-2"
-    ],
-    "Detection-8": [
       "Application-2"
     ]
   },
-  "detected": {
+  "registered detection": {
     "Application-2": [
+      "Detection-9",
+      "Detection-17",
+      "Detection-6",
+      "Detection-8",
+      "Detection-14",
+      "Detection-12",
+      "Detection-3",
+      "Detection-11",
+      "Detection-5",
       "Detection-2",
+      "Detection-7",
+      "Detection-16",
+      "Detection-18",
+      "Detection-19",
+      "Detection-15",
+      "Detection-13",
       "Detection-4",
       "Detection-1",
-      "Detection-12",
-      "Detection-18",
-      "Detection-3",
-      "Detection-6",
-      "Detection-16",
-      "Detection-19",
-      "Detection-11",
-      "Detection-10",
-      "Detection-9",
-      "Detection-14",
-      "Detection-17",
-      "Detection-15",
-      "Detection-7",
-      "Detection-13",
-      "Detection-5",
-      "Detection-8"
+      "Detection-10"
     ]
   },
   "delivers": {
     "Pillar-1": [
-      "Capability-16",
       "Capability-1",
-      "Capability-18",
-      "Capability-12"
+      "Capability-13",
+      "Capability-19",
+      "Capability-17"
     ],
-    "Pillar-2": [
-      "Capability-24",
-      "Capability-2",
+    "Pillar-4": [
+      "Capability-5",
+      "Capability-6",
       "Capability-14",
-      "Capability-7",
+      "Capability-4",
       "Capability-26"
     ],
     "Pillar-5": [
-      "Capability-17",
-      "Capability-3",
-      "Capability-20",
       "Capability-23",
+      "Capability-2",
+      "Capability-8",
+      "Capability-12",
       "Capability-25"
     ],
-    "Pillar-4": [
-      "Capability-6",
-      "Capability-21",
-      "Capability-11",
-      "Capability-5",
-      "Capability-27"
-    ],
     "Pillar-6": [
-      "Capability-4",
-      "Capability-15",
-      "Capability-10",
-      "Capability-22",
-      "Capability-31",
-      "Capability-29",
-      "Capability-34"
+      "Capability-9",
+      "Capability-11",
+      "Capability-3",
+      "Capability-21",
+      "Capability-31"
     ],
     "Pillar-3": [
-      "Capability-13",
-      "Capability-19",
-      "Capability-8",
-      "Capability-9",
-      "Capability-28",
-      "Capability-33",
-      "Capability-32"
+      "Capability-24",
+      "Capability-20",
+      "Capability-10",
+      "Capability-15",
+      "Capability-29",
+      "Capability-32",
+      "Capability-33"
+    ],
+    "Pillar-2": [
+      "Capability-16",
+      "Capability-7",
+      "Capability-18",
+      "Capability-22",
+      "Capability-30",
+      "Capability-34",
+      "Capability-27"
     ]
   },
   "is delivered by": {
-    "Capability-16": [
-      "Pillar-1"
-    ],
     "Capability-1": [
       "Pillar-1"
     ],
-    "Capability-18": [
+    "Capability-13": [
       "Pillar-1"
     ],
-    "Capability-12": [
+    "Capability-19": [
       "Pillar-1"
     ],
-    "Capability-24": [
-      "Pillar-2"
+    "Capability-17": [
+      "Pillar-1"
     ],
-    "Capability-2": [
-      "Pillar-2"
+    "Capability-5": [
+      "Pillar-4"
+    ],
+    "Capability-6": [
+      "Pillar-4"
     ],
     "Capability-14": [
+      "Pillar-4"
+    ],
+    "Capability-4": [
+      "Pillar-4"
+    ],
+    "Capability-23": [
+      "Pillar-5"
+    ],
+    "Capability-2": [
+      "Pillar-5"
+    ],
+    "Capability-8": [
+      "Pillar-5"
+    ],
+    "Capability-12": [
+      "Pillar-5"
+    ],
+    "Capability-9": [
+      "Pillar-6"
+    ],
+    "Capability-11": [
+      "Pillar-6"
+    ],
+    "Capability-3": [
+      "Pillar-6"
+    ],
+    "Capability-21": [
+      "Pillar-6"
+    ],
+    "Capability-24": [
+      "Pillar-3"
+    ],
+    "Capability-20": [
+      "Pillar-3"
+    ],
+    "Capability-10": [
+      "Pillar-3"
+    ],
+    "Capability-15": [
+      "Pillar-3"
+    ],
+    "Capability-16": [
       "Pillar-2"
     ],
     "Capability-7": [
       "Pillar-2"
     ],
-    "Capability-17": [
-      "Pillar-5"
-    ],
-    "Capability-3": [
-      "Pillar-5"
-    ],
-    "Capability-20": [
-      "Pillar-5"
-    ],
-    "Capability-23": [
-      "Pillar-5"
-    ],
-    "Capability-6": [
-      "Pillar-4"
-    ],
-    "Capability-21": [
-      "Pillar-4"
-    ],
-    "Capability-11": [
-      "Pillar-4"
-    ],
-    "Capability-5": [
-      "Pillar-4"
-    ],
-    "Capability-4": [
-      "Pillar-6"
-    ],
-    "Capability-15": [
-      "Pillar-6"
-    ],
-    "Capability-10": [
-      "Pillar-6"
+    "Capability-18": [
+      "Pillar-2"
     ],
     "Capability-22": [
-      "Pillar-6"
-    ],
-    "Capability-13": [
-      "Pillar-3"
-    ],
-    "Capability-19": [
-      "Pillar-3"
-    ],
-    "Capability-8": [
-      "Pillar-3"
-    ],
-    "Capability-9": [
-      "Pillar-3"
+      "Pillar-2"
     ],
     "Capability-26": [
-      "Pillar-2"
+      "Pillar-4"
     ],
     "Capability-25": [
       "Pillar-5"
-    ],
-    "Capability-27": [
-      "Pillar-4"
     ],
     "Capability-31": [
       "Pillar-6"
     ],
     "Capability-29": [
-      "Pillar-6"
+      "Pillar-3"
     ],
-    "Capability-34": [
-      "Pillar-6"
-    ],
-    "Capability-28": [
+    "Capability-32": [
       "Pillar-3"
     ],
     "Capability-33": [
       "Pillar-3"
     ],
-    "Capability-32": [
-      "Pillar-3"
-    ]
-  },
-  "role is assigned to": {
-    "Role-8": [
-      "Person-16"
+    "Capability-30": [
+      "Pillar-2"
     ],
-    "Role-7": [
-      "Person-13"
+    "Capability-34": [
+      "Pillar-2"
     ],
-    "Role-6": [
-      "Person-15"
-    ],
-    "Role-9": [
-      "Person-14"
-    ]
-  },
-  "has role assigned": {
-    "Person-16": [
-      "Role-8"
-    ],
-    "Person-13": [
-      "Role-7"
-    ],
-    "Person-15": [
-      "Role-6"
-    ],
-    "Person-14": [
-      "Role-9"
+    "Capability-27": [
+      "Pillar-2"
     ]
   },
   "can escalate to": {
-    "Security_Impact-2": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-3": [
-      "Security_Impact-4",
-      "Security_Impact-9",
-      "Security_Impact-11",
-      "Security_Impact-19"
-    ],
-    "Security_Impact-6": [
-      "Security_Impact-4",
-      "Security_Impact-9",
-      "Security_Impact-11",
-      "Security_Impact-19"
-    ],
-    "Security_Impact-1": [
-      "Security_Impact-4",
-      "Security_Impact-9",
-      "Security_Impact-11",
-      "Security_Impact-19"
-    ],
     "Security_Impact-8": [
-      "Security_Impact-4",
-      "Security_Impact-9",
+      "Security_Impact-7",
+      "Security_Impact-5",
       "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-7": [
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
       "Security_Impact-19"
     ],
-    "Security_Impact-12": [
-      "Security_Impact-4",
-      "Security_Impact-9",
-      "Security_Impact-11",
+    "Security_Impact-5": [
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
+      "Security_Impact-19"
+    ],
+    "Security_Impact-11": [
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
+      "Security_Impact-19"
+    ],
+    "Security_Impact-9": [
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
+      "Security_Impact-19"
+    ],
+    "Security_Impact-13": [
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
       "Security_Impact-19"
     ],
     "Security_Impact-10": [
-      "Security_Impact-4",
-      "Security_Impact-9",
-      "Security_Impact-11",
+      "Security_Impact-12",
+      "Security_Impact-3",
+      "Security_Impact-1",
       "Security_Impact-19"
     ],
-    "Security_Impact-7": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-5": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-13": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-14": [
-      "Security_Impact-15",
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-17",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-20",
-      "Security_Impact-10"
-    ],
-    "Security_Impact-15": [
-      "Security_Impact-4",
-      "Security_Impact-19",
+    "Security_Impact-6": [
+      "Security_Impact-7",
+      "Security_Impact-5",
+      "Security_Impact-11",
       "Security_Impact-9",
-      "Security_Impact-11"
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-2": [
+      "Security_Impact-7",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-4": [
+      "Security_Impact-7",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
     ],
     "Security_Impact-17": [
-      "Security_Impact-4",
-      "Security_Impact-19",
-      "Security_Impact-9",
-      "Security_Impact-11"
-    ],
-    "Security_Impact-20": [
-      "Security_Impact-4",
-      "Security_Impact-19",
-      "Security_Impact-9",
-      "Security_Impact-11"
-    ],
-    "Security_Impact-18": [
-      "Security_Impact-15",
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-17",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-14",
       "Security_Impact-20",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-15",
       "Security_Impact-10"
     ],
-    "Security_Impact-16": [
-      "Security_Impact-15",
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-17",
-      "Security_Impact-1",
-      "Security_Impact-8",
+    "Security_Impact-14": [
       "Security_Impact-12",
+      "Security_Impact-19",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-20": [
+      "Security_Impact-12",
+      "Security_Impact-19",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-15": [
+      "Security_Impact-12",
+      "Security_Impact-19",
+      "Security_Impact-3",
+      "Security_Impact-1"
+    ],
+    "Security_Impact-16": [
+      "Security_Impact-7",
+      "Security_Impact-14",
       "Security_Impact-20",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-15",
+      "Security_Impact-10"
+    ],
+    "Security_Impact-18": [
+      "Security_Impact-7",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-15",
       "Security_Impact-10"
     ]
   },
-  "escalated by": {
-    "Security_Impact-3": [
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-5",
-      "Security_Impact-13",
-      "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
-    ],
-    "Security_Impact-4": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
+  "can occur due to": {
+    "Security_Impact-7": [
       "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-9": [
-      "Security_Impact-3",
       "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
+      "Security_Impact-2",
+      "Security_Impact-4",
       "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-11": [
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
-      "Security_Impact-10",
-      "Security_Impact-15",
-      "Security_Impact-17",
-      "Security_Impact-20"
-    ],
-    "Security_Impact-6": [
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-5",
-      "Security_Impact-13",
-      "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
-    ],
-    "Security_Impact-1": [
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-5",
-      "Security_Impact-13",
-      "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
-    ],
-    "Security_Impact-8": [
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-5",
-      "Security_Impact-13",
-      "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
+      "Security_Impact-16",
+      "Security_Impact-18"
     ],
     "Security_Impact-12": [
-      "Security_Impact-2",
       "Security_Impact-7",
       "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
       "Security_Impact-13",
+      "Security_Impact-10",
       "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-3": [
+      "Security_Impact-7",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-1": [
+      "Security_Impact-7",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-10",
+      "Security_Impact-14",
+      "Security_Impact-20",
+      "Security_Impact-15"
+    ],
+    "Security_Impact-5": [
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-2",
+      "Security_Impact-4",
+      "Security_Impact-17",
+      "Security_Impact-16",
+      "Security_Impact-18"
+    ],
+    "Security_Impact-11": [
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-2",
+      "Security_Impact-4",
+      "Security_Impact-17",
+      "Security_Impact-16",
+      "Security_Impact-18"
+    ],
+    "Security_Impact-9": [
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-2",
+      "Security_Impact-4",
+      "Security_Impact-17",
+      "Security_Impact-16",
+      "Security_Impact-18"
+    ],
+    "Security_Impact-13": [
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-2",
+      "Security_Impact-4",
+      "Security_Impact-17",
+      "Security_Impact-16",
+      "Security_Impact-18"
     ],
     "Security_Impact-10": [
+      "Security_Impact-8",
+      "Security_Impact-6",
       "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-5",
-      "Security_Impact-13",
-      "Security_Impact-14",
-      "Security_Impact-18",
-      "Security_Impact-16"
-    ],
-    "Security_Impact-15": [
-      "Security_Impact-14",
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-18",
+      "Security_Impact-4",
+      "Security_Impact-17",
       "Security_Impact-16",
-      "Security_Impact-5",
-      "Security_Impact-13"
+      "Security_Impact-18"
+    ],
+    "Security_Impact-14": [
+      "Security_Impact-17",
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-16",
+      "Security_Impact-18",
+      "Security_Impact-2",
+      "Security_Impact-4"
     ],
     "Security_Impact-19": [
-      "Security_Impact-15",
-      "Security_Impact-3",
-      "Security_Impact-6",
-      "Security_Impact-17",
-      "Security_Impact-1",
-      "Security_Impact-8",
-      "Security_Impact-12",
+      "Security_Impact-7",
+      "Security_Impact-14",
       "Security_Impact-20",
+      "Security_Impact-5",
+      "Security_Impact-11",
+      "Security_Impact-9",
+      "Security_Impact-13",
+      "Security_Impact-15",
       "Security_Impact-10"
     ],
-    "Security_Impact-17": [
-      "Security_Impact-14",
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-18",
-      "Security_Impact-16",
-      "Security_Impact-5",
-      "Security_Impact-13"
-    ],
     "Security_Impact-20": [
-      "Security_Impact-14",
-      "Security_Impact-2",
-      "Security_Impact-7",
-      "Security_Impact-18",
+      "Security_Impact-17",
+      "Security_Impact-8",
+      "Security_Impact-6",
       "Security_Impact-16",
-      "Security_Impact-5",
-      "Security_Impact-13"
+      "Security_Impact-18",
+      "Security_Impact-2",
+      "Security_Impact-4"
+    ],
+    "Security_Impact-15": [
+      "Security_Impact-17",
+      "Security_Impact-8",
+      "Security_Impact-6",
+      "Security_Impact-16",
+      "Security_Impact-18",
+      "Security_Impact-2",
+      "Security_Impact-4"
     ]
   },
   "can arise due to exploit of": {
-    "Security_Impact-7": [
-      "Vulnerability-11",
-      "Vulnerability-5"
-    ],
-    "Security_Impact-18": [
-      "Vulnerability-11",
-      "Vulnerability-5"
+    "Security_Impact-6": [
+      "Vulnerability-10",
+      "Vulnerability-1"
     ],
     "Security_Impact-16": [
-      "Vulnerability-7",
       "Vulnerability-10",
-      "Vulnerability-9"
+      "Vulnerability-1"
     ],
-    "Security_Impact-5": [
-      "Vulnerability-7",
-      "Vulnerability-10",
-      "Vulnerability-9"
-    ],
-    "Security_Impact-14": [
-      "Vulnerability-3"
+    "Security_Impact-18": [
+      "Vulnerability-9",
+      "Vulnerability-3",
+      "Vulnerability-4"
     ],
     "Security_Impact-2": [
-      "Vulnerability-3"
-    ],
-    "Security_Impact-12": [
+      "Vulnerability-9",
       "Vulnerability-3",
-      "Vulnerability-6",
-      "Vulnerability-8"
-    ],
-    "Security_Impact-20": [
-      "Vulnerability-3",
-      "Vulnerability-6",
-      "Vulnerability-8"
-    ],
-    "Security_Impact-6": [
-      "Vulnerability-6",
       "Vulnerability-4"
     ],
     "Security_Impact-17": [
-      "Vulnerability-6",
-      "Vulnerability-4"
+      "Vulnerability-7"
     ],
-    "Security_Impact-19": [
-      "Vulnerability-6"
+    "Security_Impact-8": [
+      "Vulnerability-7"
     ],
-    "Security_Impact-9": [
+    "Security_Impact-13": [
+      "Vulnerability-7",
+      "Vulnerability-8",
       "Vulnerability-6"
     ],
     "Security_Impact-15": [
-      "Vulnerability-1"
+      "Vulnerability-7",
+      "Vulnerability-8",
+      "Vulnerability-6"
+    ],
+    "Security_Impact-20": [
+      "Vulnerability-8",
+      "Vulnerability-11"
+    ],
+    "Security_Impact-5": [
+      "Vulnerability-8",
+      "Vulnerability-11"
+    ],
+    "Security_Impact-19": [
+      "Vulnerability-8"
     ],
     "Security_Impact-3": [
-      "Vulnerability-1"
+      "Vulnerability-8"
+    ],
+    "Security_Impact-7": [
+      "Vulnerability-5"
+    ],
+    "Security_Impact-14": [
+      "Vulnerability-5"
     ]
   },
-  "expoit causes": {
-    "Vulnerability-11": [
-      "Security_Impact-7",
-      "Security_Impact-18"
+  "exploit can lead to": {
+    "Vulnerability-10": [
+      "Security_Impact-6",
+      "Security_Impact-16"
+    ],
+    "Vulnerability-9": [
+      "Security_Impact-18",
+      "Security_Impact-2"
     ],
     "Vulnerability-7": [
-      "Security_Impact-16",
-      "Security_Impact-5"
-    ],
-    "Vulnerability-3": [
-      "Security_Impact-14",
-      "Security_Impact-2",
-      "Security_Impact-12",
-      "Security_Impact-20"
-    ],
-    "Vulnerability-6": [
-      "Security_Impact-12",
-      "Security_Impact-20",
-      "Security_Impact-6",
       "Security_Impact-17",
+      "Security_Impact-8",
+      "Security_Impact-13",
+      "Security_Impact-15"
+    ],
+    "Vulnerability-8": [
+      "Security_Impact-13",
+      "Security_Impact-15",
+      "Security_Impact-20",
+      "Security_Impact-5",
       "Security_Impact-19",
-      "Security_Impact-9"
+      "Security_Impact-3"
     ],
-    "Vulnerability-4": [
-      "Security_Impact-6",
-      "Security_Impact-17"
-    ],
-    "Vulnerability-5": [
-      "Security_Impact-7",
-      "Security_Impact-18"
-    ],
-    "Vulnerability-10": [
-      "Security_Impact-16",
+    "Vulnerability-11": [
+      "Security_Impact-20",
       "Security_Impact-5"
     ],
     "Vulnerability-1": [
-      "Security_Impact-15",
-      "Security_Impact-3"
+      "Security_Impact-6",
+      "Security_Impact-16"
     ],
-    "Vulnerability-8": [
-      "Security_Impact-12",
-      "Security_Impact-20"
+    "Vulnerability-3": [
+      "Security_Impact-18",
+      "Security_Impact-2"
     ],
-    "Vulnerability-9": [
-      "Security_Impact-16",
-      "Security_Impact-5"
+    "Vulnerability-5": [
+      "Security_Impact-7",
+      "Security_Impact-14"
+    ],
+    "Vulnerability-6": [
+      "Security_Impact-13",
+      "Security_Impact-15"
+    ],
+    "Vulnerability-4": [
+      "Security_Impact-18",
+      "Security_Impact-2"
     ]
   },
   "is supported by": {
-    "Vulnerability-11": [
+    "Vulnerability-10": [
+      "Incident_Fact-11"
+    ],
+    "Vulnerability-9": [
       "Incident_Fact-12"
     ],
     "Vulnerability-7": [
-      "Incident_Fact-6"
+      "Incident_Fact-8"
+    ],
+    "Vulnerability-2": [
+      "Incident_Fact-10"
+    ],
+    "Vulnerability-8": [
+      "Incident_Fact-3"
+    ],
+    "Vulnerability-11": [
+      "Incident_Fact-5"
+    ],
+    "Vulnerability-1": [
+      "Incident_Fact-9"
     ],
     "Vulnerability-3": [
       "Incident_Fact-4"
     ],
-    "Vulnerability-2": [
-      "Incident_Fact-9"
-    ],
-    "Vulnerability-6": [
-      "Incident_Fact-11"
-    ],
-    "Vulnerability-4": [
-      "Incident_Fact-2"
-    ],
     "Vulnerability-5": [
       "Incident_Fact-1"
     ],
-    "Vulnerability-10": [
-      "Incident_Fact-10"
+    "Vulnerability-6": [
+      "Incident_Fact-1"
     ],
-    "Vulnerability-1": [
-      "Incident_Fact-8"
-    ],
-    "Vulnerability-8": [
-      "Incident_Fact-8"
-    ],
-    "Vulnerability-9": [
+    "Vulnerability-4": [
       "Incident_Fact-7"
     ],
     "Timeline_Fact-5": [
@@ -1245,36 +1221,36 @@
     ]
   },
   "supports": {
+    "Incident_Fact-11": [
+      "Vulnerability-10"
+    ],
     "Incident_Fact-12": [
+      "Vulnerability-9"
+    ],
+    "Incident_Fact-8": [
+      "Vulnerability-7"
+    ],
+    "Incident_Fact-10": [
+      "Vulnerability-2"
+    ],
+    "Incident_Fact-3": [
+      "Vulnerability-8"
+    ],
+    "Incident_Fact-5": [
       "Vulnerability-11"
     ],
-    "Incident_Fact-6": [
-      "Vulnerability-7"
+    "Incident_Fact-9": [
+      "Vulnerability-1"
     ],
     "Incident_Fact-4": [
       "Vulnerability-3"
     ],
-    "Incident_Fact-9": [
-      "Vulnerability-2"
-    ],
-    "Incident_Fact-11": [
+    "Incident_Fact-1": [
+      "Vulnerability-5",
       "Vulnerability-6"
     ],
-    "Incident_Fact-2": [
-      "Vulnerability-4"
-    ],
-    "Incident_Fact-1": [
-      "Vulnerability-5"
-    ],
-    "Incident_Fact-10": [
-      "Vulnerability-10"
-    ],
-    "Incident_Fact-8": [
-      "Vulnerability-1",
-      "Vulnerability-8"
-    ],
     "Incident_Fact-7": [
-      "Vulnerability-9",
+      "Vulnerability-4",
       "Timeline_Fact-3",
       "Timeline_Fact-1"
     ],
@@ -1292,150 +1268,150 @@
     ]
   },
   "indicates failure of": {
-    "Incident_Fact-12": [
-      "Capability-17",
+    "Incident_Fact-11": [
       "Capability-25",
+      "Capability-23",
       "Capability-26",
-      "Capability-2"
-    ],
-    "Incident_Fact-6": [
-      "Capability-28",
-      "Capability-13",
-      "Capability-26",
-      "Capability-2"
-    ],
-    "Incident_Fact-4": [
-      "Capability-4",
-      "Capability-31",
-      "Capability-29",
-      "Capability-15",
-      "Capability-10",
-      "Capability-34"
-    ],
-    "Incident_Fact-9": [
-      "Capability-4",
-      "Capability-31",
-      "Capability-27",
       "Capability-6"
     ],
-    "Incident_Fact-11": [
-      "Capability-9",
-      "Capability-32"
-    ],
-    "Incident_Fact-2": [
+    "Incident_Fact-12": [
+      "Capability-16",
+      "Capability-30",
       "Capability-26",
-      "Capability-2",
-      "Capability-10",
-      "Capability-34"
-    ],
-    "Incident_Fact-1": [
-      "Capability-29",
-      "Capability-15",
-      "Capability-10",
-      "Capability-34"
-    ],
-    "Incident_Fact-10": [
-      "Capability-10",
-      "Capability-34",
-      "Capability-8",
-      "Capability-33"
+      "Capability-6"
     ],
     "Incident_Fact-8": [
+      "Capability-24",
+      "Capability-29",
+      "Capability-20",
+      "Capability-32",
       "Capability-10",
-      "Capability-34",
-      "Capability-4",
+      "Capability-33"
+    ],
+    "Incident_Fact-10": [
+      "Capability-24",
+      "Capability-29",
+      "Capability-9",
       "Capability-31"
     ],
     "Incident_Fact-3": [
-      "Capability-10",
-      "Capability-34"
+      "Capability-27",
+      "Capability-22"
     ],
     "Incident_Fact-5": [
-      "Capability-4",
-      "Capability-31"
+      "Capability-26",
+      "Capability-6",
+      "Capability-10",
+      "Capability-33"
+    ],
+    "Incident_Fact-9": [
+      "Capability-20",
+      "Capability-32",
+      "Capability-10",
+      "Capability-33"
+    ],
+    "Incident_Fact-4": [
+      "Capability-10",
+      "Capability-33",
+      "Capability-18",
+      "Capability-34"
+    ],
+    "Incident_Fact-1": [
+      "Capability-10",
+      "Capability-33",
+      "Capability-24",
+      "Capability-29"
+    ],
+    "Incident_Fact-6": [
+      "Capability-10",
+      "Capability-33"
+    ],
+    "Incident_Fact-2": [
+      "Capability-24",
+      "Capability-29"
     ],
     "Incident_Fact-7": [
-      "Capability-30"
+      "Capability-28"
     ]
   },
-  "failure causes": {
-    "Capability-17": [
-      "Incident_Fact-12"
-    ],
+  "failure indicated by": {
     "Capability-25": [
-      "Incident_Fact-12"
+      "Incident_Fact-11"
+    ],
+    "Capability-23": [
+      "Incident_Fact-11"
     ],
     "Capability-26": [
+      "Incident_Fact-11",
       "Incident_Fact-12",
-      "Incident_Fact-6",
-      "Incident_Fact-2"
-    ],
-    "Capability-2": [
-      "Incident_Fact-12",
-      "Incident_Fact-6",
-      "Incident_Fact-2"
-    ],
-    "Capability-28": [
-      "Incident_Fact-6"
-    ],
-    "Capability-13": [
-      "Incident_Fact-6"
-    ],
-    "Capability-4": [
-      "Incident_Fact-4",
-      "Incident_Fact-9",
-      "Incident_Fact-8",
       "Incident_Fact-5"
-    ],
-    "Capability-31": [
-      "Incident_Fact-4",
-      "Incident_Fact-9",
-      "Incident_Fact-8",
-      "Incident_Fact-5"
-    ],
-    "Capability-29": [
-      "Incident_Fact-4",
-      "Incident_Fact-1"
-    ],
-    "Capability-15": [
-      "Incident_Fact-4",
-      "Incident_Fact-1"
-    ],
-    "Capability-10": [
-      "Incident_Fact-4",
-      "Incident_Fact-2",
-      "Incident_Fact-1",
-      "Incident_Fact-10",
-      "Incident_Fact-8",
-      "Incident_Fact-3"
-    ],
-    "Capability-34": [
-      "Incident_Fact-4",
-      "Incident_Fact-2",
-      "Incident_Fact-1",
-      "Incident_Fact-10",
-      "Incident_Fact-8",
-      "Incident_Fact-3"
-    ],
-    "Capability-27": [
-      "Incident_Fact-9"
     ],
     "Capability-6": [
-      "Incident_Fact-9"
+      "Incident_Fact-11",
+      "Incident_Fact-12",
+      "Incident_Fact-5"
     ],
-    "Capability-9": [
-      "Incident_Fact-11"
-    ],
-    "Capability-32": [
-      "Incident_Fact-11"
-    ],
-    "Capability-8": [
-      "Incident_Fact-10"
-    ],
-    "Capability-33": [
-      "Incident_Fact-10"
+    "Capability-16": [
+      "Incident_Fact-12"
     ],
     "Capability-30": [
+      "Incident_Fact-12"
+    ],
+    "Capability-24": [
+      "Incident_Fact-8",
+      "Incident_Fact-10",
+      "Incident_Fact-1",
+      "Incident_Fact-2"
+    ],
+    "Capability-29": [
+      "Incident_Fact-8",
+      "Incident_Fact-10",
+      "Incident_Fact-1",
+      "Incident_Fact-2"
+    ],
+    "Capability-20": [
+      "Incident_Fact-8",
+      "Incident_Fact-9"
+    ],
+    "Capability-32": [
+      "Incident_Fact-8",
+      "Incident_Fact-9"
+    ],
+    "Capability-10": [
+      "Incident_Fact-8",
+      "Incident_Fact-5",
+      "Incident_Fact-9",
+      "Incident_Fact-4",
+      "Incident_Fact-1",
+      "Incident_Fact-6"
+    ],
+    "Capability-33": [
+      "Incident_Fact-8",
+      "Incident_Fact-5",
+      "Incident_Fact-9",
+      "Incident_Fact-4",
+      "Incident_Fact-1",
+      "Incident_Fact-6"
+    ],
+    "Capability-9": [
+      "Incident_Fact-10"
+    ],
+    "Capability-31": [
+      "Incident_Fact-10"
+    ],
+    "Capability-27": [
+      "Incident_Fact-3"
+    ],
+    "Capability-22": [
+      "Incident_Fact-3"
+    ],
+    "Capability-18": [
+      "Incident_Fact-4"
+    ],
+    "Capability-34": [
+      "Incident_Fact-4"
+    ],
+    "Capability-28": [
       "Incident_Fact-7"
     ]
   },
@@ -1507,39 +1483,6 @@
     "Investigation_Thread-10": [
       "Incident-1"
     ],
-    "Investigation_Thread-9": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-8": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-7": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-5": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-3": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-2": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-4": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-1": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-6": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-12": [
-      "Incident-1"
-    ],
-    "Investigation_Thread-11": [
-      "Incident-1"
-    ],
     "Incident_Task-23": [
       "Investigation_Thread-10"
     ],
@@ -1570,11 +1513,17 @@
     "Incident_Task-21": [
       "Investigation_Thread-10"
     ],
+    "Investigation_Thread-9": [
+      "Incident-1"
+    ],
     "Incident_Task-6": [
       "Investigation_Thread-9"
     ],
     "Incident_Task-28": [
       "Investigation_Thread-9"
+    ],
+    "Investigation_Thread-8": [
+      "Incident-1"
     ],
     "Incident_Task-10": [
       "Investigation_Thread-8"
@@ -1597,6 +1546,9 @@
     "Incident_Task-18": [
       "Investigation_Thread-8"
     ],
+    "Investigation_Thread-7": [
+      "Incident-1"
+    ],
     "Incident_Task-4": [
       "Investigation_Thread-7"
     ],
@@ -1606,11 +1558,17 @@
     "Incident_Task-13": [
       "Investigation_Thread-7"
     ],
+    "Investigation_Thread-5": [
+      "Incident-1"
+    ],
     "Incident_Task-9": [
       "Investigation_Thread-5"
     ],
     "Incident_Task-8": [
       "Investigation_Thread-5"
+    ],
+    "Investigation_Thread-3": [
+      "Incident-1"
     ],
     "Incident_Task-25": [
       "Investigation_Thread-3"
@@ -1626,11 +1584,29 @@
       "Investigation_Thread-3",
       "Investigation_Thread-4"
     ],
+    "Investigation_Thread-2": [
+      "Incident-1"
+    ],
     "Incident_Task-20": [
       "Investigation_Thread-2"
     ],
     "Incident_Task-3": [
       "Investigation_Thread-2"
+    ],
+    "Investigation_Thread-4": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-1": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-6": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-12": [
+      "Incident-1"
+    ],
+    "Investigation_Thread-11": [
+      "Incident-1"
     ]
   },
   "establishes": {
@@ -1638,26 +1614,26 @@
       "Incident_Fact-30"
     ],
     "Incident_Task-29": [
-      "Incident_Fact-12"
+      "Incident_Fact-11"
     ],
     "Incident_Task-27": [
       "Incident_Fact-27"
     ],
     "Incident_Task-14": [
-      "Incident_Fact-6"
+      "Incident_Fact-12"
     ],
     "Incident_Task-24": [
-      "Incident_Fact-4"
+      "Incident_Fact-8"
     ],
     "Incident_Task-30": [
-      "Incident_Fact-9"
+      "Incident_Fact-10"
     ],
     "Incident_Task-22": [
-      "Incident_Fact-11"
+      "Incident_Fact-3"
     ],
     "Incident_Task-12": [
       "Incident_Fact-24",
-      "Incident_Fact-2"
+      "Incident_Fact-5"
     ],
     "Incident_Task-21": [
       "Incident_Fact-20"
@@ -1675,10 +1651,10 @@
       "Incident_Fact-15"
     ],
     "Incident_Task-7": [
-      "Incident_Fact-1"
+      "Incident_Fact-9"
     ],
     "Incident_Task-15": [
-      "Incident_Fact-10"
+      "Incident_Fact-4"
     ],
     "Incident_Task-5": [
       "Incident_Fact-25"
@@ -1690,11 +1666,11 @@
       "Incident_Fact-23"
     ],
     "Incident_Task-13": [
-      "Incident_Fact-8"
+      "Incident_Fact-1"
     ],
     "Incident_Task-9": [
-      "Incident_Fact-3",
-      "Incident_Fact-5"
+      "Incident_Fact-6",
+      "Incident_Fact-2"
     ],
     "Incident_Task-25": [
       "Incident_Fact-13"
@@ -1721,28 +1697,28 @@
     "Incident_Fact-30": [
       "Incident_Task-23"
     ],
-    "Incident_Fact-12": [
+    "Incident_Fact-11": [
       "Incident_Task-29"
     ],
     "Incident_Fact-27": [
       "Incident_Task-27"
     ],
-    "Incident_Fact-6": [
+    "Incident_Fact-12": [
       "Incident_Task-14"
     ],
-    "Incident_Fact-4": [
+    "Incident_Fact-8": [
       "Incident_Task-24"
     ],
-    "Incident_Fact-9": [
+    "Incident_Fact-10": [
       "Incident_Task-30"
     ],
-    "Incident_Fact-11": [
+    "Incident_Fact-3": [
       "Incident_Task-22"
     ],
     "Incident_Fact-24": [
       "Incident_Task-12"
     ],
-    "Incident_Fact-2": [
+    "Incident_Fact-5": [
       "Incident_Task-12"
     ],
     "Incident_Fact-20": [
@@ -1760,10 +1736,10 @@
     "Incident_Fact-15": [
       "Incident_Task-11"
     ],
-    "Incident_Fact-1": [
+    "Incident_Fact-9": [
       "Incident_Task-7"
     ],
-    "Incident_Fact-10": [
+    "Incident_Fact-4": [
       "Incident_Task-15"
     ],
     "Incident_Fact-25": [
@@ -1775,13 +1751,13 @@
     "Incident_Fact-23": [
       "Incident_Task-2"
     ],
-    "Incident_Fact-8": [
+    "Incident_Fact-1": [
       "Incident_Task-13"
     ],
-    "Incident_Fact-3": [
+    "Incident_Fact-6": [
       "Incident_Task-9"
     ],
-    "Incident_Fact-5": [
+    "Incident_Fact-2": [
       "Incident_Task-9"
     ],
     "Incident_Fact-13": [
@@ -1810,31 +1786,31 @@
     ]
   },
   "requires decision about": {
-    "Vulnerability-11": [
+    "Vulnerability-10": [
       "Risk-4"
     ],
-    "Vulnerability-7": [
+    "Vulnerability-9": [
       "Risk-3"
     ],
-    "Vulnerability-6": [
+    "Vulnerability-8": [
       "Risk-2"
     ],
-    "Vulnerability-1": [
+    "Vulnerability-5": [
       "Risk-1"
     ]
   },
   "decision is required due to": {
     "Risk-4": [
-      "Vulnerability-11"
+      "Vulnerability-10"
     ],
     "Risk-3": [
-      "Vulnerability-7"
+      "Vulnerability-9"
     ],
     "Risk-2": [
-      "Vulnerability-6"
+      "Vulnerability-8"
     ],
     "Risk-1": [
-      "Vulnerability-1"
+      "Vulnerability-5"
     ]
   }
 }

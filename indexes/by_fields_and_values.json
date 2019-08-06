@@ -1,79 +1,79 @@
 {
   "Summary": {
-    "Inability to avoid future recurrence": [
+    "Delayed fulfilment of services": [
       "Security_Impact-7",
-      "Security_Impact-18"
-    ],
-    "Increased time to recover": [
-      "Security_Impact-13"
+      "Security_Impact-14"
     ],
     "Disruption to teams productivity": [
-      "Security_Impact-12",
-      "Security_Impact-20"
+      "Security_Impact-13",
+      "Security_Impact-15"
     ],
-    "Missed targets and deadlines": [
+    "Apparent or actual threat to business viability": [
+      "Security_Impact-12"
+    ],
+    "Inability to avoid future recurrence": [
       "Security_Impact-6",
-      "Security_Impact-17"
-    ],
-    "Delayed fulfilment of services": [
-      "Security_Impact-15",
-      "Security_Impact-3"
+      "Security_Impact-16"
     ],
     "Material drop in profit margin": [
       "Security_Impact-19",
+      "Security_Impact-3"
+    ],
+    "Material increase in unforecast costs": [
+      "Security_Impact-1"
+    ],
+    "Increased time to detect": [
+      "Security_Impact-18",
+      "Security_Impact-2"
+    ],
+    "Inability to establish root cause": [
+      "Security_Impact-17",
+      "Security_Impact-8"
+    ],
+    "Missed targets and deadlines": [
+      "Security_Impact-20",
+      "Security_Impact-5"
+    ],
+    "Regulatory intervention": [
       "Security_Impact-9"
     ],
     "Loss of competitiveness": [
-      "Security_Impact-1"
-    ],
-    "Inability to establish root cause": [
-      "Security_Impact-14",
-      "Security_Impact-2"
-    ],
-    "Increased time to detect": [
-      "Security_Impact-16",
-      "Security_Impact-5"
-    ],
-    "Material increase in unforecast costs": [
       "Security_Impact-11"
     ],
     "Hard to hire or retain employees": [
       "Security_Impact-10"
     ],
-    "Regulatory intervention": [
-      "Security_Impact-8"
-    ],
-    "Apparent or actual threat to business viability": [
+    "Increased time to recover": [
       "Security_Impact-4"
     ],
     "Engineer": [
       "Role-1"
     ],
-    "Head of Risk": [
+    "Head of Application Security": [
       "Role-7"
     ],
-    "Head of Application Security": [
+    "Head of Risk": [
       "Role-6"
     ],
     "Head of Security Operations": [
       "Role-9"
     ],
-    "Platform Specialist": [
+    "Lead Engineer": [
       "Role-5"
     ],
-    "CEO": [
+    "Platform Specialist": [
       "Role-4"
     ],
     "CISO": [
       "Role-8"
     ],
-    "Lead Engineer": [
+    "CEO": [
       "Role-3"
     ],
     "SVP - Special Projects": [
       "Role-2"
     ],
-    "Paul Holmes": [
+    "Simon Dickens": [
       "Person-15"
     ],
     "test": [
@@ -82,13 +82,13 @@
     "Sophia Berlin": [
       "Person-6"
     ],
-    "Ivan Watson": [
+    "Paul Holmes": [
       "Person-14"
     ],
     "Peter Smith": [
       "Person-1"
     ],
-    "Simon Dickens": [
+    "Emma Victory": [
       "Person-13"
     ],
     "user 24": [
@@ -115,106 +115,106 @@
     "Alan Champion": [
       "Person-4"
     ],
-    "Emma Victory": [
+    "Ivan Watson": [
       "Person-16"
     ],
     "user": [
       "Person-8"
     ],
-    "Security capability testing": [
-      "Capability-8",
-      "Capability-33"
-    ],
-    "Strategic planning": [
-      "Capability-16"
-    ],
     "Security EQ and IQ measurement": [
-      "Capability-20"
+      "Capability-8"
     ],
-    "Identity and access management": [
-      "Capability-4",
-      "Capability-31"
+    "Incident response and threat management": [
+      "Capability-16",
+      "Capability-30"
     ],
-    "Audit response": [
-      "Capability-5"
-    ],
-    "Compliance readiness": [
-      "Capability-21"
-    ],
-    "Accountable roles": [
-      "Capability-17",
-      "Capability-25"
-    ],
-    "Continuity and disaster recovery": [
-      "Capability-9",
+    "Secure architecture": [
+      "Capability-20",
       "Capability-32"
     ],
-    "Detection Engineering": [
-      "Capability-30"
+    "Impact and risk intelligence": [
+      "Capability-4"
+    ],
+    "Business context intelligence": [
+      "Capability-5"
+    ],
+    "Audit response": [
+      "Capability-21"
+    ],
+    "Project management": [
+      "Capability-17"
+    ],
+    "Policy and standards": [
+      "Capability-9",
+      "Capability-31"
     ],
     "Asset intelligence": [
       "Capability-26",
+      "Capability-6"
+    ],
+    "Targeted training and comms": [
       "Capability-2"
     ],
     "Secure engineering": [
       "Capability-10",
-      "Capability-34"
+      "Capability-33"
     ],
-    "Timely assurance and remediation": [
+    "Compliance readiness": [
       "Capability-11"
     ],
-    "Targeted training and comms": [
+    "Timely assurance and remediation": [
       "Capability-3"
     ],
-    "Policy and standards": [
+    "Continuity and disaster recovery": [
       "Capability-27",
-      "Capability-6"
+      "Capability-22"
     ],
-    "Business context intelligence": [
-      "Capability-24"
+    "Identity and access management": [
+      "Capability-24",
+      "Capability-29"
     ],
-    "Project management": [
+    "Support and enforcement": [
       "Capability-12"
     ],
-    "Incident response and threat management": [
-      "Capability-28",
-      "Capability-13"
-    ],
-    "Secure architecture": [
-      "Capability-29",
-      "Capability-15"
+    "Detection Engineering": [
+      "Capability-28"
     ],
     "Budget management": [
+      "Capability-13"
+    ],
+    "Accountable roles": [
+      "Capability-25",
+      "Capability-23"
+    ],
+    "Strategic planning": [
       "Capability-1"
     ],
     "Threat and vulnerability intelligence": [
       "Capability-14"
     ],
-    "People management": [
-      "Capability-18"
-    ],
-    "Data controls": [
-      "Capability-22"
-    ],
-    "Support and enforcement": [
-      "Capability-23"
-    ],
-    "Impact and risk intelligence": [
-      "Capability-7"
+    "Security capability testing": [
+      "Capability-18",
+      "Capability-34"
     ],
     "Detection engineering": [
+      "Capability-7"
+    ],
+    "People management": [
       "Capability-19"
     ],
-    "There is no formal JML process and accounts are disabled, not removed": [
+    "Data controls": [
+      "Capability-15"
+    ],
+    "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton": [
       "Incident_Fact-9"
     ],
     "No, this application has been built in-house.": [
       "Incident_Fact-24"
     ],
-    "There is no single accountable lead for technical support and question triage in the team in the event of a security incident": [
+    "User access logs could not be accessed for 5 hours": [
       "Incident_Fact-12"
     ],
-    "Admin accounts for Sunways are shared across users": [
+    "No formal security code review has been performed": [
       "Incident_Fact-5"
     ],
     "There are multiple detecitons for adware, malware, process execution and evasion techniques": [
@@ -223,7 +223,7 @@
     "There is no full time Data Protection Officer; this is outsourced to Smithers & Waylon LLP": [
       "Incident_Fact-29"
     ],
-    "There are no activity logs available for the application": [
+    "Laptops used for this project only have standard AV installed": [
       "Incident_Fact-4"
     ],
     "2019.07.31 at 16:59": [
@@ -232,13 +232,13 @@
     "No; no third parties have been involved in development or admin of this system": [
       "Incident_Fact-25"
     ],
-    "API keys are stored in plain text on user devices": [
+    "There are no activity logs available for the application": [
       "Incident_Fact-8"
     ],
     "2FA has not been set up by the owner of the digi-inc.com email domain": [
       "Incident_Fact-14"
     ],
-    "Password re-sets for Sunways need to be done manually, one by one, by an admin user": [
+    "Code is only backed up locally to developer laptops": [
       "Incident_Fact-3"
     ],
     "ALee has a Sunways login followed by a password change shortly after the successful unrecognised login to his Digicorp address": [
@@ -253,13 +253,13 @@
     "ALee stores credentials for multiple systems in the draft folder": [
       "Incident_Fact-19"
     ],
-    "No formal security code review has been performed": [
+    "Admin accounts for Sunways are shared across users": [
       "Incident_Fact-2"
     ],
     "2FA is enforced for all users except ALee.": [
       "Incident_Fact-15"
     ],
-    "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton": [
+    "API keys are stored in plain text on user devices": [
       "Incident_Fact-1"
     ],
     "2FA was enforced for all users except ALee, who was not enrolled.": [
@@ -283,22 +283,22 @@
     "Several user accounts have logs that suggest failed brute force attacks. ALee has the same pattern, followed by a login they do not recognise.": [
       "Incident_Fact-7"
     ],
-    "Laptops used for this project only have standard AV installed": [
+    "There is no formal JML process and accounts are disabled, not removed": [
       "Incident_Fact-10"
     ],
-    "Code is only backed up locally to developer laptops": [
+    "There is no single accountable lead for technical support and question triage in the team in the event of a security incident": [
       "Incident_Fact-11"
     ],
-    "User access logs could not be accessed for 5 hours": [
+    "Password re-sets for Sunways need to be done manually, one by one, by an admin user": [
       "Incident_Fact-6"
     ],
     "Peter Smith, who runs Special Projects": [
       "Incident_Fact-27"
     ],
-    "Executive function": [
+    "IT": [
       "Function-1"
     ],
-    "IT": [
+    "Executive function": [
       "Function-3"
     ],
     "Project Management": [
@@ -307,19 +307,19 @@
     "Program Management": [
       "Pillar-1"
     ],
-    "Prevent and Protect": [
+    "Govern and Assure": [
       "Pillar-6"
     ],
     "Culture of Operations": [
       "Pillar-5"
     ],
-    "Govern and Assure": [
+    "Situational understanding": [
       "Pillar-4"
     ],
-    "Detect, Respond, Recover": [
+    "Prevent and Protect": [
       "Pillar-3"
     ],
-    "Situational understanding": [
+    "Detect, Respond, Recover": [
       "Pillar-2"
     ],
     "What user activity logs are available (going back how long)?": [
@@ -448,16 +448,16 @@
     "Understand blast radius": [
       "Investigation_Thread-7"
     ],
-    "Data Science": [
+    "Executive": [
       "Team-5"
     ],
     "Platform Engineering": [
       "Team-4"
     ],
-    "Data Engineering": [
+    "Data Science": [
       "Team-3"
     ],
-    "Executive": [
+    "Data Engineering": [
       "Team-2"
     ],
     "Software Engineering": [
@@ -481,22 +481,22 @@
     "2019.06.12 // 03:24 // ALee account has 7 failed logins and then a login from IP external to Digicorp": [
       "Timeline_Fact-1"
     ],
-    "VALAPONT": [
+    "PC-NLIGO-49321": [
       "Device-2"
     ],
-    "PC-NLIGO-49321": [
+    "FR-APW-1404": [
       "Device-3"
     ],
-    "PC-PSMIT-49873": [
+    "XLXN2A-047": [
       "Device-4"
     ],
-    "FR-APW-1404": [
+    "VALAPONT": [
       "Device-5"
     ],
     "XLXN2A-046": [
       "Device-6"
     ],
-    "XLXN2A-047": [
+    "PC-PSMIT-49873": [
       "Device-1"
     ],
     "Suspected sabotage of Sunways application": [
@@ -514,61 +514,61 @@
     "As the number of system users grows, a threat actor who comrpomises an account with high privielege can re-enable legitimate users and take on their identity - rather than needing to create a new user account": [
       "Vulnerability-2"
     ],
-    "If an internal or external threat actor gains access to Sunways, and acts maliciously to impact confidentiality, integrity or availability of data, there are no logs to evidence what account took what actions": [
+    "Custom or commodity malware can be created or adapted to bypass AV detection at a low level of threat actor sophistication": [
       "Vulnerability-3"
     ],
-    "Technical vulnerabilities can be introduced through code, and remain undetected, enabling threat actors to find and exploit them, and increasing downstream costs": [
+    "Digicorp does not have visiblity into attacks against users that fail, so there is no early warning system of an uptick in attacks attempting to compromise user accounts or credentials": [
       "Vulnerability-4"
     ],
-    "If a threat actor gains access to the API key, access cannot be restricted and the key needs to be reset, which will impact any dependent services": [
+    "If code is deleted accidentally or malicously, there is no single time of 'last complete backup', or knowledge of who has the most recent code base": [
       "Vulnerability-8"
     ],
-    "Digicorp does not have visiblity into attacks against users that fail, so there is no early warning system of an uptick in attacks attempting to compromise user accounts or credentials": [
+    "In the event of another incident, Security will have a 5 hour lag before they can establish (or rule out) which user account may have been compromised, or been used by a legitimate user to act maliciously": [
       "Vulnerability-9"
     ],
-    "An external threat actor can launch a brute force attack to discover credentials for the application direct from the internet": [
+    "Due to loss of repudiation, if a threat actor gains access to the API key, it would not be possble to know if or what data they accessed through APIs": [
       "Vulnerability-5"
     ],
-    "If code is deleted accidentally or malicously, there is no single time of 'last complete backup', or knowledge of who has the most recent code base": [
+    "If a threat actor gains access to the API key, access cannot be restricted and the key needs to be reset, which will impact any dependent services": [
       "Vulnerability-6"
     ],
-    "In the event of another incident, or a requirement for architecture change, there is no person who can make a final decision on the impact or appropriateness of the change": [
+    "Technical vulnerabilities can be introduced through code, and remain undetected, enabling threat actors to find and exploit them, and increasing downstream costs": [
       "Vulnerability-11"
     ],
-    "Custom or commodity malware can be created or adapted to bypass AV detection at a low level of threat actor sophistication": [
+    "In the event of another incident, or a requirement for architecture change, there is no person who can make a final decision on the impact or appropriateness of the change": [
       "Vulnerability-10"
     ],
-    "In the event of another incident, Security will have a 5 hour lag before they can establish (or rule out) which user account may have been compromised, or been used by a legitimate user to act maliciously": [
+    "If an internal or external threat actor gains access to Sunways, and acts maliciously to impact confidentiality, integrity or availability of data, there are no logs to evidence what account took what actions": [
       "Vulnerability-7"
     ],
-    "Due to loss of repudiation, if a threat actor gains access to the API key, it would not be possble to know if or what data they accessed through APIs": [
+    "An external threat actor can launch a brute force attack to discover credentials for the application direct from the internet": [
       "Vulnerability-1"
     ],
-    "alee@digicorp.com": [
+    "sophia.berlin@digicorp.com": [
       "Account-3"
     ],
-    "nligos@digicorp.com": [
+    "bruno.lyon@digicorp.com": [
       "Account-2"
     ],
-    "bruno.lyon@digicorp.com": [
+    "nligos@digicorp.com": [
       "Account-5"
     ],
-    "cypher1@digi-inc.com": [
+    "cypher2@digi-inc.corp": [
       "Account-9"
     ],
-    "cypher9@digi-inc.com": [
+    "admin@digi-inc.com": [
       "Account-8"
     ],
-    "sophia.berlin@digicorp.com": [
+    "alee@digicorp.com": [
       "Account-4"
     ],
-    "cypher2@digi-inc.corp": [
+    "cypher10@digi-inc.com": [
       "Account-7"
     ],
-    "cypher10@digi-inc.com": [
+    "cypher1@digi-inc.com": [
       "Account-11"
     ],
-    "admin@digi-inc.com": [
+    "cypher9@digi-inc.com": [
       "Account-10"
     ],
     "peter.smith@digicorp.com": [
@@ -589,61 +589,61 @@
     "If a threat actor or employee deletes code deliberately or accidentally, there is currently no control to assure continunity to an SLA, which could lead to losses >$3M depending on when the deletion occurs.": [
       "Risk-2"
     ],
-    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))": [
+    "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)": [
       "Detection-3"
     ],
-    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))": [
+    "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)": [
       "Detection-17"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)": [
       "Detection-16"
     ],
-    "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)": [
+    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)": [
       "Detection-2"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)": [
+    "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)": [
       "Detection-9"
     ],
-    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)": [
       "Detection-11"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)": [
       "Detection-5"
     ],
-    "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)": [
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
       "Detection-4"
     ],
-    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))": [
+    "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
       "Detection-10"
     ],
-    "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
+    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)": [
       "Detection-8"
     ],
-    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)": [
       "Detection-13"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)": [
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))": [
       "Detection-7"
     ],
-    "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)": [
       "Detection-6"
     ],
-    "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)": [
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))": [
       "Detection-12"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)": [
+    "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))": [
       "Detection-19"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)": [
       "Detection-1"
     ],
     "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:183746702)": [
       "Detection-15"
     ],
-    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)": [
+    "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)": [
       "Detection-14"
     ],
-    "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)": [
+    "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)": [
       "Detection-18"
     ],
     "VIP and Superuser identity": [

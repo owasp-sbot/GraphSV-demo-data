@@ -1,5 +1,5 @@
 {
-  "Summary": "There is no formal JML process and accounts are disabled, not removed",
+  "Summary": "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton",
   "Key": "Incident_Fact-9",
   "Issue Type": "Incident Fact"
 }

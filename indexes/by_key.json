@@ -2,24 +2,27 @@
   "Security_Impact-7": {
     "path": "Security_Impact/Security_Impact-7.json",
     "links": {
-      "can escalate to": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
+      "can occur due to": [
         "Security_Impact-8",
-        "Security_Impact-12",
-        "Security_Impact-10",
-        "Security_Impact-15",
+        "Security_Impact-6",
+        "Security_Impact-2",
+        "Security_Impact-4",
         "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-16",
+        "Security_Impact-18"
+      ],
+      "can escalate to": [
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
+        "Security_Impact-19"
       ],
       "can arise due to exploit of": [
-        "Vulnerability-11",
         "Vulnerability-5"
       ]
     },
     "data": {
-      "Summary": "Inability to avoid future recurrence",
+      "Summary": "Delayed fulfilment of services",
       "Key": "Security_Impact-7",
       "Issue Type": "Security Impact"
     }
@@ -27,20 +30,29 @@
   "Security_Impact-13": {
     "path": "Security_Impact/Security_Impact-13.json",
     "links": {
-      "can escalate to": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
+      "can occur due to": [
         "Security_Impact-8",
-        "Security_Impact-12",
-        "Security_Impact-10",
-        "Security_Impact-15",
+        "Security_Impact-6",
+        "Security_Impact-2",
+        "Security_Impact-4",
         "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-16",
+        "Security_Impact-18"
+      ],
+      "can escalate to": [
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
+        "Security_Impact-19"
+      ],
+      "can arise due to exploit of": [
+        "Vulnerability-7",
+        "Vulnerability-8",
+        "Vulnerability-6"
       ]
     },
     "data": {
-      "Summary": "Increased time to recover",
+      "Summary": "Disruption to teams productivity",
       "Key": "Security_Impact-13",
       "Issue Type": "Security Impact"
     }
@@ -48,29 +60,20 @@
   "Security_Impact-12": {
     "path": "Security_Impact/Security_Impact-12.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-2",
+      "can occur due to": [
         "Security_Impact-7",
         "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
-      ],
-      "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
         "Security_Impact-11",
-        "Security_Impact-19"
-      ],
-      "can arise due to exploit of": [
-        "Vulnerability-3",
-        "Vulnerability-6",
-        "Vulnerability-8"
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-10",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ]
     },
     "data": {
-      "Summary": "Disruption to teams productivity",
+      "Summary": "Apparent or actual threat to business viability",
       "Key": "Security_Impact-12",
       "Issue Type": "Security Impact"
     }
@@ -78,28 +81,24 @@
   "Security_Impact-6": {
     "path": "Security_Impact/Security_Impact-6.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-2",
+      "can escalate to": [
         "Security_Impact-7",
         "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
-      ],
-      "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
         "Security_Impact-11",
-        "Security_Impact-19"
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-10",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ],
       "can arise due to exploit of": [
-        "Vulnerability-6",
-        "Vulnerability-4"
+        "Vulnerability-10",
+        "Vulnerability-1"
       ]
     },
     "data": {
-      "Summary": "Missed targets and deadlines",
+      "Summary": "Inability to avoid future recurrence",
       "Key": "Security_Impact-6",
       "Issue Type": "Security Impact"
     }
@@ -108,26 +107,28 @@
     "path": "Security_Impact/Security_Impact-15.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-1"
+        "Vulnerability-7",
+        "Vulnerability-8",
+        "Vulnerability-6"
       ],
-      "escalated by": [
-        "Security_Impact-14",
-        "Security_Impact-2",
-        "Security_Impact-7",
-        "Security_Impact-18",
+      "can occur due to": [
+        "Security_Impact-17",
+        "Security_Impact-8",
+        "Security_Impact-6",
         "Security_Impact-16",
-        "Security_Impact-5",
-        "Security_Impact-13"
+        "Security_Impact-18",
+        "Security_Impact-2",
+        "Security_Impact-4"
       ],
       "can escalate to": [
-        "Security_Impact-4",
+        "Security_Impact-12",
         "Security_Impact-19",
-        "Security_Impact-9",
-        "Security_Impact-11"
+        "Security_Impact-3",
+        "Security_Impact-1"
       ]
     },
     "data": {
-      "Summary": "Delayed fulfilment of services",
+      "Summary": "Disruption to teams productivity",
       "Key": "Security_Impact-15",
       "Issue Type": "Security Impact"
     }
@@ -136,17 +137,17 @@
     "path": "Security_Impact/Security_Impact-19.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-6"
+        "Vulnerability-8"
       ],
-      "escalated by": [
-        "Security_Impact-15",
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-17",
-        "Security_Impact-1",
-        "Security_Impact-8",
-        "Security_Impact-12",
+      "can occur due to": [
+        "Security_Impact-7",
+        "Security_Impact-14",
         "Security_Impact-20",
+        "Security_Impact-5",
+        "Security_Impact-11",
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-15",
         "Security_Impact-10"
       ]
     },
@@ -159,24 +160,20 @@
   "Security_Impact-1": {
     "path": "Security_Impact/Security_Impact-1.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-2",
+      "can occur due to": [
         "Security_Impact-7",
         "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
-      ],
-      "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
         "Security_Impact-11",
-        "Security_Impact-19"
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-10",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ]
     },
     "data": {
-      "Summary": "Loss of competitiveness",
+      "Summary": "Material increase in unforecast costs",
       "Key": "Security_Impact-1",
       "Issue Type": "Security Impact"
     }
@@ -185,23 +182,24 @@
     "path": "Security_Impact/Security_Impact-18.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-11",
-        "Vulnerability-5"
+        "Vulnerability-9",
+        "Vulnerability-3",
+        "Vulnerability-4"
       ],
       "can escalate to": [
-        "Security_Impact-15",
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-17",
-        "Security_Impact-1",
-        "Security_Impact-8",
-        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-14",
         "Security_Impact-20",
+        "Security_Impact-5",
+        "Security_Impact-11",
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-15",
         "Security_Impact-10"
       ]
     },
     "data": {
-      "Summary": "Inability to avoid future recurrence",
+      "Summary": "Increased time to detect",
       "Key": "Security_Impact-18",
       "Issue Type": "Security Impact"
     }
@@ -210,22 +208,26 @@
     "path": "Security_Impact/Security_Impact-14.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-3"
+        "Vulnerability-5"
+      ],
+      "can occur due to": [
+        "Security_Impact-17",
+        "Security_Impact-8",
+        "Security_Impact-6",
+        "Security_Impact-16",
+        "Security_Impact-18",
+        "Security_Impact-2",
+        "Security_Impact-4"
       ],
       "can escalate to": [
-        "Security_Impact-15",
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-17",
-        "Security_Impact-1",
-        "Security_Impact-8",
         "Security_Impact-12",
-        "Security_Impact-20",
-        "Security_Impact-10"
+        "Security_Impact-19",
+        "Security_Impact-3",
+        "Security_Impact-1"
       ]
     },
     "data": {
-      "Summary": "Inability to establish root cause",
+      "Summary": "Delayed fulfilment of services",
       "Key": "Security_Impact-14",
       "Issue Type": "Security Impact"
     }
@@ -234,27 +236,22 @@
     "path": "Security_Impact/Security_Impact-17.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-6",
-        "Vulnerability-4"
-      ],
-      "escalated by": [
-        "Security_Impact-14",
-        "Security_Impact-2",
-        "Security_Impact-7",
-        "Security_Impact-18",
-        "Security_Impact-16",
-        "Security_Impact-5",
-        "Security_Impact-13"
+        "Vulnerability-7"
       ],
       "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-19",
+        "Security_Impact-7",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-5",
+        "Security_Impact-11",
         "Security_Impact-9",
-        "Security_Impact-11"
+        "Security_Impact-13",
+        "Security_Impact-15",
+        "Security_Impact-10"
       ]
     },
     "data": {
-      "Summary": "Missed targets and deadlines",
+      "Summary": "Inability to establish root cause",
       "Key": "Security_Impact-17",
       "Issue Type": "Security Impact"
     }
@@ -262,27 +259,23 @@
   "Security_Impact-3": {
     "path": "Security_Impact/Security_Impact-3.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-2",
+      "can occur due to": [
         "Security_Impact-7",
         "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
-      ],
-      "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
         "Security_Impact-11",
-        "Security_Impact-19"
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-10",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ],
       "can arise due to exploit of": [
-        "Vulnerability-1"
+        "Vulnerability-8"
       ]
     },
     "data": {
-      "Summary": "Delayed fulfilment of services",
+      "Summary": "Material drop in profit margin",
       "Key": "Security_Impact-3",
       "Issue Type": "Security Impact"
     }
@@ -291,28 +284,27 @@
     "path": "Security_Impact/Security_Impact-20.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-3",
-        "Vulnerability-6",
-        "Vulnerability-8"
+        "Vulnerability-8",
+        "Vulnerability-11"
       ],
-      "escalated by": [
-        "Security_Impact-14",
-        "Security_Impact-2",
-        "Security_Impact-7",
-        "Security_Impact-18",
+      "can occur due to": [
+        "Security_Impact-17",
+        "Security_Impact-8",
+        "Security_Impact-6",
         "Security_Impact-16",
-        "Security_Impact-5",
-        "Security_Impact-13"
+        "Security_Impact-18",
+        "Security_Impact-2",
+        "Security_Impact-4"
       ],
       "can escalate to": [
-        "Security_Impact-4",
+        "Security_Impact-12",
         "Security_Impact-19",
-        "Security_Impact-9",
-        "Security_Impact-11"
+        "Security_Impact-3",
+        "Security_Impact-1"
       ]
     },
     "data": {
-      "Summary": "Disruption to teams productivity",
+      "Summary": "Missed targets and deadlines",
       "Key": "Security_Impact-20",
       "Issue Type": "Security Impact"
     }
@@ -321,22 +313,24 @@
     "path": "Security_Impact/Security_Impact-2.json",
     "links": {
       "can escalate to": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
-        "Security_Impact-8",
-        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-5",
+        "Security_Impact-11",
+        "Security_Impact-9",
+        "Security_Impact-13",
         "Security_Impact-10",
-        "Security_Impact-15",
-        "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ],
       "can arise due to exploit of": [
-        "Vulnerability-3"
+        "Vulnerability-9",
+        "Vulnerability-3",
+        "Vulnerability-4"
       ]
     },
     "data": {
-      "Summary": "Inability to establish root cause",
+      "Summary": "Increased time to detect",
       "Key": "Security_Impact-2",
       "Issue Type": "Security Impact"
     }
@@ -345,24 +339,23 @@
     "path": "Security_Impact/Security_Impact-16.json",
     "links": {
       "can arise due to exploit of": [
-        "Vulnerability-7",
         "Vulnerability-10",
-        "Vulnerability-9"
+        "Vulnerability-1"
       ],
       "can escalate to": [
-        "Security_Impact-15",
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-17",
-        "Security_Impact-1",
-        "Security_Impact-8",
-        "Security_Impact-12",
+        "Security_Impact-7",
+        "Security_Impact-14",
         "Security_Impact-20",
+        "Security_Impact-5",
+        "Security_Impact-11",
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-15",
         "Security_Impact-10"
       ]
     },
     "data": {
-      "Summary": "Increased time to detect",
+      "Summary": "Inability to avoid future recurrence",
       "Key": "Security_Impact-16",
       "Issue Type": "Security Impact"
     }
@@ -370,25 +363,28 @@
   "Security_Impact-5": {
     "path": "Security_Impact/Security_Impact-5.json",
     "links": {
-      "can escalate to": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
+      "can occur due to": [
         "Security_Impact-8",
-        "Security_Impact-12",
-        "Security_Impact-10",
-        "Security_Impact-15",
+        "Security_Impact-6",
+        "Security_Impact-2",
+        "Security_Impact-4",
         "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-16",
+        "Security_Impact-18"
+      ],
+      "can escalate to": [
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
+        "Security_Impact-19"
       ],
       "can arise due to exploit of": [
-        "Vulnerability-7",
-        "Vulnerability-10",
-        "Vulnerability-9"
+        "Vulnerability-8",
+        "Vulnerability-11"
       ]
     },
     "data": {
-      "Summary": "Increased time to detect",
+      "Summary": "Missed targets and deadlines",
       "Key": "Security_Impact-5",
       "Issue Type": "Security Impact"
     }
@@ -396,23 +392,24 @@
   "Security_Impact-9": {
     "path": "Security_Impact/Security_Impact-9.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
+      "can occur due to": [
         "Security_Impact-8",
-        "Security_Impact-12",
-        "Security_Impact-10",
-        "Security_Impact-15",
+        "Security_Impact-6",
+        "Security_Impact-2",
+        "Security_Impact-4",
         "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-16",
+        "Security_Impact-18"
       ],
-      "can arise due to exploit of": [
-        "Vulnerability-6"
+      "can escalate to": [
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
+        "Security_Impact-19"
       ]
     },
     "data": {
-      "Summary": "Material drop in profit margin",
+      "Summary": "Regulatory intervention",
       "Key": "Security_Impact-9",
       "Issue Type": "Security Impact"
     }
@@ -420,20 +417,24 @@
   "Security_Impact-11": {
     "path": "Security_Impact/Security_Impact-11.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
+      "can occur due to": [
         "Security_Impact-8",
-        "Security_Impact-12",
-        "Security_Impact-10",
-        "Security_Impact-15",
+        "Security_Impact-6",
+        "Security_Impact-2",
+        "Security_Impact-4",
         "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-16",
+        "Security_Impact-18"
+      ],
+      "can escalate to": [
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
+        "Security_Impact-19"
       ]
     },
     "data": {
-      "Summary": "Material increase in unforecast costs",
+      "Summary": "Loss of competitiveness",
       "Key": "Security_Impact-11",
       "Issue Type": "Security Impact"
     }
@@ -441,19 +442,19 @@
   "Security_Impact-10": {
     "path": "Security_Impact/Security_Impact-10.json",
     "links": {
-      "escalated by": [
+      "can occur due to": [
+        "Security_Impact-8",
+        "Security_Impact-6",
         "Security_Impact-2",
-        "Security_Impact-7",
-        "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
+        "Security_Impact-4",
+        "Security_Impact-17",
+        "Security_Impact-16",
+        "Security_Impact-18"
       ],
       "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
-        "Security_Impact-11",
+        "Security_Impact-12",
+        "Security_Impact-3",
+        "Security_Impact-1",
         "Security_Impact-19"
       ]
     },
@@ -466,24 +467,23 @@
   "Security_Impact-8": {
     "path": "Security_Impact/Security_Impact-8.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-2",
+      "can escalate to": [
         "Security_Impact-7",
         "Security_Impact-5",
-        "Security_Impact-13",
-        "Security_Impact-14",
-        "Security_Impact-18",
-        "Security_Impact-16"
-      ],
-      "can escalate to": [
-        "Security_Impact-4",
-        "Security_Impact-9",
         "Security_Impact-11",
-        "Security_Impact-19"
+        "Security_Impact-9",
+        "Security_Impact-13",
+        "Security_Impact-10",
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
+      ],
+      "can arise due to exploit of": [
+        "Vulnerability-7"
       ]
     },
     "data": {
-      "Summary": "Regulatory intervention",
+      "Summary": "Inability to establish root cause",
       "Key": "Security_Impact-8",
       "Issue Type": "Security Impact"
     }
@@ -491,20 +491,20 @@
   "Security_Impact-4": {
     "path": "Security_Impact/Security_Impact-4.json",
     "links": {
-      "escalated by": [
-        "Security_Impact-3",
-        "Security_Impact-6",
-        "Security_Impact-1",
-        "Security_Impact-8",
-        "Security_Impact-12",
+      "can escalate to": [
+        "Security_Impact-7",
+        "Security_Impact-5",
+        "Security_Impact-11",
+        "Security_Impact-9",
+        "Security_Impact-13",
         "Security_Impact-10",
-        "Security_Impact-15",
-        "Security_Impact-17",
-        "Security_Impact-20"
+        "Security_Impact-14",
+        "Security_Impact-20",
+        "Security_Impact-15"
       ]
     },
     "data": {
-      "Summary": "Apparent or actual threat to business viability",
+      "Summary": "Increased time to recover",
       "Key": "Security_Impact-4",
       "Issue Type": "Security Impact"
     }
@@ -512,16 +512,16 @@
   "Role-1": {
     "path": "Role/Role-1.json",
     "links": {
-      "is role of": [
+      "role is assigned to": [
         "Person-4",
         "Person-6"
       ],
       "reports to": [
-        "Role-3"
+        "Role-5"
       ],
       "is funded by": [
         "Team-1",
-        "Team-3"
+        "Team-2"
       ]
     },
     "data": {
@@ -535,27 +535,19 @@
     "links": {
       "owns": [
         "Capability-24",
-        "Capability-2",
-        "Capability-14",
-        "Capability-7",
-        "Capability-17",
-        "Capability-3",
         "Capability-20",
-        "Capability-23",
-        "Capability-6",
-        "Capability-21",
-        "Capability-11",
-        "Capability-5",
-        "Capability-26",
-        "Capability-25",
-        "Capability-27"
+        "Capability-10",
+        "Capability-15",
+        "Capability-29",
+        "Capability-32",
+        "Capability-33"
       ],
       "role is assigned to": [
-        "Person-13"
+        "Person-14"
       ]
     },
     "data": {
-      "Summary": "Head of Risk",
+      "Summary": "Head of Application Security",
       "Key": "Role-7",
       "Issue Type": "Role"
     }
@@ -564,20 +556,28 @@
     "path": "Role/Role-6.json",
     "links": {
       "owns": [
+        "Capability-5",
+        "Capability-6",
+        "Capability-14",
         "Capability-4",
-        "Capability-15",
-        "Capability-10",
-        "Capability-22",
-        "Capability-31",
-        "Capability-29",
-        "Capability-34"
+        "Capability-23",
+        "Capability-2",
+        "Capability-8",
+        "Capability-12",
+        "Capability-9",
+        "Capability-11",
+        "Capability-3",
+        "Capability-21",
+        "Capability-26",
+        "Capability-25",
+        "Capability-31"
       ],
       "role is assigned to": [
         "Person-15"
       ]
     },
     "data": {
-      "Summary": "Head of Application Security",
+      "Summary": "Head of Risk",
       "Key": "Role-6",
       "Issue Type": "Role"
     }
@@ -586,16 +586,16 @@
     "path": "Role/Role-9.json",
     "links": {
       "owns": [
-        "Capability-13",
-        "Capability-19",
-        "Capability-8",
-        "Capability-9",
-        "Capability-28",
-        "Capability-33",
-        "Capability-32"
+        "Capability-16",
+        "Capability-7",
+        "Capability-18",
+        "Capability-22",
+        "Capability-30",
+        "Capability-34",
+        "Capability-27"
       ],
       "role is assigned to": [
-        "Person-14"
+        "Person-16"
       ]
     },
     "data": {
@@ -607,64 +607,7 @@
   "Role-5": {
     "path": "Role/Role-5.json",
     "links": {
-      "is role of": [
-        "Person-5"
-      ],
-      "reports to": [
-        "Role-2"
-      ],
-      "is funded by": [
-        "Team-4"
-      ]
-    },
-    "data": {
-      "Summary": "Platform Specialist",
-      "Key": "Role-5",
-      "Issue Type": "Role"
-    }
-  },
-  "Role-4": {
-    "path": "Role/Role-4.json",
-    "links": {
-      "is manager of": [
-        "Role-2"
-      ],
-      "is role of": [
-        "Person-2"
-      ],
-      "is funded by": [
-        "Team-2"
-      ]
-    },
-    "data": {
-      "Summary": "CEO",
-      "Key": "Role-4",
-      "Issue Type": "Role"
-    }
-  },
-  "Role-8": {
-    "path": "Role/Role-8.json",
-    "links": {
-      "owns": [
-        "Capability-16",
-        "Capability-1",
-        "Capability-18",
-        "Capability-12"
-      ],
       "role is assigned to": [
-        "Person-16"
-      ]
-    },
-    "data": {
-      "Summary": "CISO",
-      "Key": "Role-8",
-      "Issue Type": "Role"
-    }
-  },
-  "Role-3": {
-    "path": "Role/Role-3.json",
-    "links": {
-      "is role of": [
         "Person-3"
       ],
       "reports to": [
@@ -679,6 +622,70 @@
     },
     "data": {
       "Summary": "Lead Engineer",
+      "Key": "Role-5",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-4": {
+    "path": "Role/Role-4.json",
+    "links": {
+      "role is assigned to": [
+        "Person-5"
+      ],
+      "reports to": [
+        "Role-2"
+      ],
+      "is funded by": [
+        "Team-4"
+      ],
+      "owns": [
+        "Risk-1"
+      ]
+    },
+    "data": {
+      "Summary": "Platform Specialist",
+      "Key": "Role-4",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-8": {
+    "path": "Role/Role-8.json",
+    "links": {
+      "owns": [
+        "Capability-1",
+        "Capability-13",
+        "Capability-19",
+        "Capability-17",
+        "Risk-3"
+      ],
+      "role is assigned to": [
+        "Person-13"
+      ]
+    },
+    "data": {
+      "Summary": "CISO",
+      "Key": "Role-8",
+      "Issue Type": "Role"
+    }
+  },
+  "Role-3": {
+    "path": "Role/Role-3.json",
+    "links": {
+      "is manager of": [
+        "Role-2"
+      ],
+      "role is assigned to": [
+        "Person-2"
+      ],
+      "is funded by": [
+        "Team-5"
+      ],
+      "owns": [
+        "Risk-2"
+      ]
+    },
+    "data": {
+      "Summary": "CEO",
       "Key": "Role-3",
       "Issue Type": "Role"
     }
@@ -686,18 +693,21 @@
   "Role-2": {
     "path": "Role/Role-2.json",
     "links": {
-      "is role of": [
+      "role is assigned to": [
         "Person-1"
       ],
       "reports to": [
-        "Role-4"
+        "Role-3"
       ],
       "is manager of": [
-        "Role-3",
-        "Role-5"
+        "Role-5",
+        "Role-4"
       ],
       "is funded by": [
-        "Team-5"
+        "Team-3"
+      ],
+      "owns": [
+        "Risk-4"
       ]
     },
     "data": {
@@ -709,12 +719,12 @@
   "Person-15": {
     "path": "Person/Person-15.json",
     "links": {
-      "has role assigned": [
+      "has role": [
         "Role-6"
       ]
     },
     "data": {
-      "Summary": "Paul Holmes",
+      "Summary": "Simon Dickens",
       "Key": "Person-15",
       "Issue Type": "Person"
     }
@@ -736,11 +746,9 @@
         "Role-1"
       ],
       "owns": [
-        "Device-4",
-        "Account-5",
-        "Account-9",
-        "Account-4",
-        "Account-11"
+        "Device-1",
+        "Account-3",
+        "Account-7"
       ]
     },
     "data": {
@@ -759,12 +767,12 @@
   "Person-14": {
     "path": "Person/Person-14.json",
     "links": {
-      "has role assigned": [
-        "Role-9"
+      "has role": [
+        "Role-7"
       ]
     },
     "data": {
-      "Summary": "Ivan Watson",
+      "Summary": "Paul Holmes",
       "Key": "Person-14",
       "Issue Type": "Person"
     }
@@ -777,10 +785,8 @@
       ],
       "owns": [
         "Device-6",
-        "Account-2",
-        "Account-7",
         "Account-6",
-        "Account-8"
+        "Account-10"
       ]
     },
     "data": {
@@ -799,12 +805,12 @@
   "Person-13": {
     "path": "Person/Person-13.json",
     "links": {
-      "has role assigned": [
-        "Role-7"
+      "has role": [
+        "Role-8"
       ]
     },
     "data": {
-      "Summary": "Simon Dickens",
+      "Summary": "Emma Victory",
       "Key": "Person-13",
       "Issue Type": "Person"
     }
@@ -823,14 +829,12 @@
     "path": "Person/Person-3.json",
     "links": {
       "has role": [
-        "Role-3"
+        "Role-5"
       ],
       "owns": [
-        "Device-1",
-        "Account-1",
-        "Account-11",
-        "Account-5",
-        "Account-10"
+        "Device-4",
+        "Account-2",
+        "Account-8"
       ]
     },
     "data": {
@@ -870,14 +874,12 @@
     "path": "Person/Person-2.json",
     "links": {
       "has role": [
-        "Role-4"
+        "Role-3"
       ],
       "owns": [
-        "Device-2",
-        "Account-6",
-        "Account-8",
-        "Account-3",
-        "Account-9"
+        "Device-5",
+        "Account-4",
+        "Account-11"
       ]
     },
     "data": {
@@ -907,14 +909,12 @@
     "path": "Person/Person-5.json",
     "links": {
       "has role": [
-        "Role-5"
+        "Role-4"
       ],
       "owns": [
-        "Device-3",
-        "Account-4",
-        "Account-10",
-        "Account-2",
-        "Account-7"
+        "Device-2",
+        "Account-5",
+        "Account-9"
       ]
     },
     "data": {
@@ -937,11 +937,9 @@
         "Role-1"
       ],
       "owns": [
-        "Device-5",
-        "Account-3",
-        "Account-11",
+        "Device-3",
         "Account-1",
-        "Account-10"
+        "Account-8"
       ]
     },
     "data": {
@@ -960,12 +958,12 @@
   "Person-16": {
     "path": "Person/Person-16.json",
     "links": {
-      "has role assigned": [
-        "Role-8"
+      "has role": [
+        "Role-9"
       ]
     },
     "data": {
-      "Summary": "Emma Victory",
+      "Summary": "Ivan Watson",
       "Key": "Person-16",
       "Issue Type": "Person"
     }
@@ -984,17 +982,14 @@
     "path": "Capability/Capability-8.json",
     "links": {
       "is delivered by": [
-        "Pillar-3"
+        "Pillar-5"
       ],
       "is owned by": [
-        "Role-9"
-      ],
-      "failure causes": [
-        "Incident_Fact-10"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Security capability testing",
+      "Summary": "Security EQ and IQ measurement",
       "Key": "Capability-8",
       "Issue Type": "Capability"
     }
@@ -1003,14 +998,17 @@
     "path": "Capability/Capability-16.json",
     "links": {
       "is delivered by": [
-        "Pillar-1"
+        "Pillar-2"
       ],
       "is owned by": [
-        "Role-8"
+        "Role-9"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-12"
       ]
     },
     "data": {
-      "Summary": "Strategic planning",
+      "Summary": "Incident response and threat management",
       "Key": "Capability-16",
       "Issue Type": "Capability"
     }
@@ -1019,14 +1017,18 @@
     "path": "Capability/Capability-20.json",
     "links": {
       "is delivered by": [
-        "Pillar-5"
+        "Pillar-3"
       ],
       "is owned by": [
         "Role-7"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-8",
+        "Incident_Fact-9"
       ]
     },
     "data": {
-      "Summary": "Security EQ and IQ measurement",
+      "Summary": "Secure architecture",
       "Key": "Capability-20",
       "Issue Type": "Capability"
     }
@@ -1035,20 +1037,14 @@
     "path": "Capability/Capability-4.json",
     "links": {
       "is delivered by": [
-        "Pillar-6"
+        "Pillar-4"
       ],
       "is owned by": [
         "Role-6"
-      ],
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-9",
-        "Incident_Fact-8",
-        "Incident_Fact-5"
       ]
     },
     "data": {
-      "Summary": "Identity and access management",
+      "Summary": "Impact and risk intelligence",
       "Key": "Capability-4",
       "Issue Type": "Capability"
     }
@@ -1060,11 +1056,11 @@
         "Pillar-4"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Audit response",
+      "Summary": "Business context intelligence",
       "Key": "Capability-5",
       "Issue Type": "Capability"
     }
@@ -1073,14 +1069,14 @@
     "path": "Capability/Capability-21.json",
     "links": {
       "is delivered by": [
-        "Pillar-4"
+        "Pillar-6"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Compliance readiness",
+      "Summary": "Audit response",
       "Key": "Capability-21",
       "Issue Type": "Capability"
     }
@@ -1089,17 +1085,14 @@
     "path": "Capability/Capability-17.json",
     "links": {
       "is delivered by": [
-        "Pillar-5"
+        "Pillar-1"
       ],
       "is owned by": [
-        "Role-7"
-      ],
-      "failure causes": [
-        "Incident_Fact-12"
+        "Role-8"
       ]
     },
     "data": {
-      "Summary": "Accountable roles",
+      "Summary": "Project management",
       "Key": "Capability-17",
       "Issue Type": "Capability"
     }
@@ -1108,17 +1101,17 @@
     "path": "Capability/Capability-9.json",
     "links": {
       "is delivered by": [
-        "Pillar-3"
+        "Pillar-6"
       ],
       "is owned by": [
-        "Role-9"
+        "Role-6"
       ],
-      "failure causes": [
-        "Incident_Fact-11"
+      "failure indicated by": [
+        "Incident_Fact-10"
       ]
     },
     "data": {
-      "Summary": "Continuity and disaster recovery",
+      "Summary": "Policy and standards",
       "Key": "Capability-9",
       "Issue Type": "Capability"
     }
@@ -1126,12 +1119,18 @@
   "Capability-30": {
     "path": "Capability/Capability-30.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-7"
+      "failure indicated by": [
+        "Incident_Fact-12"
+      ],
+      "is delivered by": [
+        "Pillar-2"
+      ],
+      "is owned by": [
+        "Role-9"
       ]
     },
     "data": {
-      "Summary": "Detection Engineering",
+      "Summary": "Incident response and threat management",
       "Key": "Capability-30",
       "Issue Type": "Capability"
     }
@@ -1139,16 +1138,16 @@
   "Capability-26": {
     "path": "Capability/Capability-26.json",
     "links": {
-      "failure causes": [
+      "failure indicated by": [
+        "Incident_Fact-11",
         "Incident_Fact-12",
-        "Incident_Fact-6",
-        "Incident_Fact-2"
+        "Incident_Fact-5"
       ],
       "is delivered by": [
-        "Pillar-2"
+        "Pillar-4"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
@@ -1161,19 +1160,14 @@
     "path": "Capability/Capability-2.json",
     "links": {
       "is delivered by": [
-        "Pillar-2"
+        "Pillar-5"
       ],
       "is owned by": [
-        "Role-7"
-      ],
-      "failure causes": [
-        "Incident_Fact-12",
-        "Incident_Fact-6",
-        "Incident_Fact-2"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Asset intelligence",
+      "Summary": "Targeted training and comms",
       "Key": "Capability-2",
       "Issue Type": "Capability"
     }
@@ -1182,18 +1176,18 @@
     "path": "Capability/Capability-10.json",
     "links": {
       "is delivered by": [
-        "Pillar-6"
+        "Pillar-3"
       ],
       "is owned by": [
-        "Role-6"
+        "Role-7"
       ],
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-2",
-        "Incident_Fact-1",
-        "Incident_Fact-10",
+      "failure indicated by": [
         "Incident_Fact-8",
-        "Incident_Fact-3"
+        "Incident_Fact-5",
+        "Incident_Fact-9",
+        "Incident_Fact-4",
+        "Incident_Fact-1",
+        "Incident_Fact-6"
       ]
     },
     "data": {
@@ -1206,14 +1200,14 @@
     "path": "Capability/Capability-11.json",
     "links": {
       "is delivered by": [
-        "Pillar-4"
+        "Pillar-6"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Timely assurance and remediation",
+      "Summary": "Compliance readiness",
       "Key": "Capability-11",
       "Issue Type": "Capability"
     }
@@ -1222,14 +1216,14 @@
     "path": "Capability/Capability-3.json",
     "links": {
       "is delivered by": [
-        "Pillar-5"
+        "Pillar-6"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
-      "Summary": "Targeted training and comms",
+      "Summary": "Timely assurance and remediation",
       "Key": "Capability-3",
       "Issue Type": "Capability"
     }
@@ -1237,18 +1231,18 @@
   "Capability-27": {
     "path": "Capability/Capability-27.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-9"
+      "failure indicated by": [
+        "Incident_Fact-3"
       ],
       "is delivered by": [
-        "Pillar-4"
+        "Pillar-2"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-9"
       ]
     },
     "data": {
-      "Summary": "Policy and standards",
+      "Summary": "Continuity and disaster recovery",
       "Key": "Capability-27",
       "Issue Type": "Capability"
     }
@@ -1256,11 +1250,8 @@
   "Capability-31": {
     "path": "Capability/Capability-31.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-9",
-        "Incident_Fact-8",
-        "Incident_Fact-5"
+      "failure indicated by": [
+        "Incident_Fact-10"
       ],
       "is delivered by": [
         "Pillar-6"
@@ -1270,7 +1261,7 @@
       ]
     },
     "data": {
-      "Summary": "Identity and access management",
+      "Summary": "Policy and standards",
       "Key": "Capability-31",
       "Issue Type": "Capability"
     }
@@ -1279,14 +1270,20 @@
     "path": "Capability/Capability-24.json",
     "links": {
       "is delivered by": [
-        "Pillar-2"
+        "Pillar-3"
       ],
       "is owned by": [
         "Role-7"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-8",
+        "Incident_Fact-10",
+        "Incident_Fact-1",
+        "Incident_Fact-2"
       ]
     },
     "data": {
-      "Summary": "Business context intelligence",
+      "Summary": "Identity and access management",
       "Key": "Capability-24",
       "Issue Type": "Capability"
     }
@@ -1294,24 +1291,76 @@
   "Capability-32": {
     "path": "Capability/Capability-32.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-11"
+      "failure indicated by": [
+        "Incident_Fact-8",
+        "Incident_Fact-9"
       ],
       "is delivered by": [
         "Pillar-3"
       ],
       "is owned by": [
-        "Role-9"
+        "Role-7"
       ]
     },
     "data": {
-      "Summary": "Continuity and disaster recovery",
+      "Summary": "Secure architecture",
       "Key": "Capability-32",
       "Issue Type": "Capability"
     }
   },
   "Capability-12": {
     "path": "Capability/Capability-12.json",
+    "links": {
+      "is delivered by": [
+        "Pillar-5"
+      ],
+      "is owned by": [
+        "Role-6"
+      ]
+    },
+    "data": {
+      "Summary": "Support and enforcement",
+      "Key": "Capability-12",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-28": {
+    "path": "Capability/Capability-28.json",
+    "links": {
+      "failure indicated by": [
+        "Incident_Fact-7"
+      ]
+    },
+    "data": {
+      "Summary": "Detection Engineering",
+      "Key": "Capability-28",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-29": {
+    "path": "Capability/Capability-29.json",
+    "links": {
+      "failure indicated by": [
+        "Incident_Fact-8",
+        "Incident_Fact-10",
+        "Incident_Fact-1",
+        "Incident_Fact-2"
+      ],
+      "is delivered by": [
+        "Pillar-3"
+      ],
+      "is owned by": [
+        "Role-7"
+      ]
+    },
+    "data": {
+      "Summary": "Identity and access management",
+      "Key": "Capability-29",
+      "Issue Type": "Capability"
+    }
+  },
+  "Capability-13": {
+    "path": "Capability/Capability-13.json",
     "links": {
       "is delivered by": [
         "Pillar-1"
@@ -1321,65 +1370,7 @@
       ]
     },
     "data": {
-      "Summary": "Project management",
-      "Key": "Capability-12",
-      "Issue Type": "Capability"
-    }
-  },
-  "Capability-28": {
-    "path": "Capability/Capability-28.json",
-    "links": {
-      "failure causes": [
-        "Incident_Fact-6"
-      ],
-      "is delivered by": [
-        "Pillar-3"
-      ],
-      "is owned by": [
-        "Role-9"
-      ]
-    },
-    "data": {
-      "Summary": "Incident response and threat management",
-      "Key": "Capability-28",
-      "Issue Type": "Capability"
-    }
-  },
-  "Capability-29": {
-    "path": "Capability/Capability-29.json",
-    "links": {
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-1"
-      ],
-      "is delivered by": [
-        "Pillar-6"
-      ],
-      "is owned by": [
-        "Role-6"
-      ]
-    },
-    "data": {
-      "Summary": "Secure architecture",
-      "Key": "Capability-29",
-      "Issue Type": "Capability"
-    }
-  },
-  "Capability-13": {
-    "path": "Capability/Capability-13.json",
-    "links": {
-      "is delivered by": [
-        "Pillar-3"
-      ],
-      "is owned by": [
-        "Role-9"
-      ],
-      "failure causes": [
-        "Incident_Fact-6"
-      ]
-    },
-    "data": {
-      "Summary": "Incident response and threat management",
+      "Summary": "Budget management",
       "Key": "Capability-13",
       "Issue Type": "Capability"
     }
@@ -1387,18 +1378,23 @@
   "Capability-33": {
     "path": "Capability/Capability-33.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-10"
+      "failure indicated by": [
+        "Incident_Fact-8",
+        "Incident_Fact-5",
+        "Incident_Fact-9",
+        "Incident_Fact-4",
+        "Incident_Fact-1",
+        "Incident_Fact-6"
       ],
       "is delivered by": [
         "Pillar-3"
       ],
       "is owned by": [
-        "Role-9"
+        "Role-7"
       ]
     },
     "data": {
-      "Summary": "Security capability testing",
+      "Summary": "Secure engineering",
       "Key": "Capability-33",
       "Issue Type": "Capability"
     }
@@ -1406,14 +1402,14 @@
   "Capability-25": {
     "path": "Capability/Capability-25.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-12"
+      "failure indicated by": [
+        "Incident_Fact-11"
       ],
       "is delivered by": [
         "Pillar-5"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
@@ -1433,7 +1429,7 @@
       ]
     },
     "data": {
-      "Summary": "Budget management",
+      "Summary": "Strategic planning",
       "Key": "Capability-1",
       "Issue Type": "Capability"
     }
@@ -1442,10 +1438,10 @@
     "path": "Capability/Capability-14.json",
     "links": {
       "is delivered by": [
-        "Pillar-2"
+        "Pillar-4"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ]
     },
     "data": {
@@ -1458,14 +1454,17 @@
     "path": "Capability/Capability-18.json",
     "links": {
       "is delivered by": [
-        "Pillar-1"
+        "Pillar-2"
       ],
       "is owned by": [
-        "Role-8"
+        "Role-9"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-4"
       ]
     },
     "data": {
-      "Summary": "People management",
+      "Summary": "Security capability testing",
       "Key": "Capability-18",
       "Issue Type": "Capability"
     }
@@ -1477,14 +1476,16 @@
         "Pillar-4"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
       ],
-      "failure causes": [
-        "Incident_Fact-9"
+      "failure indicated by": [
+        "Incident_Fact-11",
+        "Incident_Fact-12",
+        "Incident_Fact-5"
       ]
     },
     "data": {
-      "Summary": "Policy and standards",
+      "Summary": "Asset intelligence",
       "Key": "Capability-6",
       "Issue Type": "Capability"
     }
@@ -1493,14 +1494,17 @@
     "path": "Capability/Capability-22.json",
     "links": {
       "is delivered by": [
-        "Pillar-6"
+        "Pillar-2"
       ],
       "is owned by": [
-        "Role-6"
+        "Role-9"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-3"
       ]
     },
     "data": {
-      "Summary": "Data controls",
+      "Summary": "Continuity and disaster recovery",
       "Key": "Capability-22",
       "Issue Type": "Capability"
     }
@@ -1508,23 +1512,18 @@
   "Capability-34": {
     "path": "Capability/Capability-34.json",
     "links": {
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-2",
-        "Incident_Fact-1",
-        "Incident_Fact-10",
-        "Incident_Fact-8",
-        "Incident_Fact-3"
+      "failure indicated by": [
+        "Incident_Fact-4"
       ],
       "is delivered by": [
-        "Pillar-6"
+        "Pillar-2"
       ],
       "is owned by": [
-        "Role-6"
+        "Role-9"
       ]
     },
     "data": {
-      "Summary": "Secure engineering",
+      "Summary": "Security capability testing",
       "Key": "Capability-34",
       "Issue Type": "Capability"
     }
@@ -1536,11 +1535,14 @@
         "Pillar-5"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-6"
+      ],
+      "failure indicated by": [
+        "Incident_Fact-11"
       ]
     },
     "data": {
-      "Summary": "Support and enforcement",
+      "Summary": "Accountable roles",
       "Key": "Capability-23",
       "Issue Type": "Capability"
     }
@@ -1552,11 +1554,11 @@
         "Pillar-2"
       ],
       "is owned by": [
-        "Role-7"
+        "Role-9"
       ]
     },
     "data": {
-      "Summary": "Impact and risk intelligence",
+      "Summary": "Detection engineering",
       "Key": "Capability-7",
       "Issue Type": "Capability"
     }
@@ -1565,14 +1567,14 @@
     "path": "Capability/Capability-19.json",
     "links": {
       "is delivered by": [
-        "Pillar-3"
+        "Pillar-1"
       ],
       "is owned by": [
-        "Role-9"
+        "Role-8"
       ]
     },
     "data": {
-      "Summary": "Detection engineering",
+      "Summary": "People management",
       "Key": "Capability-19",
       "Issue Type": "Capability"
     }
@@ -1581,18 +1583,14 @@
     "path": "Capability/Capability-15.json",
     "links": {
       "is delivered by": [
-        "Pillar-6"
+        "Pillar-3"
       ],
       "is owned by": [
-        "Role-6"
-      ],
-      "failure causes": [
-        "Incident_Fact-4",
-        "Incident_Fact-1"
+        "Role-7"
       ]
     },
     "data": {
-      "Summary": "Secure architecture",
+      "Summary": "Data controls",
       "Key": "Capability-15",
       "Issue Type": "Capability"
     }
@@ -1601,20 +1599,20 @@
     "path": "Incident_Fact/Incident_Fact-9.json",
     "links": {
       "supports": [
-        "Vulnerability-2"
+        "Vulnerability-1"
       ],
       "indicates failure of": [
-        "Capability-4",
-        "Capability-31",
-        "Capability-27",
-        "Capability-6"
+        "Capability-20",
+        "Capability-32",
+        "Capability-10",
+        "Capability-33"
       ],
       "is established by": [
-        "Incident_Task-30"
+        "Incident_Task-7"
       ]
     },
     "data": {
-      "Summary": "There is no formal JML process and accounts are disabled, not removed",
+      "Summary": "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton",
       "Key": "Incident_Fact-9",
       "Issue Type": "Incident Fact"
     }
@@ -1639,20 +1637,20 @@
     "path": "Incident_Fact/Incident_Fact-12.json",
     "links": {
       "supports": [
-        "Vulnerability-11"
+        "Vulnerability-9"
       ],
       "indicates failure of": [
-        "Capability-17",
-        "Capability-25",
+        "Capability-16",
+        "Capability-30",
         "Capability-26",
-        "Capability-2"
+        "Capability-6"
       ],
       "is established by": [
-        "Incident_Task-29"
+        "Incident_Task-14"
       ]
     },
     "data": {
-      "Summary": "There is no single accountable lead for technical support and question triage in the team in the event of a security incident",
+      "Summary": "User access logs could not be accessed for 5 hours",
       "Key": "Incident_Fact-12",
       "Issue Type": "Incident Fact"
     }
@@ -1660,16 +1658,21 @@
   "Incident_Fact-5": {
     "path": "Incident_Fact/Incident_Fact-5.json",
     "links": {
+      "supports": [
+        "Vulnerability-11"
+      ],
       "indicates failure of": [
-        "Capability-4",
-        "Capability-31"
+        "Capability-26",
+        "Capability-6",
+        "Capability-10",
+        "Capability-33"
       ],
       "is established by": [
-        "Incident_Task-9"
+        "Incident_Task-12"
       ]
     },
     "data": {
-      "Summary": "Admin accounts for Sunways are shared across users",
+      "Summary": "No formal security code review has been performed",
       "Key": "Incident_Fact-5",
       "Issue Type": "Incident Fact"
     }
@@ -1707,19 +1710,17 @@
         "Vulnerability-3"
       ],
       "indicates failure of": [
-        "Capability-4",
-        "Capability-31",
-        "Capability-29",
-        "Capability-15",
         "Capability-10",
+        "Capability-33",
+        "Capability-18",
         "Capability-34"
       ],
       "is established by": [
-        "Incident_Task-24"
+        "Incident_Task-15"
       ]
     },
     "data": {
-      "Summary": "There are no activity logs available for the application",
+      "Summary": "Laptops used for this project only have standard AV installed",
       "Key": "Incident_Fact-4",
       "Issue Type": "Incident Fact"
     }
@@ -1757,21 +1758,22 @@
     "path": "Incident_Fact/Incident_Fact-8.json",
     "links": {
       "supports": [
-        "Vulnerability-1",
-        "Vulnerability-8"
+        "Vulnerability-7"
       ],
       "indicates failure of": [
+        "Capability-24",
+        "Capability-29",
+        "Capability-20",
+        "Capability-32",
         "Capability-10",
-        "Capability-34",
-        "Capability-4",
-        "Capability-31"
+        "Capability-33"
       ],
       "is established by": [
-        "Incident_Task-13"
+        "Incident_Task-24"
       ]
     },
     "data": {
-      "Summary": "API keys are stored in plain text on user devices",
+      "Summary": "There are no activity logs available for the application",
       "Key": "Incident_Fact-8",
       "Issue Type": "Incident Fact"
     }
@@ -1792,16 +1794,19 @@
   "Incident_Fact-3": {
     "path": "Incident_Fact/Incident_Fact-3.json",
     "links": {
+      "supports": [
+        "Vulnerability-8"
+      ],
       "indicates failure of": [
-        "Capability-10",
-        "Capability-34"
+        "Capability-27",
+        "Capability-22"
       ],
       "is established by": [
-        "Incident_Task-9"
+        "Incident_Task-22"
       ]
     },
     "data": {
-      "Summary": "Password re-sets for Sunways need to be done manually, one by one, by an admin user",
+      "Summary": "Code is only backed up locally to developer laptops",
       "Key": "Incident_Fact-3",
       "Issue Type": "Incident Fact"
     }
@@ -1864,21 +1869,16 @@
   "Incident_Fact-2": {
     "path": "Incident_Fact/Incident_Fact-2.json",
     "links": {
-      "supports": [
-        "Vulnerability-4"
-      ],
       "indicates failure of": [
-        "Capability-26",
-        "Capability-2",
-        "Capability-10",
-        "Capability-34"
+        "Capability-24",
+        "Capability-29"
       ],
       "is established by": [
-        "Incident_Task-12"
+        "Incident_Task-9"
       ]
     },
     "data": {
-      "Summary": "No formal security code review has been performed",
+      "Summary": "Admin accounts for Sunways are shared across users",
       "Key": "Incident_Fact-2",
       "Issue Type": "Incident Fact"
     }
@@ -1900,20 +1900,21 @@
     "path": "Incident_Fact/Incident_Fact-1.json",
     "links": {
       "supports": [
-        "Vulnerability-5"
+        "Vulnerability-5",
+        "Vulnerability-6"
       ],
       "indicates failure of": [
-        "Capability-29",
-        "Capability-15",
         "Capability-10",
-        "Capability-34"
+        "Capability-33",
+        "Capability-24",
+        "Capability-29"
       ],
       "is established by": [
-        "Incident_Task-7"
+        "Incident_Task-13"
       ]
     },
     "data": {
-      "Summary": "There is no authentication gateway (e.g. VPN, SSO) for this applicaiton",
+      "Summary": "API keys are stored in plain text on user devices",
       "Key": "Incident_Fact-1",
       "Issue Type": "Incident Fact"
     }
@@ -2003,12 +2004,12 @@
     "path": "Incident_Fact/Incident_Fact-7.json",
     "links": {
       "supports": [
-        "Vulnerability-9",
+        "Vulnerability-4",
         "Timeline_Fact-3",
         "Timeline_Fact-1"
       ],
       "indicates failure of": [
-        "Capability-30"
+        "Capability-28"
       ],
       "is established by": [
         "Incident_Task-16"
@@ -2024,20 +2025,20 @@
     "path": "Incident_Fact/Incident_Fact-10.json",
     "links": {
       "supports": [
-        "Vulnerability-10"
+        "Vulnerability-2"
       ],
       "indicates failure of": [
-        "Capability-10",
-        "Capability-34",
-        "Capability-8",
-        "Capability-33"
+        "Capability-24",
+        "Capability-29",
+        "Capability-9",
+        "Capability-31"
       ],
       "is established by": [
-        "Incident_Task-15"
+        "Incident_Task-30"
       ]
     },
     "data": {
-      "Summary": "Laptops used for this project only have standard AV installed",
+      "Summary": "There is no formal JML process and accounts are disabled, not removed",
       "Key": "Incident_Fact-10",
       "Issue Type": "Incident Fact"
     }
@@ -2046,18 +2047,20 @@
     "path": "Incident_Fact/Incident_Fact-11.json",
     "links": {
       "supports": [
-        "Vulnerability-6"
+        "Vulnerability-10"
       ],
       "indicates failure of": [
-        "Capability-9",
-        "Capability-32"
+        "Capability-25",
+        "Capability-23",
+        "Capability-26",
+        "Capability-6"
       ],
       "is established by": [
-        "Incident_Task-22"
+        "Incident_Task-29"
       ]
     },
     "data": {
-      "Summary": "Code is only backed up locally to developer laptops",
+      "Summary": "There is no single accountable lead for technical support and question triage in the team in the event of a security incident",
       "Key": "Incident_Fact-11",
       "Issue Type": "Incident Fact"
     }
@@ -2065,21 +2068,16 @@
   "Incident_Fact-6": {
     "path": "Incident_Fact/Incident_Fact-6.json",
     "links": {
-      "supports": [
-        "Vulnerability-7"
-      ],
       "indicates failure of": [
-        "Capability-28",
-        "Capability-13",
-        "Capability-26",
-        "Capability-2"
+        "Capability-10",
+        "Capability-33"
       ],
       "is established by": [
-        "Incident_Task-14"
+        "Incident_Task-9"
       ]
     },
     "data": {
-      "Summary": "User access logs could not be accessed for 5 hours",
+      "Summary": "Password re-sets for Sunways need to be done manually, one by one, by an admin user",
       "Key": "Incident_Fact-6",
       "Issue Type": "Incident Fact"
     }
@@ -2101,24 +2099,8 @@
     "path": "Function/Function-1.json",
     "links": {
       "funds": [
-        "Team-2"
-      ],
-      "is function within": [
-        "Business_Unit-1"
-      ]
-    },
-    "data": {
-      "Summary": "Executive function",
-      "Key": "Function-1",
-      "Issue Type": "Function"
-    }
-  },
-  "Function-3": {
-    "path": "Function/Function-3.json",
-    "links": {
-      "funds": [
         "Team-1",
-        "Team-3",
+        "Team-2",
         "Team-4"
       ],
       "is function within": [
@@ -2127,6 +2109,22 @@
     },
     "data": {
       "Summary": "IT",
+      "Key": "Function-1",
+      "Issue Type": "Function"
+    }
+  },
+  "Function-3": {
+    "path": "Function/Function-3.json",
+    "links": {
+      "funds": [
+        "Team-5"
+      ],
+      "is function within": [
+        "Business_Unit-1"
+      ]
+    },
+    "data": {
+      "Summary": "Executive function",
       "Key": "Function-3",
       "Issue Type": "Function"
     }
@@ -2135,7 +2133,7 @@
     "path": "Function/Function-2.json",
     "links": {
       "funds": [
-        "Team-5"
+        "Team-3"
       ],
       "is function within": [
         "Business_Unit-1"
@@ -2151,10 +2149,10 @@
     "path": "Pillar/Pillar-1.json",
     "links": {
       "delivers": [
-        "Capability-16",
         "Capability-1",
-        "Capability-18",
-        "Capability-12"
+        "Capability-13",
+        "Capability-19",
+        "Capability-17"
       ]
     },
     "data": {
@@ -2167,17 +2165,15 @@
     "path": "Pillar/Pillar-6.json",
     "links": {
       "delivers": [
-        "Capability-4",
-        "Capability-15",
-        "Capability-10",
-        "Capability-22",
-        "Capability-31",
-        "Capability-29",
-        "Capability-34"
+        "Capability-9",
+        "Capability-11",
+        "Capability-3",
+        "Capability-21",
+        "Capability-31"
       ]
     },
     "data": {
-      "Summary": "Prevent and Protect",
+      "Summary": "Govern and Assure",
       "Key": "Pillar-6",
       "Issue Type": "Pillar"
     }
@@ -2186,10 +2182,10 @@
     "path": "Pillar/Pillar-5.json",
     "links": {
       "delivers": [
-        "Capability-17",
-        "Capability-3",
-        "Capability-20",
         "Capability-23",
+        "Capability-2",
+        "Capability-8",
+        "Capability-12",
         "Capability-25"
       ]
     },
@@ -2203,15 +2199,15 @@
     "path": "Pillar/Pillar-4.json",
     "links": {
       "delivers": [
-        "Capability-6",
-        "Capability-21",
-        "Capability-11",
         "Capability-5",
-        "Capability-27"
+        "Capability-6",
+        "Capability-14",
+        "Capability-4",
+        "Capability-26"
       ]
     },
     "data": {
-      "Summary": "Govern and Assure",
+      "Summary": "Situational understanding",
       "Key": "Pillar-4",
       "Issue Type": "Pillar"
     }
@@ -2220,17 +2216,17 @@
     "path": "Pillar/Pillar-3.json",
     "links": {
       "delivers": [
-        "Capability-13",
-        "Capability-19",
-        "Capability-8",
-        "Capability-9",
-        "Capability-28",
-        "Capability-33",
-        "Capability-32"
+        "Capability-24",
+        "Capability-20",
+        "Capability-10",
+        "Capability-15",
+        "Capability-29",
+        "Capability-32",
+        "Capability-33"
       ]
     },
     "data": {
-      "Summary": "Detect, Respond, Recover",
+      "Summary": "Prevent and Protect",
       "Key": "Pillar-3",
       "Issue Type": "Pillar"
     }
@@ -2239,15 +2235,17 @@
     "path": "Pillar/Pillar-2.json",
     "links": {
       "delivers": [
-        "Capability-24",
-        "Capability-2",
-        "Capability-14",
+        "Capability-16",
         "Capability-7",
-        "Capability-26"
+        "Capability-18",
+        "Capability-22",
+        "Capability-30",
+        "Capability-34",
+        "Capability-27"
       ]
     },
     "data": {
-      "Summary": "Situational understanding",
+      "Summary": "Detect, Respond, Recover",
       "Key": "Pillar-2",
       "Issue Type": "Pillar"
     }
@@ -2259,7 +2257,7 @@
         "Investigation_Thread-10"
       ],
       "establishes": [
-        "Incident_Fact-4"
+        "Incident_Fact-8"
       ]
     },
     "data": {
@@ -2292,7 +2290,7 @@
       ],
       "establishes": [
         "Incident_Fact-24",
-        "Incident_Fact-2"
+        "Incident_Fact-5"
       ]
     },
     "data": {
@@ -2324,7 +2322,7 @@
         "Investigation_Thread-10"
       ],
       "establishes": [
-        "Incident_Fact-12"
+        "Incident_Fact-11"
       ]
     },
     "data": {
@@ -2340,7 +2338,7 @@
         "Investigation_Thread-7"
       ],
       "establishes": [
-        "Incident_Fact-8"
+        "Incident_Fact-1"
       ]
     },
     "data": {
@@ -2404,7 +2402,7 @@
         "Investigation_Thread-10"
       ],
       "establishes": [
-        "Incident_Fact-6"
+        "Incident_Fact-12"
       ]
     },
     "data": {
@@ -2436,8 +2434,8 @@
         "Investigation_Thread-5"
       ],
       "establishes": [
-        "Incident_Fact-3",
-        "Incident_Fact-5"
+        "Incident_Fact-6",
+        "Incident_Fact-2"
       ]
     },
     "data": {
@@ -2453,7 +2451,7 @@
         "Investigation_Thread-10"
       ],
       "establishes": [
-        "Incident_Fact-11"
+        "Incident_Fact-3"
       ]
     },
     "data": {
@@ -2511,7 +2509,7 @@
         "Investigation_Thread-8"
       ],
       "establishes": [
-        "Incident_Fact-10"
+        "Incident_Fact-4"
       ]
     },
     "data": {
@@ -2558,7 +2556,7 @@
         "Investigation_Thread-8"
       ],
       "establishes": [
-        "Incident_Fact-1"
+        "Incident_Fact-9"
       ]
     },
     "data": {
@@ -2656,7 +2654,7 @@
         "Investigation_Thread-10"
       ],
       "establishes": [
-        "Incident_Fact-9"
+        "Incident_Fact-10"
       ]
     },
     "data": {
@@ -2934,14 +2932,14 @@
     "path": "Team/Team-5.json",
     "links": {
       "funds": [
-        "Role-2"
+        "Role-3"
       ],
       "is funded by": [
-        "Function-2"
+        "Function-3"
       ]
     },
     "data": {
-      "Summary": "Data Science",
+      "Summary": "Executive",
       "Key": "Team-5",
       "Issue Type": "Team"
     }
@@ -2950,10 +2948,10 @@
     "path": "Team/Team-4.json",
     "links": {
       "funds": [
-        "Role-5"
+        "Role-4"
       ],
       "is funded by": [
-        "Function-3"
+        "Function-1"
       ]
     },
     "data": {
@@ -2966,14 +2964,14 @@
     "path": "Team/Team-3.json",
     "links": {
       "funds": [
-        "Role-1"
+        "Role-2"
       ],
       "is funded by": [
-        "Function-3"
+        "Function-2"
       ]
     },
     "data": {
-      "Summary": "Data Engineering",
+      "Summary": "Data Science",
       "Key": "Team-3",
       "Issue Type": "Team"
     }
@@ -2982,14 +2980,14 @@
     "path": "Team/Team-2.json",
     "links": {
       "funds": [
-        "Role-4"
+        "Role-1"
       ],
       "is funded by": [
         "Function-1"
       ]
     },
     "data": {
-      "Summary": "Executive",
+      "Summary": "Data Engineering",
       "Key": "Team-2",
       "Issue Type": "Team"
     }
@@ -2998,11 +2996,11 @@
     "path": "Team/Team-1.json",
     "links": {
       "funds": [
-        "Role-3",
+        "Role-5",
         "Role-1"
       ],
       "is funded by": [
-        "Function-3"
+        "Function-1"
       ]
     },
     "data": {
@@ -3093,15 +3091,15 @@
     "path": "Device/Device-2.json",
     "links": {
       "is owned by": [
-        "Person-2"
+        "Person-5"
       ],
       "has detection": [
-        "Detection-4",
+        "Detection-12",
         "Detection-16"
       ]
     },
     "data": {
-      "Summary": "VALAPONT",
+      "Summary": "PC-NLIGO-49321",
       "Key": "Device-2",
       "Issue Type": "Device"
     }
@@ -3110,15 +3108,18 @@
     "path": "Device/Device-3.json",
     "links": {
       "is owned by": [
-        "Person-5"
+        "Person-4"
       ],
       "has detection": [
-        "Detection-3",
-        "Detection-9"
+        "Detection-8",
+        "Detection-2",
+        "Detection-19",
+        "Detection-4",
+        "Detection-10"
       ]
     },
     "data": {
-      "Summary": "PC-NLIGO-49321",
+      "Summary": "FR-APW-1404",
       "Key": "Device-3",
       "Issue Type": "Device"
     }
@@ -3127,16 +3128,18 @@
     "path": "Device/Device-4.json",
     "links": {
       "is owned by": [
-        "Person-6"
+        "Person-3"
       ],
       "has detection": [
+        "Detection-6",
+        "Detection-5",
         "Detection-18",
-        "Detection-10",
-        "Detection-15"
+        "Detection-13",
+        "Detection-1"
       ]
     },
     "data": {
-      "Summary": "PC-PSMIT-49873",
+      "Summary": "XLXN2A-047",
       "Key": "Device-4",
       "Issue Type": "Device"
     }
@@ -3145,18 +3148,15 @@
     "path": "Device/Device-5.json",
     "links": {
       "is owned by": [
-        "Person-4"
+        "Person-2"
       ],
       "has detection": [
-        "Detection-12",
-        "Detection-11",
         "Detection-17",
-        "Detection-13",
-        "Detection-8"
+        "Detection-11"
       ]
     },
     "data": {
-      "Summary": "FR-APW-1404",
+      "Summary": "VALAPONT",
       "Key": "Device-5",
       "Issue Type": "Device"
     }
@@ -3168,8 +3168,8 @@
         "Person-1"
       ],
       "has detection": [
-        "Detection-2",
-        "Detection-6"
+        "Detection-9",
+        "Detection-3"
       ]
     },
     "data": {
@@ -3182,18 +3182,16 @@
     "path": "Device/Device-1.json",
     "links": {
       "is owned by": [
-        "Person-3"
+        "Person-6"
       ],
       "has detection": [
-        "Detection-1",
-        "Detection-19",
         "Detection-14",
         "Detection-7",
-        "Detection-5"
+        "Detection-15"
       ]
     },
     "data": {
-      "Summary": "XLXN2A-047",
+      "Summary": "PC-PSMIT-49873",
       "Key": "Device-1",
       "Issue Type": "Device"
     }
@@ -3227,8 +3225,8 @@
     "links": {
       "has function": [
         "Function-2",
-        "Function-1",
-        "Function-3"
+        "Function-3",
+        "Function-1"
       ]
     },
     "data": {
@@ -3240,26 +3238,26 @@
   "Application-2": {
     "path": "Application/Application-2.json",
     "links": {
-      "detected": [
+      "registered detection": [
+        "Detection-9",
+        "Detection-17",
+        "Detection-6",
+        "Detection-8",
+        "Detection-14",
+        "Detection-12",
+        "Detection-3",
+        "Detection-11",
+        "Detection-5",
         "Detection-2",
+        "Detection-7",
+        "Detection-16",
+        "Detection-18",
+        "Detection-19",
+        "Detection-15",
+        "Detection-13",
         "Detection-4",
         "Detection-1",
-        "Detection-12",
-        "Detection-18",
-        "Detection-3",
-        "Detection-6",
-        "Detection-16",
-        "Detection-19",
-        "Detection-11",
-        "Detection-10",
-        "Detection-9",
-        "Detection-14",
-        "Detection-17",
-        "Detection-15",
-        "Detection-7",
-        "Detection-13",
-        "Detection-5",
-        "Detection-8"
+        "Detection-10"
       ]
     },
     "data": {
@@ -3272,18 +3270,16 @@
     "path": "Application/Application-1.json",
     "links": {
       "has user account": [
-        "Account-7",
-        "Account-8",
-        "Account-9",
         "Account-10",
-        "Account-11"
+        "Account-11",
+        "Account-7",
+        "Account-9"
       ],
       "represents critical business asset": [
         "Business_Asset-2"
       ],
       "has admin account": [
-        "Account-11",
-        "Account-10"
+        "Account-8"
       ]
     },
     "data": {
@@ -3296,7 +3292,7 @@
     "path": "Vulnerability/Vulnerability-2.json",
     "links": {
       "is supported by": [
-        "Incident_Fact-9"
+        "Incident_Fact-10"
       ]
     },
     "data": {
@@ -3308,18 +3304,16 @@
   "Vulnerability-3": {
     "path": "Vulnerability/Vulnerability-3.json",
     "links": {
-      "expoit causes": [
-        "Security_Impact-14",
-        "Security_Impact-2",
-        "Security_Impact-12",
-        "Security_Impact-20"
+      "exploit can lead to": [
+        "Security_Impact-18",
+        "Security_Impact-2"
       ],
       "is supported by": [
         "Incident_Fact-4"
       ]
     },
     "data": {
-      "Summary": "If an internal or external threat actor gains access to Sunways, and acts maliciously to impact confidentiality, integrity or availability of data, there are no logs to evidence what account took what actions",
+      "Summary": "Custom or commodity malware can be created or adapted to bypass AV detection at a low level of threat actor sophistication",
       "Key": "Vulnerability-3",
       "Issue Type": "Vulnerability"
     }
@@ -3327,43 +3321,9 @@
   "Vulnerability-4": {
     "path": "Vulnerability/Vulnerability-4.json",
     "links": {
-      "expoit causes": [
-        "Security_Impact-6",
-        "Security_Impact-17"
-      ],
-      "is supported by": [
-        "Incident_Fact-2"
-      ]
-    },
-    "data": {
-      "Summary": "Technical vulnerabilities can be introduced through code, and remain undetected, enabling threat actors to find and exploit them, and increasing downstream costs",
-      "Key": "Vulnerability-4",
-      "Issue Type": "Vulnerability"
-    }
-  },
-  "Vulnerability-8": {
-    "path": "Vulnerability/Vulnerability-8.json",
-    "links": {
-      "expoit causes": [
-        "Security_Impact-12",
-        "Security_Impact-20"
-      ],
-      "is supported by": [
-        "Incident_Fact-8"
-      ]
-    },
-    "data": {
-      "Summary": "If a threat actor gains access to the API key, access cannot be restricted and the key needs to be reset, which will impact any dependent services",
-      "Key": "Vulnerability-8",
-      "Issue Type": "Vulnerability"
-    }
-  },
-  "Vulnerability-9": {
-    "path": "Vulnerability/Vulnerability-9.json",
-    "links": {
-      "expoit causes": [
-        "Security_Impact-16",
-        "Security_Impact-5"
+      "exploit can lead to": [
+        "Security_Impact-18",
+        "Security_Impact-2"
       ],
       "is supported by": [
         "Incident_Fact-7"
@@ -3371,40 +3331,23 @@
     },
     "data": {
       "Summary": "Digicorp does not have visiblity into attacks against users that fail, so there is no early warning system of an uptick in attacks attempting to compromise user accounts or credentials",
-      "Key": "Vulnerability-9",
+      "Key": "Vulnerability-4",
       "Issue Type": "Vulnerability"
     }
   },
-  "Vulnerability-5": {
-    "path": "Vulnerability/Vulnerability-5.json",
+  "Vulnerability-8": {
+    "path": "Vulnerability/Vulnerability-8.json",
     "links": {
-      "expoit causes": [
-        "Security_Impact-7",
-        "Security_Impact-18"
-      ],
-      "is supported by": [
-        "Incident_Fact-1"
-      ]
-    },
-    "data": {
-      "Summary": "An external threat actor can launch a brute force attack to discover credentials for the application direct from the internet",
-      "Key": "Vulnerability-5",
-      "Issue Type": "Vulnerability"
-    }
-  },
-  "Vulnerability-6": {
-    "path": "Vulnerability/Vulnerability-6.json",
-    "links": {
-      "expoit causes": [
-        "Security_Impact-12",
+      "exploit can lead to": [
+        "Security_Impact-13",
+        "Security_Impact-15",
         "Security_Impact-20",
-        "Security_Impact-6",
-        "Security_Impact-17",
+        "Security_Impact-5",
         "Security_Impact-19",
-        "Security_Impact-9"
+        "Security_Impact-3"
       ],
       "is supported by": [
-        "Incident_Fact-11"
+        "Incident_Fact-3"
       ],
       "requires decision about": [
         "Risk-2"
@@ -3412,56 +3355,19 @@
     },
     "data": {
       "Summary": "If code is deleted accidentally or malicously, there is no single time of 'last complete backup', or knowledge of who has the most recent code base",
-      "Key": "Vulnerability-6",
+      "Key": "Vulnerability-8",
       "Issue Type": "Vulnerability"
     }
   },
-  "Vulnerability-11": {
-    "path": "Vulnerability/Vulnerability-11.json",
+  "Vulnerability-9": {
+    "path": "Vulnerability/Vulnerability-9.json",
     "links": {
-      "expoit causes": [
-        "Security_Impact-7",
-        "Security_Impact-18"
+      "exploit can lead to": [
+        "Security_Impact-18",
+        "Security_Impact-2"
       ],
       "is supported by": [
         "Incident_Fact-12"
-      ],
-      "requires decision about": [
-        "Risk-4"
-      ]
-    },
-    "data": {
-      "Summary": "In the event of another incident, or a requirement for architecture change, there is no person who can make a final decision on the impact or appropriateness of the change",
-      "Key": "Vulnerability-11",
-      "Issue Type": "Vulnerability"
-    }
-  },
-  "Vulnerability-10": {
-    "path": "Vulnerability/Vulnerability-10.json",
-    "links": {
-      "expoit causes": [
-        "Security_Impact-16",
-        "Security_Impact-5"
-      ],
-      "is supported by": [
-        "Incident_Fact-10"
-      ]
-    },
-    "data": {
-      "Summary": "Custom or commodity malware can be created or adapted to bypass AV detection at a low level of threat actor sophistication",
-      "Key": "Vulnerability-10",
-      "Issue Type": "Vulnerability"
-    }
-  },
-  "Vulnerability-7": {
-    "path": "Vulnerability/Vulnerability-7.json",
-    "links": {
-      "expoit causes": [
-        "Security_Impact-16",
-        "Security_Impact-5"
-      ],
-      "is supported by": [
-        "Incident_Fact-6"
       ],
       "requires decision about": [
         "Risk-3"
@@ -3469,19 +3375,19 @@
     },
     "data": {
       "Summary": "In the event of another incident, Security will have a 5 hour lag before they can establish (or rule out) which user account may have been compromised, or been used by a legitimate user to act maliciously",
-      "Key": "Vulnerability-7",
+      "Key": "Vulnerability-9",
       "Issue Type": "Vulnerability"
     }
   },
-  "Vulnerability-1": {
-    "path": "Vulnerability/Vulnerability-1.json",
+  "Vulnerability-5": {
+    "path": "Vulnerability/Vulnerability-5.json",
     "links": {
-      "expoit causes": [
-        "Security_Impact-15",
-        "Security_Impact-3"
+      "exploit can lead to": [
+        "Security_Impact-7",
+        "Security_Impact-14"
       ],
       "is supported by": [
-        "Incident_Fact-8"
+        "Incident_Fact-1"
       ],
       "requires decision about": [
         "Risk-1"
@@ -3489,6 +3395,96 @@
     },
     "data": {
       "Summary": "Due to loss of repudiation, if a threat actor gains access to the API key, it would not be possble to know if or what data they accessed through APIs",
+      "Key": "Vulnerability-5",
+      "Issue Type": "Vulnerability"
+    }
+  },
+  "Vulnerability-6": {
+    "path": "Vulnerability/Vulnerability-6.json",
+    "links": {
+      "exploit can lead to": [
+        "Security_Impact-13",
+        "Security_Impact-15"
+      ],
+      "is supported by": [
+        "Incident_Fact-1"
+      ]
+    },
+    "data": {
+      "Summary": "If a threat actor gains access to the API key, access cannot be restricted and the key needs to be reset, which will impact any dependent services",
+      "Key": "Vulnerability-6",
+      "Issue Type": "Vulnerability"
+    }
+  },
+  "Vulnerability-11": {
+    "path": "Vulnerability/Vulnerability-11.json",
+    "links": {
+      "exploit can lead to": [
+        "Security_Impact-20",
+        "Security_Impact-5"
+      ],
+      "is supported by": [
+        "Incident_Fact-5"
+      ]
+    },
+    "data": {
+      "Summary": "Technical vulnerabilities can be introduced through code, and remain undetected, enabling threat actors to find and exploit them, and increasing downstream costs",
+      "Key": "Vulnerability-11",
+      "Issue Type": "Vulnerability"
+    }
+  },
+  "Vulnerability-10": {
+    "path": "Vulnerability/Vulnerability-10.json",
+    "links": {
+      "exploit can lead to": [
+        "Security_Impact-6",
+        "Security_Impact-16"
+      ],
+      "is supported by": [
+        "Incident_Fact-11"
+      ],
+      "requires decision about": [
+        "Risk-4"
+      ]
+    },
+    "data": {
+      "Summary": "In the event of another incident, or a requirement for architecture change, there is no person who can make a final decision on the impact or appropriateness of the change",
+      "Key": "Vulnerability-10",
+      "Issue Type": "Vulnerability"
+    }
+  },
+  "Vulnerability-7": {
+    "path": "Vulnerability/Vulnerability-7.json",
+    "links": {
+      "exploit can lead to": [
+        "Security_Impact-17",
+        "Security_Impact-8",
+        "Security_Impact-13",
+        "Security_Impact-15"
+      ],
+      "is supported by": [
+        "Incident_Fact-8"
+      ]
+    },
+    "data": {
+      "Summary": "If an internal or external threat actor gains access to Sunways, and acts maliciously to impact confidentiality, integrity or availability of data, there are no logs to evidence what account took what actions",
+      "Key": "Vulnerability-7",
+      "Issue Type": "Vulnerability"
+    }
+  },
+  "Vulnerability-1": {
+    "path": "Vulnerability/Vulnerability-1.json",
+    "links": {
+      "exploit can lead to": [
+        "Security_Impact-6",
+        "Security_Impact-16"
+      ],
+      "is supported by": [
+        "Incident_Fact-9"
+      ]
+    },
+    "data": {
+      "Summary": "An external threat actor can launch a brute force attack to discover credentials for the application direct from the internet",
       "Key": "Vulnerability-1",
       "Issue Type": "Vulnerability"
     }
@@ -3496,16 +3492,12 @@
   "Account-3": {
     "path": "Account/Account-3.json",
     "links": {
-      "is owned by": [
-        "Person-4",
-        "Person-2"
-      ],
-      "represents critical business asset": [
-        "Business_Asset-1"
+      "owned by": [
+        "Person-6"
       ]
     },
     "data": {
-      "Summary": "alee@digicorp.com",
+      "Summary": "sophia.berlin@digicorp.com",
       "Key": "Account-3",
       "Issue Type": "Account"
     }
@@ -3513,22 +3505,7 @@
   "Account-2": {
     "path": "Account/Account-2.json",
     "links": {
-      "is owned by": [
-        "Person-1",
-        "Person-5"
-      ]
-    },
-    "data": {
-      "Summary": "nligos@digicorp.com",
-      "Key": "Account-2",
-      "Issue Type": "Account"
-    }
-  },
-  "Account-5": {
-    "path": "Account/Account-5.json",
-    "links": {
-      "is owned by": [
-        "Person-6",
+      "owned by": [
         "Person-3"
       ],
       "represents critical business asset": [
@@ -3537,6 +3514,19 @@
     },
     "data": {
       "Summary": "bruno.lyon@digicorp.com",
+      "Key": "Account-2",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-5": {
+    "path": "Account/Account-5.json",
+    "links": {
+      "owned by": [
+        "Person-5"
+      ]
+    },
+    "data": {
+      "Summary": "nligos@digicorp.com",
       "Key": "Account-5",
       "Issue Type": "Account"
     }
@@ -3544,8 +3534,75 @@
   "Account-9": {
     "path": "Account/Account-9.json",
     "links": {
-      "is owned by": [
-        "Person-6",
+      "owned by": [
+        "Person-5"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher2@digi-inc.corp",
+      "Key": "Account-9",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-8": {
+    "path": "Account/Account-8.json",
+    "links": {
+      "owned by": [
+        "Person-3",
+        "Person-4"
+      ],
+      "is admin account for": [
+        "Application-1"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
+      ]
+    },
+    "data": {
+      "Summary": "admin@digi-inc.com",
+      "Key": "Account-8",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-4": {
+    "path": "Account/Account-4.json",
+    "links": {
+      "owned by": [
+        "Person-2"
+      ],
+      "represents critical business asset": [
+        "Business_Asset-1"
+      ]
+    },
+    "data": {
+      "Summary": "alee@digicorp.com",
+      "Key": "Account-4",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-7": {
+    "path": "Account/Account-7.json",
+    "links": {
+      "owned by": [
+        "Person-6"
+      ],
+      "is user account for": [
+        "Application-1"
+      ]
+    },
+    "data": {
+      "Summary": "cypher10@digi-inc.com",
+      "Key": "Account-7",
+      "Issue Type": "Account"
+    }
+  },
+  "Account-11": {
+    "path": "Account/Account-11.json",
+    "links": {
+      "owned by": [
         "Person-2"
       ],
       "is user account for": [
@@ -3557,81 +3614,6 @@
     },
     "data": {
       "Summary": "cypher1@digi-inc.com",
-      "Key": "Account-9",
-      "Issue Type": "Account"
-    }
-  },
-  "Account-8": {
-    "path": "Account/Account-8.json",
-    "links": {
-      "is owned by": [
-        "Person-2",
-        "Person-1"
-      ],
-      "is user account for": [
-        "Application-1"
-      ],
-      "represents critical business asset": [
-        "Business_Asset-1"
-      ]
-    },
-    "data": {
-      "Summary": "cypher9@digi-inc.com",
-      "Key": "Account-8",
-      "Issue Type": "Account"
-    }
-  },
-  "Account-4": {
-    "path": "Account/Account-4.json",
-    "links": {
-      "is owned by": [
-        "Person-5",
-        "Person-6"
-      ]
-    },
-    "data": {
-      "Summary": "sophia.berlin@digicorp.com",
-      "Key": "Account-4",
-      "Issue Type": "Account"
-    }
-  },
-  "Account-7": {
-    "path": "Account/Account-7.json",
-    "links": {
-      "is owned by": [
-        "Person-1",
-        "Person-5"
-      ],
-      "is user account for": [
-        "Application-1"
-      ]
-    },
-    "data": {
-      "Summary": "cypher2@digi-inc.corp",
-      "Key": "Account-7",
-      "Issue Type": "Account"
-    }
-  },
-  "Account-11": {
-    "path": "Account/Account-11.json",
-    "links": {
-      "is owned by": [
-        "Person-3",
-        "Person-4",
-        "Person-6"
-      ],
-      "is admin account for": [
-        "Application-1"
-      ],
-      "represents critical business asset": [
-        "Business_Asset-1"
-      ],
-      "is user account for": [
-        "Application-1"
-      ]
-    },
-    "data": {
-      "Summary": "cypher10@digi-inc.com",
       "Key": "Account-11",
       "Issue Type": "Account"
     }
@@ -3639,23 +3621,15 @@
   "Account-10": {
     "path": "Account/Account-10.json",
     "links": {
-      "is owned by": [
-        "Person-5",
-        "Person-3",
-        "Person-4"
+      "owned by": [
+        "Person-1"
       ],
       "is user account for": [
         "Application-1"
-      ],
-      "is admin account for": [
-        "Application-1"
-      ],
-      "represents critical business asset": [
-        "Business_Asset-1"
       ]
     },
     "data": {
-      "Summary": "admin@digi-inc.com",
+      "Summary": "cypher9@digi-inc.com",
       "Key": "Account-10",
       "Issue Type": "Account"
     }
@@ -3663,12 +3637,8 @@
   "Account-6": {
     "path": "Account/Account-6.json",
     "links": {
-      "is owned by": [
-        "Person-2",
+      "owned by": [
         "Person-1"
-      ],
-      "represents critical business asset": [
-        "Business_Asset-1"
       ]
     },
     "data": {
@@ -3680,8 +3650,7 @@
   "Account-1": {
     "path": "Account/Account-1.json",
     "links": {
-      "is owned by": [
-        "Person-3",
+      "owned by": [
         "Person-4"
       ],
       "represents critical business asset": [
@@ -3698,7 +3667,10 @@
     "path": "Risk/Risk-1.json",
     "links": {
       "decision is required due to": [
-        "Vulnerability-1"
+        "Vulnerability-5"
+      ],
+      "owned by": [
+        "Role-4"
       ]
     },
     "data": {
@@ -3711,7 +3683,10 @@
     "path": "Risk/Risk-4.json",
     "links": {
       "decision is required due to": [
-        "Vulnerability-11"
+        "Vulnerability-10"
+      ],
+      "owned by": [
+        "Role-2"
       ]
     },
     "data": {
@@ -3724,7 +3699,10 @@
     "path": "Risk/Risk-3.json",
     "links": {
       "decision is required due to": [
-        "Vulnerability-7"
+        "Vulnerability-9"
+      ],
+      "owned by": [
+        "Role-8"
       ]
     },
     "data": {
@@ -3737,7 +3715,10 @@
     "path": "Risk/Risk-2.json",
     "links": {
       "decision is required due to": [
-        "Vulnerability-6"
+        "Vulnerability-8"
+      ],
+      "owned by": [
+        "Role-3"
       ]
     },
     "data": {
@@ -3749,199 +3730,7 @@
   "Detection-3": {
     "path": "Detection/Detection-3.json",
     "links": {
-      "is detection of": [
-        "Device-3"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
-      "Key": "Detection-3",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-17": {
-    "path": "Detection/Detection-17.json",
-    "links": {
-      "is detection of": [
-        "Device-5"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))",
-      "Key": "Detection-17",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-16": {
-    "path": "Detection/Detection-16.json",
-    "links": {
-      "is detection of": [
-        "Device-2"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)",
-      "Key": "Detection-16",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-2": {
-    "path": "Detection/Detection-2.json",
-    "links": {
-      "is detection of": [
-        "Device-6"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)",
-      "Key": "Detection-2",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-9": {
-    "path": "Detection/Detection-9.json",
-    "links": {
-      "is detection of": [
-        "Device-3"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)",
-      "Key": "Detection-9",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-11": {
-    "path": "Detection/Detection-11.json",
-    "links": {
-      "is detection of": [
-        "Device-5"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)",
-      "Key": "Detection-11",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-5": {
-    "path": "Detection/Detection-5.json",
-    "links": {
-      "is detection of": [
-        "Device-1"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)",
-      "Key": "Detection-5",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-4": {
-    "path": "Detection/Detection-4.json",
-    "links": {
-      "is detection of": [
-        "Device-2"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
-      "Key": "Detection-4",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-10": {
-    "path": "Detection/Detection-10.json",
-    "links": {
-      "is detection of": [
-        "Device-4"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
-      "Key": "Detection-10",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-8": {
-    "path": "Detection/Detection-8.json",
-    "links": {
-      "is detection of": [
-        "Device-5"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
-      "Key": "Detection-8",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-13": {
-    "path": "Detection/Detection-13.json",
-    "links": {
-      "is detection of": [
-        "Device-5"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
-      "Key": "Detection-13",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-7": {
-    "path": "Detection/Detection-7.json",
-    "links": {
-      "is detection of": [
-        "Device-1"
-      ],
-      "detected by": [
-        "Application-2"
-      ]
-    },
-    "data": {
-      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)",
-      "Key": "Detection-7",
-      "Issue Type": "Detection"
-    }
-  },
-  "Detection-6": {
-    "path": "Detection/Detection-6.json",
-    "links": {
-      "is detection of": [
+      "is detection logged against": [
         "Device-6"
       ],
       "detected by": [
@@ -3950,14 +3739,14 @@
     },
     "data": {
       "Summary": "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)",
-      "Key": "Detection-6",
+      "Key": "Detection-3",
       "Issue Type": "Detection"
     }
   },
-  "Detection-12": {
-    "path": "Detection/Detection-12.json",
+  "Detection-17": {
+    "path": "Detection/Detection-17.json",
     "links": {
-      "is detection of": [
+      "is detection logged against": [
         "Device-5"
       ],
       "detected by": [
@@ -3965,16 +3754,80 @@
       ]
     },
     "data": {
-      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)",
-      "Key": "Detection-12",
+      "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
+      "Key": "Detection-17",
       "Issue Type": "Detection"
     }
   },
-  "Detection-19": {
-    "path": "Detection/Detection-19.json",
+  "Detection-16": {
+    "path": "Detection/Detection-16.json",
     "links": {
-      "is detection of": [
-        "Device-1"
+      "is detection logged against": [
+        "Device-2"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971)",
+      "Key": "Detection-16",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-2": {
+    "path": "Detection/Detection-2.json",
+    "links": {
+      "is detection logged against": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702)",
+      "Key": "Detection-2",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-9": {
+    "path": "Detection/Detection-9.json",
+    "links": {
+      "is detection logged against": [
+        "Device-6"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697)",
+      "Key": "Detection-9",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-11": {
+    "path": "Detection/Detection-11.json",
+    "links": {
+      "is detection logged against": [
+        "Device-5"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851)",
+      "Key": "Detection-11",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-5": {
+    "path": "Detection/Detection-5.json",
+    "links": {
+      "is detection logged against": [
+        "Device-4"
       ],
       "detected by": [
         "Application-2"
@@ -3982,14 +3835,78 @@
     },
     "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871)",
-      "Key": "Detection-19",
+      "Key": "Detection-5",
       "Issue Type": "Detection"
     }
   },
-  "Detection-1": {
-    "path": "Detection/Detection-1.json",
+  "Detection-4": {
+    "path": "Detection/Detection-4.json",
     "links": {
-      "is detection of": [
+      "is detection logged against": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
+      "Key": "Detection-4",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-10": {
+    "path": "Detection/Detection-10.json",
+    "links": {
+      "is detection logged against": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
+      "Key": "Detection-10",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-8": {
+    "path": "Detection/Detection-8.json",
+    "links": {
+      "is detection logged against": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702)",
+      "Key": "Detection-8",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-13": {
+    "path": "Detection/Detection-13.json",
+    "links": {
+      "is detection logged against": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271)",
+      "Key": "Detection-13",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-7": {
+    "path": "Detection/Detection-7.json",
+    "links": {
+      "is detection logged against": [
         "Device-1"
       ],
       "detected by": [
@@ -3997,7 +3914,71 @@
       ]
     },
     "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
+      "Key": "Detection-7",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-6": {
+    "path": "Detection/Detection-6.json",
+    "links": {
+      "is detection logged against": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
       "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851)",
+      "Key": "Detection-6",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-12": {
+    "path": "Detection/Detection-12.json",
+    "links": {
+      "is detection logged against": [
+        "Device-2"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
+      "Key": "Detection-12",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-19": {
+    "path": "Detection/Detection-19.json",
+    "links": {
+      "is detection logged against": [
+        "Device-3"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120))",
+      "Key": "Detection-19",
+      "Issue Type": "Detection"
+    }
+  },
+  "Detection-1": {
+    "path": "Detection/Detection-1.json",
+    "links": {
+      "is detection logged against": [
+        "Device-4"
+      ],
+      "detected by": [
+        "Application-2"
+      ]
+    },
+    "data": {
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271)",
       "Key": "Detection-1",
       "Issue Type": "Detection"
     }
@@ -4005,8 +3986,8 @@
   "Detection-15": {
     "path": "Detection/Detection-15.json",
     "links": {
-      "is detection of": [
-        "Device-4"
+      "is detection logged against": [
+        "Device-1"
       ],
       "detected by": [
         "Application-2"
@@ -4021,7 +4002,7 @@
   "Detection-14": {
     "path": "Detection/Detection-14.json",
     "links": {
-      "is detection of": [
+      "is detection logged against": [
         "Device-1"
       ],
       "detected by": [
@@ -4029,7 +4010,7 @@
       ]
     },
     "data": {
-      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)",
+      "Summary": "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)",
       "Key": "Detection-14",
       "Issue Type": "Detection"
     }
@@ -4037,7 +4018,7 @@
   "Detection-18": {
     "path": "Detection/Detection-18.json",
     "links": {
-      "is detection of": [
+      "is detection logged against": [
         "Device-4"
       ],
       "detected by": [
@@ -4045,7 +4026,7 @@
       ]
     },
     "data": {
-      "Summary": "EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805)",
+      "Summary": "EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451)",
       "Key": "Detection-18",
       "Issue Type": "Detection"
     }
@@ -4053,15 +4034,12 @@
   "Business_Asset-1": {
     "path": "Business_Asset/Business_Asset-1.json",
     "links": {
-      "has critical business asset": [
-        "Account-6",
+      "is made up of sub asset": [
+        "Account-4",
+        "Account-2",
         "Account-1",
-        "Account-3",
-        "Account-8",
         "Account-11",
-        "Account-5",
-        "Account-9",
-        "Account-10"
+        "Account-8"
       ]
     },
     "data": {
@@ -4073,7 +4051,7 @@
   "Business_Asset-2": {
     "path": "Business_Asset/Business_Asset-2.json",
     "links": {
-      "has critical business asset": [
+      "is made up of sub asset": [
         "Application-1"
       ]
     },

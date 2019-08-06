@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120))",
+  "Summary": "EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
   "Key": "Detection-10",
   "Issue Type": "Detection"
 }

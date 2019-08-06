@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704)",
+  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920))",
   "Key": "Detection-4",
   "Issue Type": "Detection"
 }

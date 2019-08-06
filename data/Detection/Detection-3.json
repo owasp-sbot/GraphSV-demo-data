@@ -1,5 +1,5 @@
 {
-  "Summary": "EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770))",
+  "Summary": "Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593)",
   "Key": "Detection-3",
   "Issue Type": "Detection"
 }
